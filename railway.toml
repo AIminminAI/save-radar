@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+buildCommand = "npm install && npx playwright install chromium --with-deps"
+
+[deploy]
+startCommand = "npx tsx api/server.ts"
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
+
+[deploy.healthcheck]
+path = "/health"
+timeout = 30
