@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>省钱雷达 - 分享海报</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1A1A2E; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+  .poster { width: 375px; background: linear-gradient(180deg, #1A1A2E 0%, #16213E 40%, #0F3460 100%); border-radius: 24px; overflow: hidden; position: relative; }
+  .poster::before { content: ''; position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(0,214,143,0.15) 0%, transparent 70%); border-radius: 50%; }
+  .poster::after { content: ''; position: absolute; bottom: 100px; left: -30px; width: 150px; height: 150px; background: radial-gradient(circle, rgba(255,107,53,0.1) 0%, transparent 70%); border-radius: 50%; }
+  .content { position: relative; z-index: 1; padding: 40px 32px; }
+  .badge { display: inline-block; background: rgba(0,214,143,0.15); color: #00D68F; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 20px; margin-bottom: 16px; letter-spacing: 1px; }
+  .title { font-size: 36px; font-weight: 900; color: #fff; line-height: 1.2; margin-bottom: 8px; }
+  .title span { background: linear-gradient(135deg, #FF6B35, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { font-size: 16px; color: rgba(255,255,255,0.6); margin-bottom: 28px; line-height: 1.6; }
+  .features { display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; }
+  .feature { display: flex; align-items: center; gap: 10px; color: rgba(255,255,255,0.85); font-size: 13px; font-weight: 600; }
+  .feature-icon { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0; }
+  .qr-section { background: rgba(255,255,255,0.06); backdrop-filter: blur(10px); border-radius: 20px; padding: 24px; display: flex; align-items: center; gap: 20px; border: 1px solid rgba(255,255,255,0.08); }
+  .qr-box { width: 120px; height: 120px; background: #fff; border-radius: 16px; padding: 8px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+  .qr-box img { width: 100%; height: 100%; }
+  .qr-text { color: rgba(255,255,255,0.7); font-size: 12px; line-height: 1.8; }
+  .qr-text strong { color: #00D68F; font-size: 14px; }
+  .personas { display: flex; gap: 8px; margin-bottom: 24px; }
+  .persona { flex: 1; background: rgba(255,255,255,0.06); border-radius: 12px; padding: 10px 4px; text-align: center; border: 1px solid rgba(255,255,255,0.05); }
+  .persona-icon { font-size: 20px; margin-bottom: 4px; }
+  .persona-name { color: rgba(255,255,255,0.7); font-size: 10px; font-weight: 600; }
+  .footer { text-align: center; margin-top: 20px; color: rgba(255,255,255,0.3); font-size: 10px; }
+</style>
+</head>
+<body>
+<div class="poster">
+  <div class="content">
+    <div class="badge">🔍 实时抓取 gov.cn</div>
+    <div class="title">省钱<span>雷达</span></div>
+    <div class="subtitle">3秒看懂影响你的政策<br>不编造 · 只抓官方 · 白话解读</div>
+
+    <div class="personas">
+      <div class="persona"><div class="persona-icon">💼</div><div class="persona-name">上班族</div></div>
+      <div class="persona"><div class="persona-icon">👶</div><div class="persona-name">宝妈</div></div>
+      <div class="persona"><div class="persona-icon">🎓</div><div class="persona-name">学生</div></div>
+      <div class="persona"><div class="persona-icon">👴</div><div class="persona-name">老人</div></div>
+      <div class="persona"><div class="persona-icon">💻</div><div class="persona-name">自由职业</div></div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon" style="background:rgba(0,214,143,0.15);color:#00D68F;">📡</div>
+        实时抓取7个政府官网，每30分钟更新
+      </div>
+      <div class="feature">
+        <div class="feature-icon" style="background:rgba(255,107,53,0.15);color:#FF6B35;">🎯</div>
+        按你的身份筛选，只看跟你有关的
+      </div>
+      <div class="feature">
+        <div class="feature-icon" style="background:rgba(255,215,0,0.15);color:#FFD700;">💡</div>
+        白话告诉你：影响你什么 + 你该做什么
+      </div>
+      <div class="feature">
+        <div class="feature-icon" style="background:rgba(59,130,246,0.15);color:#3B82F6;">🔗</div>
+        每条政策附带原文链接，可验证不编造
+      </div>
+    </div>
+
+    <div class="qr-section">
+      <div class="qr-box">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://save-radar-opal.vercel.app&color=1A1A2E&bgcolor=FFFFFF" alt="二维码" />
+      </div>
+      <div class="qr-text">
+        <strong>微信扫码 · 立即使用</strong><br>
+        无需下载 · 无需注册<br>
+        打开即用 · 永久免费<br>
+        <span style="color:rgba(255,255,255,0.4);font-size:10px;">建议添加到主屏幕，体验更佳</span>
+      </div>
+    </div>
+
+    <div class="footer">省钱雷达 © 2026 · 数据来自gov.cn等官方源</div>
+  </div>
+</div>
+</body>
+</html>

@@ -7,6 +7,7 @@ import Policies from '@/pages/Policies'
 import NotFound from '@/pages/NotFound'
 import BottomNav from '@/components/BottomNav'
 import CouponDetail from '@/components/CouponDetail'
+import PWAInstallPrompt from '@/components/PWAInstallPrompt'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         </Routes>
         <BottomNav />
         <CouponDetail />
+        <PWAInstallPrompt />
       </div>
     </Router>
   )
