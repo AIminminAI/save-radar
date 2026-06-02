@@ -5,8 +5,8 @@ import { personas, getPersona } from '@/data/personas'
 
 export default function Profile() {
   const { totalSaved, favorites, selectedPersona, setSelectedPersona } = useAppStore()
-  const { coupons } = useLiveCoupons()
-  const { policies } = useLivePolicies()
+  const { coupons, loading: couponsLoading, error: couponsError, refetch: refetchCoupons } = useLiveCoupons()
+  const { policies, loading: policiesLoading, error: policiesError, refetch: refetchPolicies } = useLivePolicies()
   const { status: scrapeStatus } = useScrapeStatus()
 
   const persona = getPersona(selectedPersona)
@@ -51,6 +51,32 @@ export default function Profile() {
       </div>
 
       <div className="px-4 -mt-6 space-y-4 pb-24">
+        {(couponsError || policiesError) && (
+          <div className="bg-red-50 rounded-2xl p-4 border border-red-100">
+            <p className="text-red-500 text-xs font-bold mb-2">数据加载失败</p>
+            <p className="text-red-400 text-[10px] mb-3">{couponsError || policiesError}</p>
+            <div className="flex gap-2">
+              {couponsError && (
+                <button onClick={() => refetchCoupons()} className="px-3 py-1.5 bg-red-500 text-white rounded-lg text-[10px] font-bold active:scale-95 transition-transform">
+                  重试优惠券
+                </button>
+              )}
+              {policiesError && (
+                <button onClick={() => refetchPolicies()} className="px-3 py-1.5 bg-red-500 text-white rounded-lg text-[10px] font-bold active:scale-95 transition-transform">
+                  重试政策
+                </button>
+              )}
+            </div>
+          </div>
+        )}
+
+        {(couponsLoading || policiesLoading) && (
+          <div className="bg-white rounded-2xl p-6 text-center shadow-sm">
+            <RefreshCw size={24} className="text-gray-300 mx-auto mb-2 animate-spin" />
+            <p className="text-gray-400 text-xs">正在加载数据...</p>
+          </div>
+        )}
+
         <div className="bg-white rounded-2xl p-4 shadow-sm">
           <div className="flex items-center gap-2 mb-3">
             <User size={16} className="text-[#FF6B35]" />

@@ -8,7 +8,7 @@ import { useAppStore } from '@/store/useAppStore'
 
 export default function Calculator() {
   const { addSavings } = useAppStore()
-  const { coupons } = useLiveCoupons()
+  const { coupons, loading: couponsLoading, error: couponsError, refetch: refetchCoupons } = useLiveCoupons()
   const [amount, setAmount] = useState('')
   const [carrier, setCarrier] = useState<string>('all')
   const [result, setResult] = useState<SavingsResult | null>(null)
@@ -109,7 +109,23 @@ export default function Calculator() {
       </div>
 
       <div className="px-4 -mt-4 pb-24">
-        {result ? (
+        {couponsError ? (
+          <div className="bg-red-50 rounded-2xl p-6 text-center border border-red-100">
+            <p className="text-red-500 text-sm font-bold mb-2">数据加载失败</p>
+            <p className="text-red-400 text-xs mb-3">{couponsError}</p>
+            <button
+              onClick={() => refetchCoupons()}
+              className="px-4 py-2 bg-red-500 text-white rounded-xl text-xs font-bold active:scale-95 transition-transform"
+            >
+              重新加载
+            </button>
+          </div>
+        ) : couponsLoading ? (
+          <div className="bg-white rounded-2xl p-8 text-center shadow-sm">
+            <CalcIcon size={28} className="text-gray-300 mx-auto mb-3 animate-spin" />
+            <p className="text-gray-400 text-sm">正在加载数据...</p>
+          </div>
+        ) : result ? (
           <SavingsResultCard result={result} />
         ) : (
           <div className="bg-white rounded-2xl p-8 text-center shadow-sm">

@@ -8,7 +8,7 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         PORT: 3001,
-        API_TOKEN: 'bill-radar-2026-secure',
+        API_TOKEN: process.env.API_TOKEN || '',
         SITE_URL: 'https://save-radar-opal.vercel.app',
       },
       instances: 1,

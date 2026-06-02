@@ -27,7 +27,7 @@ const PERSONA_BG: Record<string, string> = {
 export default function Home() {
   const navigate = useNavigate()
   const { selectedCarrier, setSelectedCarrier, selectedPersona, setSelectedCoupon, setShowDetail } = useAppStore()
-  const { policies, loading: policiesLoading, lastUpdate: policyUpdate } = useLivePolicies()
+  const { policies, loading: policiesLoading, error: policiesError, lastUpdate: policyUpdate, refetch: refetchPolicies } = useLivePolicies()
   const { status: scrapeStatus } = useScrapeStatus()
 
   const persona = getPersona(selectedPersona)
@@ -118,7 +118,18 @@ export default function Home() {
           </button>
         </div>
 
-        {policiesLoading && myPolicies.length === 0 ? (
+        {policiesError ? (
+          <div className="bg-red-50 rounded-2xl p-6 text-center border border-red-100">
+            <p className="text-red-500 text-sm font-bold mb-2">数据加载失败</p>
+            <p className="text-red-400 text-xs mb-3">{policiesError}</p>
+            <button
+              onClick={() => refetchPolicies()}
+              className="px-4 py-2 bg-red-500 text-white rounded-xl text-xs font-bold active:scale-95 transition-transform"
+            >
+              重新加载
+            </button>
+          </div>
+        ) : policiesLoading && myPolicies.length === 0 ? (
           <div className="bg-white/80 rounded-2xl p-8 text-center">
             <RefreshCw size={28} className="text-gray-300 mx-auto mb-3 animate-spin" />
             <p className="text-gray-400 text-sm">正在获取实时政策...</p>

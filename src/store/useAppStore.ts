@@ -47,6 +47,6 @@ export const useAppStore = create<AppState>((set, get) => ({
   carriers,
 }))
 
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && import.meta.env.DEV) {
   ;(window as any).__ZUSTAND_STORE__ = useAppStore
 }
