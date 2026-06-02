@@ -1,5 +1,5 @@
-import couponsData from '../../data/scraped-coupons.json'
-import metaData from '../../data/scrape-meta.json'
+import couponsData from '../_data/coupons.json'
+import metaData from '../_data/meta.json'
 
 interface ScrapedCoupon {
   id: string
