@@ -3,7 +3,7 @@
   "outputDirectory": "dist",
   "rewrites": [
     { "source": "/redirect", "destination": "/redirect.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/((?!redirect|poster|data|assets|api|icon|og-image|favicon|manifest).*)", "destination": "/index.html" }
   ],
   "headers": [
     {
