@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const DATA_DIR = path.join(__dirname, '..', 'data')
+const PUBLIC_DATA_DIR = path.join(__dirname, '..', 'public', 'data')
 
 const httpsAgent = new https.Agent({ rejectUnauthorized: true })
 
@@ -162,12 +163,14 @@ async function scrapeGovSource(govSource: GovScrapeSource) {
 }
 
 async function main() {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true })
+  for (const dir of [DATA_DIR, PUBLIC_DATA_DIR]) {
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true })
+    }
   }
 
   let existingCoupons: any[] = []
-  const couponsPath = path.join(DATA_DIR, 'scraped-coupons.json')
+  const couponsPath = path.join(DATA_DIR, 'coupons.json')
   if (fs.existsSync(couponsPath)) {
     existingCoupons = JSON.parse(fs.readFileSync(couponsPath, 'utf-8'))
   }
@@ -188,14 +191,18 @@ async function main() {
   const uniqueNew = allNewCoupons.filter(c => !existingTitles.has(c.title))
   const merged = [...uniqueNew, ...existingCoupons].slice(0, 500)
 
-  fs.writeFileSync(couponsPath, JSON.stringify(merged, null, 2), 'utf-8')
-
+  const couponsJson = JSON.stringify(merged, null, 2)
   const meta = {
     lastScrapeTime: new Date().toISOString(),
     lastGovScrapeTime: new Date().toISOString(),
     results,
   }
-  fs.writeFileSync(path.join(DATA_DIR, 'scrape-meta.json'), JSON.stringify(meta, null, 2), 'utf-8')
+  const metaJson = JSON.stringify(meta, null, 2)
+
+  for (const dir of [DATA_DIR, PUBLIC_DATA_DIR]) {
+    fs.writeFileSync(path.join(dir, 'coupons.json'), couponsJson, 'utf-8')
+    fs.writeFileSync(path.join(dir, 'meta.json'), metaJson, 'utf-8')
+  }
 
   const successCount = results.filter((r: any) => r.success).length
   console.log(`\n汇总: ${successCount}/${results.length} 个源成功, 新增${uniqueNew.length}条, 总计${merged.length}条`)

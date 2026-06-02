@@ -7,10 +7,15 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const DB_PATH = path.join(__dirname, '..', 'server', 'data', 'bill-radar.db')
-const DATA_DIR = path.join(__dirname, '..', 'data')
+const OUTPUT_DIRS = [
+  path.join(__dirname, '..', 'data'),
+  path.join(__dirname, '..', 'public', 'data'),
+]
 
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true })
+for (const dir of OUTPUT_DIRS) {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true })
+  }
 }
 
 if (!fs.existsSync(DB_PATH)) {
@@ -57,21 +62,17 @@ const meta = {
   results: metaMap.results ? JSON.parse(metaMap.results) : [],
 }
 
-fs.writeFileSync(
-  path.join(DATA_DIR, 'scraped-coupons.json'),
-  JSON.stringify(coupons, null, 2),
-  'utf-8'
-)
+const couponsJson = JSON.stringify(coupons, null, 2)
+const metaJson = JSON.stringify(meta, null, 2)
 
-fs.writeFileSync(
-  path.join(DATA_DIR, 'scrape-meta.json'),
-  JSON.stringify(meta, null, 2),
-  'utf-8'
-)
+for (const dir of OUTPUT_DIRS) {
+  fs.writeFileSync(path.join(dir, 'coupons.json'), couponsJson, 'utf-8')
+  fs.writeFileSync(path.join(dir, 'meta.json'), metaJson, 'utf-8')
+}
 
 db.close()
 
 console.log(`[Export] 导出完成: ${coupons.length} 条数据`)
-console.log(`[Export] 输出目录: ${DATA_DIR}`)
-console.log(`[Export] scraped-coupons.json: ${(fs.statSync(path.join(DATA_DIR, 'scraped-coupons.json')).size / 1024).toFixed(1)} KB`)
-console.log(`[Export] scrape-meta.json: ${(fs.statSync(path.join(DATA_DIR, 'scrape-meta.json')).size / 1024).toFixed(1)} KB`)
+for (const dir of OUTPUT_DIRS) {
+  console.log(`[Export] 输出: ${dir}`)
+}

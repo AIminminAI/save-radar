@@ -1,20 +1,15 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node",
-      "includeFiles": "data/**"
-    }
-  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/data/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "no-store" }
+        { "key": "Cache-Control", "value": "public, s-maxage=30, stale-while-revalidate=300" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     },
     {

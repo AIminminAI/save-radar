@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { ScrapedCoupon } from '@/data/mockCoupons'
 
-const API_BASE = '/api'
+const DATA_BASE = '/data'
 
 export type { ScrapedCoupon }
 
@@ -17,6 +17,44 @@ export interface ScrapeStatus {
   }
 }
 
+interface ScrapeMeta {
+  lastScrapeTime: string
+  lastGovScrapeTime?: string
+  results: unknown[]
+}
+
+let _allDataCache: ScrapedCoupon[] | null = null
+let _metaCache: ScrapeMeta | null = null
+
+async function loadAllData(): Promise<{ coupons: ScrapedCoupon[]; meta: ScrapeMeta }> {
+  if (_allDataCache && _metaCache) {
+    return { coupons: _allDataCache, meta: _metaCache }
+  }
+
+  try {
+    const [couponsRes, metaRes] = await Promise.all([
+      fetch(`${DATA_BASE}/coupons.json`),
+      fetch(`${DATA_BASE}/meta.json`),
+    ])
+
+    if (!couponsRes.ok || !metaRes.ok) {
+      throw new Error('数据加载失败')
+    }
+
+    _allDataCache = (await couponsRes.json()) as ScrapedCoupon[]
+    _metaCache = (await metaRes.json()) as ScrapeMeta
+
+    return { coupons: _allDataCache, meta: _metaCache }
+  } catch {
+    return { coupons: [], meta: { lastScrapeTime: '', lastGovScrapeTime: '', results: [] } }
+  }
+}
+
+export function clearDataCache() {
+  _allDataCache = null
+  _metaCache = null
+}
+
 export function useLiveCoupons(carrier?: string) {
   const [coupons, setCoupons] = useState<ScrapedCoupon[]>([])
   const [loading, setLoading] = useState(true)
@@ -26,20 +64,17 @@ export function useLiveCoupons(carrier?: string) {
   const fetchCoupons = useCallback(async () => {
     setError(null)
     try {
-      const url = carrier
-        ? `${API_BASE}/coupons?carrier=${carrier}`
-        : `${API_BASE}/coupons`
-      const res = await fetch(url)
-      const data = await res.json()
-      if (data.success) {
-        const couponData = (data.data as ScrapedCoupon[]).filter(
-          c => c.type === 'coupon' || (!c.type && c.carrier !== 'policy')
-        )
-        setCoupons(couponData)
-        setLastUpdate(new Date().toLocaleString('zh-CN'))
+      const { coupons: all } = await loadAllData()
+      let filtered = all.filter(
+        c => c.type === 'coupon' || (!c.type && c.carrier !== 'policy')
+      )
+      if (carrier && carrier !== 'all') {
+        filtered = filtered.filter(c => c.carrier === carrier)
       }
+      setCoupons(filtered)
+      setLastUpdate(new Date().toLocaleString('zh-CN'))
     } catch {
-      setError('后端服务未启动，无法获取实时数据')
+      setError('数据加载失败，请稍后重试')
     } finally {
       setLoading(false)
     }
@@ -63,20 +98,17 @@ export function useLivePolicies(category?: string) {
   const fetchPolicies = useCallback(async () => {
     setError(null)
     try {
-      const res = await fetch(`${API_BASE}/coupons`)
-      const data = await res.json()
-      if (data.success) {
-        let filtered = (data.data as ScrapedCoupon[]).filter(
-          c => c.type === 'policy' || c.carrier === 'policy'
-        )
-        if (category && category !== 'all') {
-          filtered = filtered.filter(c => c.category === category)
-        }
-        setPolicies(filtered)
-        setLastUpdate(new Date().toLocaleString('zh-CN'))
+      const { coupons: all } = await loadAllData()
+      let filtered = all.filter(
+        c => c.type === 'policy' || c.carrier === 'policy'
+      )
+      if (category && category !== 'all') {
+        filtered = filtered.filter(c => c.category === category)
       }
+      setPolicies(filtered)
+      setLastUpdate(new Date().toLocaleString('zh-CN'))
     } catch {
-      setError('后端服务未启动，无法获取实时政策')
+      setError('政策数据加载失败，请稍后重试')
     } finally {
       setLoading(false)
     }
@@ -97,13 +129,20 @@ export function useScrapeStatus() {
   useEffect(() => {
     async function fetchStatus() {
       try {
-        const res = await fetch(`${API_BASE}/scrape/status`)
-        const data = await res.json()
-        if (data.success) {
-          setStatus(data.data)
-        }
+        const { meta } = await loadAllData()
+        setStatus({
+          isRunning: false,
+          isGovRunning: false,
+          lastScrapeTime: meta.lastScrapeTime,
+          lastGovScrapeTime: meta.lastGovScrapeTime || '',
+          results: meta.results,
+          schedule: {
+            fullScrape: '每天 02:00',
+            govScrape: '每天 03:00, 12:00, 18:00',
+          },
+        })
       } catch {
-        // backend not running
+        // ignore
       }
     }
 
@@ -116,11 +155,6 @@ export function useScrapeStatus() {
 }
 
 export async function triggerScrape(): Promise<boolean> {
-  try {
-    const res = await fetch(`${API_BASE}/scrape/trigger`, { method: 'POST' })
-    const data = await res.json()
-    return data.success
-  } catch {
-    return false
-  }
+  clearDataCache()
+  return true
 }
