@@ -1,5 +1,5 @@
-import path from 'path'
-import fs from 'fs'
+import couponsData from '../../data/scraped-coupons.json'
+import metaData from '../../data/scrape-meta.json'
 
 interface ScrapedCoupon {
   id: string
@@ -29,51 +29,11 @@ interface ScrapeMeta {
   results: unknown[]
 }
 
-let _couponsCache: ScrapedCoupon[] | null = null
-let _metaCache: ScrapeMeta | null = null
-let _cacheTime = 0
-const CACHE_TTL = 30 * 1000
-
-function resolveDataPath(filename: string): string {
-  const candidates = [
-    path.join(process.cwd(), 'data', filename),
-    path.join(process.cwd(), 'api', 'data', filename),
-    path.join(__dirname, '..', '..', 'data', filename),
-    path.join(__dirname, '..', 'data', filename),
-  ]
-
-  for (const p of candidates) {
-    if (fs.existsSync(p)) return p
-  }
-
-  return candidates[0]
-}
+const coupons: ScrapedCoupon[] = couponsData as ScrapedCoupon[]
+const meta: ScrapeMeta = metaData as ScrapeMeta
 
 function loadData() {
-  const now = Date.now()
-  if (_couponsCache && _metaCache && now - _cacheTime < CACHE_TTL) {
-    return { coupons: _couponsCache, meta: _metaCache }
-  }
-
-  const couponsPath = resolveDataPath('scraped-coupons.json')
-  const metaPath = resolveDataPath('scrape-meta.json')
-
-  try {
-    const couponsRaw = fs.readFileSync(couponsPath, 'utf-8')
-    _couponsCache = JSON.parse(couponsRaw) as ScrapedCoupon[]
-  } catch {
-    _couponsCache = []
-  }
-
-  try {
-    const metaRaw = fs.readFileSync(metaPath, 'utf-8')
-    _metaCache = JSON.parse(metaRaw) as ScrapeMeta
-  } catch {
-    _metaCache = { lastScrapeTime: '', lastGovScrapeTime: '', results: [] }
-  }
-
-  _cacheTime = now
-  return { coupons: _couponsCache, meta: _metaCache }
+  return { coupons, meta }
 }
 
 export { loadData }
