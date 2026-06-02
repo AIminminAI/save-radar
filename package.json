@@ -5,14 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:server": "tsx watch api/server.ts",
+    "dev:server": "tsx watch server/server.ts",
     "dev:all": "concurrently \"npm run dev\" \"npm run dev:server\"",
     "build": "tsc -b && vite build",
-    "start": "NODE_ENV=production tsx api/server.ts",
+    "start": "NODE_ENV=production tsx server/server.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "check": "tsc -b --noEmit",
-    "server": "tsx api/server.ts"
+    "server": "tsx server/server.ts",
+    "export-data": "tsx scripts/export-data.ts"
   },
   "dependencies": {
     "@pm2/io": "^6.1.0",
@@ -42,6 +43,7 @@
     "@types/node-cron": "^3.0.11",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@vercel/node": "^5.8.8",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
     "babel-plugin-react-dev-locator": "^1.0.0",

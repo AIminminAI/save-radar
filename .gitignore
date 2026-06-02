@@ -17,10 +17,10 @@ dist-ssr
 .env.production
 .pm2
 
-# Database
-api/data/*.db
-api/data/*.db-wal
-api/data/*.db-shm
+# Database (local only)
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
 
 # Editor directories and files
 .vscode/*

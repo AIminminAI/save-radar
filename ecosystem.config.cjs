@@ -3,13 +3,13 @@ module.exports = {
     {
       name: 'bill-radar-api',
       script: './node_modules/tsx/dist/cli.mjs',
-      args: 'api/server.ts',
+      args: 'server/server.ts',
       cwd: 'D:\\Huhb\\AIProject\\HelperForBusyUByHY\\bill-radar\\bill-radar-pro',
       env: {
         NODE_ENV: 'production',
         PORT: 3001,
         API_TOKEN: 'bill-radar-2026-secure',
-        SITE_URL: 'https://your-domain.com',
+        SITE_URL: 'https://save-radar-opal.vercel.app',
       },
       instances: 1,
       autorestart: true,
