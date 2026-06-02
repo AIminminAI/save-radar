@@ -8,9 +8,11 @@ import NotFound from '@/pages/NotFound'
 import BottomNav from '@/components/BottomNav'
 import CouponDetail from '@/components/CouponDetail'
 import PWAInstallPrompt from '@/components/PWAInstallPrompt'
+import WeChatGuard from '@/components/WeChatGuard'
 
 export default function App() {
   return (
+    <WeChatGuard>
     <Router>
       <div className="max-w-[480px] mx-auto min-h-screen bg-[#f5f5f5] relative">
         <Routes>
@@ -26,5 +28,6 @@ export default function App() {
         <PWAInstallPrompt />
       </div>
     </Router>
+    </WeChatGuard>
   )
 }
