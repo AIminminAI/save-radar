@@ -1,4 +1,3 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node'
 import path from 'path'
 import fs from 'fs'
 
@@ -35,14 +34,29 @@ let _metaCache: ScrapeMeta | null = null
 let _cacheTime = 0
 const CACHE_TTL = 30 * 1000
 
+function resolveDataPath(filename: string): string {
+  const candidates = [
+    path.join(process.cwd(), 'data', filename),
+    path.join(process.cwd(), 'api', 'data', filename),
+    path.join(__dirname, '..', '..', 'data', filename),
+    path.join(__dirname, '..', 'data', filename),
+  ]
+
+  for (const p of candidates) {
+    if (fs.existsSync(p)) return p
+  }
+
+  return candidates[0]
+}
+
 function loadData() {
   const now = Date.now()
   if (_couponsCache && _metaCache && now - _cacheTime < CACHE_TTL) {
     return { coupons: _couponsCache, meta: _metaCache }
   }
 
-  const couponsPath = path.join(process.cwd(), 'data', 'scraped-coupons.json')
-  const metaPath = path.join(process.cwd(), 'data', 'scrape-meta.json')
+  const couponsPath = resolveDataPath('scraped-coupons.json')
+  const metaPath = resolveDataPath('scrape-meta.json')
 
   try {
     const couponsRaw = fs.readFileSync(couponsPath, 'utf-8')
