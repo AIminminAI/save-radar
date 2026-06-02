@@ -154,7 +154,7 @@ export function useScrapeStatus() {
   return { status }
 }
 
-export async function triggerScrape(): Promise<boolean> {
+export async function refreshData(): Promise<boolean> {
   clearDataCache()
   return true
 }
