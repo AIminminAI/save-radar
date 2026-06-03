@@ -1,6 +1,6 @@
 [
   {
-    "id": "gov-gov-policy-1780493138520-6",
+    "id": "gov-gov-policy-1780498218305-6",
     "title": "中华人民共和国矿产资源法实施条例",
     "carrier": "policy",
     "carrierName": "中国政府网-政策文件",
@@ -9,11 +9,9 @@
     "category": "gov-policy",
     "type": "policy",
     "guide": [
-      "访问中国政府网-政策文件查看详情",
-      "阅读政策原文",
+      "阅读政策原文，了解具体内容",
       "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "关注具体实施时间和条件"
     ],
     "claimUrl": "https://www.gov.cn/zhengce/content/202605/content_7069679.htm",
     "isHot": false,
@@ -23,25 +21,43 @@
       "gov-policy"
     ],
     "source": "中国政府网-政策文件",
-    "scrapedAt": "2026-06-03T13:25:38.520Z"
+    "scrapedAt": "2026-06-03T14:50:18.305Z",
+    "aiInterpretation": {
+      "summary": "规范矿产资源开采与利用",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子未来就业可能受影响",
+        "student": "学地质的就业更规范",
+        "elderly": "跟你关系不大",
+        "freelancer": "开矿相关生意门槛变高"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "留意矿业城市就业变化",
+        "student": "关注相关专业政策",
+        "elderly": "不用特别关注",
+        "freelancer": "查清资质再入行"
+      },
+      "moneyImpact": "对普通家庭钱包影响不大",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:52:38.095Z"
+    }
   },
   {
-    "id": "gov-medical-1780493140297-1",
-    "title": "国家谈判药品落地与医保支付方式改革",
+    "id": "gov-medical-1780498220053-1",
+    "title": "​2026年5月19日上午，由国家医保局支持、国际劳工组织主办的“国际长期护理保险研讨活动”在京开幕。国家医保局副局长李滔出席活动并致辞。",
     "carrier": "policy",
     "carrierName": "国家医保局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "2026-09-01",
+    "expirationDate": "2026-05-19",
     "category": "medical",
     "type": "policy",
     "guide": [
-      "访问国家医保局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
     ],
-    "claimUrl": "http://www.nhsa.gov.cn/col/col19/index.html",
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/5/22/art_14_20609.html",
     "isHot": false,
     "isNew": true,
     "tags": [
@@ -49,11 +65,31 @@
       "medical"
     ],
     "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-06-03T13:25:40.297Z"
+    "scrapedAt": "2026-06-03T14:50:20.053Z",
+    "aiInterpretation": {
+      "summary": "国际长期护理保险研讨活动开幕",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但未来可能影响社保缴费",
+        "parent": "跟你关系不大，但长期护理险可能减轻照顾老人负担",
+        "student": "跟你关系不大，未来工作后可能涉及",
+        "elderly": "长期护理保险可能让你未来护理费更便宜",
+        "freelancer": "跟你关系不大，但若自缴社保可能涉及"
+      },
+      "whatToDo": {
+        "office-worker": "关注社保缴费变化",
+        "parent": "了解当地长期护理险政策",
+        "student": "暂时不用管",
+        "elderly": "留意护理险试点进展",
+        "freelancer": "关注社保政策动态"
+      },
+      "moneyImpact": "长期护理险若推广，每月可能多缴几十元社保",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:52:41.664Z"
+    }
   },
   {
-    "id": "gov-medical-1780493140297-2",
-    "title": "药品和耗材集中带量采购",
+    "id": "gov-medical-1780498220053-2",
+    "title": "2026年度国家医保基金飞行检查正式启动",
     "carrier": "policy",
     "carrierName": "国家医保局-政策法规",
     "discountAmount": 0,
@@ -61,13 +97,11 @@
     "category": "medical",
     "type": "policy",
     "guide": [
-      "访问国家医保局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
     ],
-    "claimUrl": "http://www.nhsa.gov.cn/col/col21/index.html",
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/5/14/art_14_20502.html",
     "isHot": false,
     "isNew": true,
     "tags": [
@@ -75,49 +109,217 @@
       "medical"
     ],
     "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-06-03T13:25:40.297Z"
+    "scrapedAt": "2026-06-03T14:50:20.053Z",
+    "aiInterpretation": {
+      "summary": "医保局将严查医院违规使用医保基金",
+      "impactOnYou": {
+        "office-worker": "看病报销更规范，乱收费会减少",
+        "parent": "孩子看病报销更靠谱，不用担心被坑",
+        "student": "跟你关系不大，但学校医保更安全",
+        "elderly": "住院报销更透明，防止医院乱开药",
+        "freelancer": "自己交医保的钱用得更放心"
+      },
+      "whatToDo": {
+        "office-worker": "保留好每次看病发票",
+        "parent": "留意孩子医保报销明细",
+        "student": "了解学校医保报销流程",
+        "elderly": "看病时问清自费项目",
+        "freelancer": "按时缴纳医保别断缴"
+      },
+      "moneyImpact": "看病自付可能减少，乱收费被查",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:52:44.873Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296224-0",
-    "title": "关于发行2021年印花税票的通告",
+    "id": "gov-medical-1780498220053-3",
+    "title": "“讲好中国医保故事：拓展国际交流渠道 提升务实合作能力”专题...",
     "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
+    "carrierName": "国家医保局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "20213",
-    "category": "tax",
+    "expirationDate": "2026-09-01",
+    "category": "medical",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
     ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n367/c5165983/content.html",
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/4/27/art_14_20347.html",
     "isHot": false,
     "isNew": true,
     "tags": [
       "政策",
-      "tax"
+      "medical"
     ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.224Z"
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:20.053Z",
+    "aiInterpretation": {
+      "summary": "推广中国医保经验到国外",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别做什么",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对钱包没有直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:52:47.623Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-1",
+    "id": "gov-medical-1780498220053-17",
+    "title": "国家医保局办公室 财政部办公厅关于进一步加强定点零售药店职工基本医疗保险个人账户使用监督管理的通知",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-19",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/5/19/art_104_20545.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:20.053Z",
+    "aiInterpretation": {
+      "summary": "严管药店刷医保卡买药",
+      "impactOnYou": {
+        "office-worker": "买药报销更规范，不能乱刷了",
+        "parent": "给孩子买药需注意合规",
+        "student": "跟你关系不大",
+        "elderly": "买药不能随便用医保卡了",
+        "freelancer": "自己交医保的买药更严"
+      },
+      "whatToDo": {
+        "office-worker": "保留好购药小票",
+        "parent": "别用医保卡买生活用品",
+        "student": "不用特别做什么",
+        "elderly": "买药前问清能否报销",
+        "freelancer": "确认药店是否定点"
+      },
+      "moneyImpact": "违规刷卡可能被追回钱",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:53:33.698Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498220053-18",
+    "title": "关于改革完善儿童用药供应保障机制的实施意见",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-15",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/5/15/art_104_20517.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:20.053Z",
+    "aiInterpretation": {
+      "summary": "保障儿童用药供应和价格合理",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但以后孩子看病买药更方便",
+        "parent": "孩子常用药更好买，价格更稳",
+        "student": "跟你关系不大，除非你家里有弟弟妹妹",
+        "elderly": "跟你关系不大，主要针对儿童",
+        "freelancer": "跟你关系不大，除非你带孩子"
+      },
+      "whatToDo": {
+        "office-worker": "关注家庭用药信息即可",
+        "parent": "留意社区医院儿童药供应",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "有孩子的话关注药价变化"
+      },
+      "moneyImpact": "儿童常用药自付可能减少",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:53:36.859Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498220053-19",
+    "title": "国家药品监督管理局 公安部 国家卫生健康委员会 国家市场监督管理总局 国家医疗保障局 国家中医药管理局 国家疾病预防控制局关于发布《医药代表管理办法》的公告（2026年第42号）",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-15",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查看常用药是否纳入医保目录",
+      "咨询医生是否有医保替代药品"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/5/15/art_104_20513.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:20.053Z",
+    "aiInterpretation": {
+      "summary": "规范医药代表行为，打击带金销售",
+      "impactOnYou": {
+        "office-worker": "看病开药更放心，少被推销忽悠",
+        "parent": "给孩子买药更安全，少遇乱推荐",
+        "student": "跟你关系不大，但以后就医更规范",
+        "elderly": "买药少花冤枉钱，不被药代忽悠",
+        "freelancer": "跟你关系不大，但医保报销更透明"
+      },
+      "whatToDo": {
+        "office-worker": "看病时多问医生用药依据",
+        "parent": "给孩子买药认准正规渠道",
+        "student": "了解政策，提醒家人注意",
+        "elderly": "买药别信推销，听医生的话",
+        "freelancer": "关注医保目录变化即可"
+      },
+      "moneyImpact": "看病自付可能减少，药价更透明",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:53:40.602Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498221848-1",
     "title": "关于企业所得税若干政策征管口径问题的公告",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202117",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n362/c5165844/content.html",
     "isHot": false,
@@ -127,75 +329,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "明确企业所得税征管细节",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，公司税改不影响工资",
+        "parent": "跟你关系不大，除非你开公司",
+        "student": "跟你关系不大，不涉及学生",
+        "elderly": "跟你关系不大，不涉及养老金",
+        "freelancer": "如果你是自由职业开公司，报税更清楚"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班，不用管",
+        "parent": "正常生活，不用管",
+        "student": "专心学习，不用管",
+        "elderly": "正常生活，不用管",
+        "freelancer": "关注公司报税口径变化"
+      },
+      "moneyImpact": "对个人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:53:43.883Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-2",
-    "title": "关于《中华人民共和国和西班牙王国对所得消除双重征税和防止逃避税的协定》及议定书生效执行的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "202116",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165841/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
-  },
-  {
-    "id": "gov-tax-1780477296225-3",
-    "title": "关于调整税务总局政务公开领导小组成员的通知",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "202137",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165541/content.html",
-    "isHot": true,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
-  },
-  {
-    "id": "gov-tax-1780477296225-4",
+    "id": "gov-tax-1780498221848-4",
     "title": "关于修改《重大税务案件审理办法》的决定",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "51",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165310/content.html",
     "isHot": false,
@@ -205,49 +373,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "调整重大税务案件审理流程",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你偷税漏税",
+        "parent": "跟你关系不大，除非家里开公司",
+        "student": "跟你关系不大，暂时用不上",
+        "elderly": "跟你关系不大，除非有税务纠纷",
+        "freelancer": "注意了，大额收入可能被查更严"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税就行",
+        "parent": "不用特别操心",
+        "student": "不用管",
+        "elderly": "不用管",
+        "freelancer": "保留好收入凭证"
+      },
+      "moneyImpact": "对普通人钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:53:46.965Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-5",
-    "title": "关于公布第七批全国税务领军人才学员选拔笔试考生名单及考试大纲的通告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "20212",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165314/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
-  },
-  {
-    "id": "gov-tax-1780477296225-6",
+    "id": "gov-tax-1780498221848-6",
     "title": "关于发布《免征车辆购置税的设有固定装置的非运输专用作业车辆目录》（第二批）的公告",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202114",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n371/c5165153/content.html",
     "isHot": false,
@@ -257,23 +417,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "第二批专用作业车免征购置税",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你买这类车",
+        "parent": "买校车或环卫车能省一笔钱",
+        "student": "跟你关系不大，不涉及买车",
+        "elderly": "跟你关系不大，除非家里买专用车",
+        "freelancer": "买工程车或物流车可免购置税"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "买车前查目录是否免税",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "购车前核对车型是否在目录"
+      },
+      "moneyImpact": "购车可省数千至数万元税款",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:53:50.283Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-7",
+    "id": "gov-tax-1780498221848-7",
     "title": "关于优化整合出口退税信息系统 更好服务纳税人有关事项的公告",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202115",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n377/c5165307/content.html",
     "isHot": false,
@@ -283,23 +461,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "出口退税系统升级，企业办税更便捷",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你在外贸公司上班",
+        "parent": "跟你关系不大，除非你开公司做出口生意",
+        "student": "跟你关系不大，除非你学税务或外贸",
+        "elderly": "跟你关系不大，除非你经营出口企业",
+        "freelancer": "跟你关系不大，除非你从事出口代理"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司退税流程变化",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对普通人钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:53:53.256Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-8",
+    "id": "gov-tax-1780498221848-8",
     "title": "关于通过公益性群众团体的公益性捐赠税前扣除有关事项的公告",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202120",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164938/content.html",
     "isHot": false,
@@ -309,23 +505,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "公益捐赠可抵个税",
+      "impactOnYou": {
+        "office-worker": "捐钱给正规公益组织能少交税",
+        "parent": "给孩子学校捐钱可能抵税",
+        "student": "跟你关系不大",
+        "elderly": "退休金不交税，影响不大",
+        "freelancer": "自己报税时记得抵扣"
+      },
+      "whatToDo": {
+        "office-worker": "保留捐赠票据",
+        "parent": "确认组织是否合规",
+        "student": "不用特别处理",
+        "elderly": "不用特别处理",
+        "freelancer": "申报时填捐赠金额"
+      },
+      "moneyImpact": "捐100元可能少交30元税",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:53:56.403Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-9",
+    "id": "gov-tax-1780498221848-9",
     "title": "关于继续实施企业改制重组有关土地增值税政策的公告",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202121",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n359/c5165491/content.html",
     "isHot": false,
@@ -335,75 +549,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "企业改制重组免土地增值税",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你公司改制",
+        "parent": "跟你关系不大，除非你开公司",
+        "student": "跟你关系不大，除非你创业",
+        "elderly": "跟你关系不大，除非你卖企业房产",
+        "freelancer": "跟你关系不大，除非你搞企业重组"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司是否改制",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对普通人钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:53:59.099Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296225-10",
-    "title": "关于发布《北京2022年冬奥会和冬残奥会及其测试赛增值税退税管理办法》的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "202113",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n359/c5164802/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.225Z"
-  },
-  {
-    "id": "gov-tax-1780477296226-11",
-    "title": "关于做好2021年城乡居民基本医疗保障工作的通知",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "202132",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165228/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.226Z"
-  },
-  {
-    "id": "gov-tax-1780477296226-12",
+    "id": "gov-tax-1780498221848-12",
     "title": "关于将国有土地使用权出让收入、矿产资源专项收入、海域使用金、无居民海岛使用金四项政府非税收入划转税务部门征收有关问题的通知",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202119",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164962/content.html",
     "isHot": false,
@@ -413,10 +593,30 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.226Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "四项非税收入改由税务部门征收",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要涉及土地和资源交易",
+        "parent": "跟你关系不大，除非家里有矿或买海景房",
+        "student": "跟你关系不大，不影响学费和生活费",
+        "elderly": "跟你关系不大，不涉及养老金或医保",
+        "freelancer": "跟你关系不大，除非你承包土地或海域"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班，不用管",
+        "parent": "正常生活，不用操心",
+        "student": "专心学习，不用理会",
+        "elderly": "照常过日子，别担心",
+        "freelancer": "继续接单，没影响"
+      },
+      "moneyImpact": "对普通人的钱包没有直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:02.434Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296226-13",
+    "id": "gov-tax-1780498221848-13",
     "title": "研发费用税前加计扣除新政指引",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
@@ -425,11 +625,9 @@
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164426/content.html",
     "isHot": false,
@@ -439,23 +637,41 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.226Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "企业研发费用可多抵税",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你在研发岗",
+        "parent": "跟你关系不大，除非你开公司",
+        "student": "跟你关系不大，除非你创业",
+        "elderly": "跟你关系不大，除非你开公司",
+        "freelancer": "跟你关系不大，除非你搞研发"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司研发项目",
+        "parent": "有公司可咨询会计",
+        "student": "创业时记得用上",
+        "elderly": "不用特别做什么",
+        "freelancer": "有研发成本可抵扣"
+      },
+      "moneyImpact": "企业税负降低，个人不直接受益",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:05.790Z"
+    }
   },
   {
-    "id": "gov-tax-1780477296226-14",
+    "id": "gov-tax-1780498221848-14",
     "title": "关于土地闲置费 城镇垃圾处理费划转有关征管事项的公告",
     "carrier": "policy",
     "carrierName": "国家税务总局-政策法规",
     "discountAmount": 0,
-    "expirationDate": "202112",
+    "expirationDate": "2026-09-01",
     "category": "tax",
     "type": "policy",
     "guide": [
-      "访问国家税务总局-政策法规查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
     ],
     "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164412/content.html",
     "isHot": false,
@@ -465,7 +681,5131 @@
       "tax"
     ],
     "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-06-03T09:01:36.226Z"
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "两费征收部门从税务划转",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你闲置土地",
+        "parent": "跟你关系不大，除非你闲置土地",
+        "student": "跟你关系不大，除非你闲置土地",
+        "elderly": "跟你关系不大，除非你闲置土地",
+        "freelancer": "跟你关系不大，除非你闲置土地"
+      },
+      "whatToDo": {
+        "office-worker": "正常缴费即可",
+        "parent": "正常缴费即可",
+        "student": "正常缴费即可",
+        "elderly": "正常缴费即可",
+        "freelancer": "正常缴费即可"
+      },
+      "moneyImpact": "对大多数人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:08.831Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498221848-15",
+    "title": "关于对部分成品油征收进口环节消费税的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n360/c5164411/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "部分成品油进口加消费税",
+      "impactOnYou": {
+        "office-worker": "开车加油可能变贵，打车费或涨",
+        "parent": "接娃开车成本增加，公交更划算",
+        "student": "跟你关系不大，除非你开车",
+        "elderly": "坐公交影响小，开代步车可能多花钱",
+        "freelancer": "跑业务油费涨，成本自己扛"
+      },
+      "whatToDo": {
+        "office-worker": "少开车，多坐地铁",
+        "parent": "拼车或改电动车接送",
+        "student": "继续坐公交或骑车",
+        "elderly": "尽量用老年卡坐公交",
+        "freelancer": "算好油费，调整报价"
+      },
+      "moneyImpact": "每月油费可能多花50-100元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:54:12.488Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498221848-16",
+    "title": "关于延长部分扶贫税收优惠政策执行期限的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "确认自己是否符合减免/优惠条件",
+      "向单位财务或税务部门咨询申请"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164490/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "扶贫税收优惠继续执行",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你参与扶贫项目",
+        "parent": "跟你关系不大，除非家里有扶贫相关生意",
+        "student": "跟你关系不大，除非你勤工俭学在扶贫企业",
+        "elderly": "跟你关系不大，除非你享受扶贫分红",
+        "freelancer": "跟你关系不大，除非你接扶贫相关业务"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "不用特别关注",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "对普通人群钱包影响很小",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:15.261Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498221848-19",
+    "title": "关于落实从事污染防治的第三方企业所得税政策有关问题的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164225/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-06-03T14:50:21.848Z",
+    "aiInterpretation": {
+      "summary": "环保公司减税，鼓励治污",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你开环保公司",
+        "parent": "跟你关系不大，除非你开环保公司",
+        "student": "跟你关系不大，除非你学环保专业",
+        "elderly": "跟你关系不大，除非你开环保公司",
+        "freelancer": "跟你关系不大，除非你干治污这行"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别做什么",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对普通人钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:18.334Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-3",
+    "title": "税务总局举办“求真务实担使命 实干善为当先锋”税务青年干部座谈会",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5249463/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "税务青年干部开会谈服务",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但办税可能更顺",
+        "parent": "跟你关系不大，但办税可能更顺",
+        "student": "跟你关系不大，但办税可能更顺",
+        "elderly": "跟你关系不大，但办税可能更顺",
+        "freelancer": "跟你关系不大，但办税可能更顺"
+      },
+      "whatToDo": {
+        "office-worker": "正常办税即可",
+        "parent": "正常办税即可",
+        "student": "正常办税即可",
+        "elderly": "正常办税即可",
+        "freelancer": "正常办税即可"
+      },
+      "moneyImpact": "暂时不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:21.068Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-4",
+    "title": "税务总局首次发布丹麦、爱尔兰、阿联酋全球最低税国别实施指引",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5249314/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "三国全球最低税规则落地",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你在跨国大厂工作",
+        "parent": "跟你关系不大，除非家里有海外投资",
+        "student": "跟你关系不大，除非学税务或去三国工作",
+        "elderly": "跟你关系不大，除非有海外退休金",
+        "freelancer": "跟你关系不大，除非接三国公司的大单"
+      },
+      "whatToDo": {
+        "office-worker": "留意公司税务调整通知",
+        "parent": "不用特别做什么",
+        "student": "关注国际税务课程更新",
+        "elderly": "不用特别做什么",
+        "freelancer": "咨询税务顾问是否受影响"
+      },
+      "moneyImpact": "对普通民众钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:24.311Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-5",
+    "title": "税务部门集中曝光8起私户收款偷税案件",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/c102025/c5249875/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "严查私户收款偷税，曝光典型案例",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但公司可能更规范",
+        "parent": "跟你关系不大，除非你开小店",
+        "student": "跟你关系不大，别担心",
+        "elderly": "跟你关系不大，退休金不受影响",
+        "freelancer": "私户收款被查，小心补税罚款"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班，不用管",
+        "parent": "别用私户收钱做生意",
+        "student": "好好学习，别乱转账",
+        "elderly": "别帮人私户收钱",
+        "freelancer": "赶紧用公户收款报税"
+      },
+      "moneyImpact": "偷税者可能补税加罚款",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:54:27.427Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-12",
+    "title": "多起私户收款偷逃税案件被曝光！经营主体应依法开立使用对公银行账户",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/c102025/c5249874/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "严查私户收款偷逃税",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但公司可能更规范",
+        "parent": "买东西可能更正规，发票更好要",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大，但小店可能涨价",
+        "freelancer": "私户收款风险高，容易被查"
+      },
+      "whatToDo": {
+        "office-worker": "留意公司是否合规",
+        "parent": "消费时主动要发票",
+        "student": "不用特别做什么",
+        "elderly": "别帮熟人私户转账",
+        "freelancer": "尽快开对公账户"
+      },
+      "moneyImpact": "偷逃税减少，国家税收增加",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:54:30.576Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-13",
+    "title": "湖北：税收服务地方重大战略能力显著提升",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/c102920/c5237178/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "湖北税收服务重大战略升级",
+      "impactOnYou": {
+        "office-worker": "企业可能减税，工资或福利有变化",
+        "parent": "教育或育儿相关税收优惠可能增加",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "创业或个体户可能享受更多减税"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司是否调整工资",
+        "parent": "留意育儿税收抵扣政策",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "咨询税务部门新优惠"
+      },
+      "moneyImpact": "企业减税可能间接提高收入",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:54:33.946Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-14",
+    "title": "人民网：税务部门与中国银行业协会联合举办...",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c5223172/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "税务与银行合作推便民服务",
+      "impactOnYou": {
+        "office-worker": "办税可能更省事，少跑腿",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "银行办税可能更简单",
+        "freelancer": "报税渠道可能更方便"
+      },
+      "whatToDo": {
+        "office-worker": "留意银行办税新渠道",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "去银行可顺便问税务",
+        "freelancer": "关注银行税务合作网点"
+      },
+      "moneyImpact": "暂时不影响钱包，但省时间",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:54:36.943Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-15",
+    "title": "辽宁：以学促干 为纳税人缴费人解难题、办实事",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/c102369/c5220853/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "辽宁税务部门优化服务解难题",
+      "impactOnYou": {
+        "office-worker": "办税更省事，少跑冤枉路",
+        "parent": "给孩子办社保缴费更方便",
+        "student": "跟你关系不大",
+        "elderly": "领养老金不用再跑税务局",
+        "freelancer": "自己报税流程更简单了"
+      },
+      "whatToDo": {
+        "office-worker": "关注网上办税新功能",
+        "parent": "用手机App给孩子缴费",
+        "student": "不用特别做什么",
+        "elderly": "让子女帮忙线上操作",
+        "freelancer": "试试线上申报个税"
+      },
+      "moneyImpact": "办税时间成本降低，间接省钱",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:54:40.257Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-16",
+    "title": "追逐家乡“耀眼星” 争做奔腾“蒙古马”——突泉县税...",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/c102472/c5220828/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "突泉县税收优惠政策落地",
+      "impactOnYou": {
+        "office-worker": "个税可能少扣点，到手钱多了",
+        "parent": "养娃相关税收减免，能省点钱",
+        "student": "跟你关系不大，但创业有优惠",
+        "elderly": "养老金或医疗报销可能更划算",
+        "freelancer": "个体经营税负减轻，收入增加"
+      },
+      "whatToDo": {
+        "office-worker": "查工资单看个税变化",
+        "parent": "关注子女教育专项扣除",
+        "student": "了解创业税收扶持政策",
+        "elderly": "咨询社区税务减免详情",
+        "freelancer": "申报时用足税收优惠"
+      },
+      "moneyImpact": "每月到手可能多200-500元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:54:43.604Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-17",
+    "title": "[央视朝闻天下] 全国首家网上离境退税商店在北京落地",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810351/c102272/c5250122/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "北京首家网上离境退税商店开业",
+      "impactOnYou": {
+        "office-worker": "出国购物退税更方便了",
+        "parent": "带娃出国玩退税不用跑柜台",
+        "student": "留学生回国前退税更省事",
+        "elderly": "跟你关系不大",
+        "freelancer": "代购或旅游退税更快捷"
+      },
+      "whatToDo": {
+        "office-worker": "出境购物记得索要退税单",
+        "parent": "网上操作退税，省排队时间",
+        "student": "离境前网上提交退税申请",
+        "elderly": "不用特别关注",
+        "freelancer": "利用网上退税提升效率"
+      },
+      "moneyImpact": "购物可退11%增值税，省钱",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:54:46.812Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-18",
+    "title": "[人民日报经济热点快评] 私户收款偷逃税，“美”在何处？",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c5249411/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "严查私户收款偷逃税",
+      "impactOnYou": {
+        "office-worker": "公司可能不敢再用私账发工资",
+        "parent": "给孩子报班要发票，防商家逃税",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "私户收款容易被查，得走公账"
+      },
+      "whatToDo": {
+        "office-worker": "确认工资走公账",
+        "parent": "消费后主动要发票",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "注册个体户或公司收款"
+      },
+      "moneyImpact": "逃税减少，国家税收增加",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:54:50.053Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498224737-19",
+    "title": "[新华社] 税收发票数据显示：“五一”假期消费相关行业销售收入同比增长14.3%",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c5249491/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:24.737Z",
+    "aiInterpretation": {
+      "summary": "五一消费增长14.3%",
+      "impactOnYou": {
+        "office-worker": "假期花钱多，但经济回暖可能涨工资",
+        "parent": "带孩子出去玩，消费更贵了",
+        "student": "跟你关系不大，但打工机会可能多",
+        "elderly": "买东西可能贵点，但养老金稳定",
+        "freelancer": "接单机会增多，收入可能涨"
+      },
+      "whatToDo": {
+        "office-worker": "留意公司是否加薪",
+        "parent": "提前规划假期预算",
+        "student": "关注兼职招聘信息",
+        "elderly": "按需消费，别囤货",
+        "freelancer": "多接节日相关订单"
+      },
+      "moneyImpact": "消费涨价，但收入可能微增",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:54:53.308Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-1",
+    "title": "中国与中亚住房城乡建设交流合作迈上新台阶　2025中国—中亚建设部长会议在京召开",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2025/art_7ac4bf3302704ec6a84ca1747f79a5c7.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "中国与中亚加强住房建设合作",
+      "impactOnYou": {
+        "office-worker": "可能带来更多建筑行业就业机会",
+        "parent": "未来住房选择或更丰富",
+        "student": "建筑专业留学或就业机会增多",
+        "elderly": "跟你关系不大",
+        "freelancer": "跨境建筑项目或带来新业务"
+      },
+      "whatToDo": {
+        "office-worker": "关注建筑行业招聘动态",
+        "parent": "留意新楼盘和户型变化",
+        "student": "学习中亚语言或建筑标准",
+        "elderly": "不用特别行动",
+        "freelancer": "了解中亚建筑市场需求"
+      },
+      "moneyImpact": "长期可能影响房价和租金",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:06.281Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-3",
+    "title": "国务院政策例行吹风会：切实做好保交房工作配套政策有关情况",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2024/art_303_778076.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "确保房子能顺利交付",
+      "impactOnYou": {
+        "office-worker": "买房更放心，烂尾风险降低",
+        "parent": "孩子上学学区房更稳当",
+        "student": "跟你关系不大",
+        "elderly": "养老房交付更有保障",
+        "freelancer": "租房市场可能更稳定"
+      },
+      "whatToDo": {
+        "office-worker": "关注已购楼盘进度",
+        "parent": "核实学区房交付时间",
+        "student": "不用特别做什么",
+        "elderly": "确认养老房是否在保交房名单",
+        "freelancer": "留意租房价格变化"
+      },
+      "moneyImpact": "买房资金风险降低，但短期房价可能波动",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:09.596Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-8",
+    "title": "住房城乡建设部办公厅关于开展2025年度工程造价咨询统计调查的通知",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-01",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2026/art_92de6b27b0ae4f219403a6bdb6802f68.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "统计工程造价咨询行业数据",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你在造价公司上班",
+        "parent": "跟你关系不大，不影响家庭开支",
+        "student": "跟你关系不大，不涉及学费或就业",
+        "elderly": "跟你关系不大，不影响养老金或看病",
+        "freelancer": "跟你关系不大，除非你是造价咨询自由职业"
+      },
+      "whatToDo": {
+        "office-worker": "无需特别行动",
+        "parent": "无需特别行动",
+        "student": "无需特别行动",
+        "elderly": "无需特别行动",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "对钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:55:12.201Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-11",
+    "title": "住房城乡建设部办公厅关于印发城市公共供水管网漏损治理可复制政策机制清单（第三批）的通知",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-19",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2026/art_79406644ace241049d82f6dbf813e8b1.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "减少水管漏水，省水省钱",
+      "impactOnYou": {
+        "office-worker": "水费可能微降，但影响不大",
+        "parent": "水费可能少点，家庭开支省一点",
+        "student": "跟你关系不大",
+        "elderly": "水费可能降，但别指望太多",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "留意水费账单变化",
+        "parent": "正常用水，不用特意改",
+        "student": "不用做什么",
+        "elderly": "不用做什么",
+        "freelancer": "不用做什么"
+      },
+      "moneyImpact": "每月水费可能少几块钱",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:55:15.220Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-13",
+    "title": "住房城乡建设部办公厅等关于深入推进建设项目联合验收“一件事”的实施意见",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-11",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2026/art_ce0048a6cecb440ab6f29d6bbb4667b1.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "简化建设项目验收流程",
+      "impactOnYou": {
+        "office-worker": "买房或租房验收更快了",
+        "parent": "孩子学校验收提速",
+        "student": "跟你关系不大",
+        "elderly": "小区公共设施验收更快",
+        "freelancer": "工作室装修验收省事"
+      },
+      "whatToDo": {
+        "office-worker": "关注新房验收进度",
+        "parent": "留意学校建设动态",
+        "student": "不用特别做什么",
+        "elderly": "等社区通知即可",
+        "freelancer": "装修前咨询新流程"
+      },
+      "moneyImpact": "减少验收拖延成本",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:18.341Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-15",
+    "title": "持续扩大公租房保障范围",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-28",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查看是否符合租房补贴条件",
+      "了解保障性租赁住房申请方式"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_a9a092eb2f8a44fcbdee0f8c8fb73462.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "更多人可以申请公租房",
+      "impactOnYou": {
+        "office-worker": "租房选择更多，租金可能更低",
+        "parent": "孩子上学附近可能有便宜房子",
+        "student": "毕业租房压力变小",
+        "elderly": "跟您关系不大",
+        "freelancer": "收入不稳也能申请公租房"
+      },
+      "whatToDo": {
+        "office-worker": "查本地公租房申请条件",
+        "parent": "留意社区公租房通知",
+        "student": "关注毕业后的住房政策",
+        "elderly": "不用特别做什么",
+        "freelancer": "准备收入证明去申请"
+      },
+      "moneyImpact": "每月房租可能省500-1000元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:55:21.682Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-16",
+    "title": "提升基本公共服务均等化水平 满足人民美好生活需要——国务院政策例行吹风会介绍《关于推行常住地提供基本公共服务的实施意见》有关情况",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-27",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_1f70e424f488409ba77c12df3ae7130a.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "外地人也能享受本地公共服务",
+      "impactOnYou": {
+        "office-worker": "孩子上学、医保不用回老家了",
+        "parent": "孩子能在常住地就近入学",
+        "student": "异地读书更方便，不用转学",
+        "elderly": "外地老人也能办老年卡、领补贴",
+        "freelancer": "社保、医保跟着常住地走"
+      },
+      "whatToDo": {
+        "office-worker": "查下常住地政策，办居住证",
+        "parent": "准备材料，给孩子申请入学",
+        "student": "问学校或社区，更新信息",
+        "elderly": "去社区登记，办本地福利",
+        "freelancer": "确认社保缴纳地，及时转移"
+      },
+      "moneyImpact": "看病自付可能减少，孩子上学省择校费",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:55:25.346Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-17",
+    "title": "房屋装修、交物业费、买车位……多地住房公积金用途“更新”",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查公积金APP看贷款额度变化",
+      "确认缴存比例是否调整"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/dfxx/art/2026/art_964d0b7711e24ceeae684220d66a9927.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "公积金可付装修物业费",
+      "impactOnYou": {
+        "office-worker": "装修物业费能用公积金了",
+        "parent": "装修学区房能省一笔",
+        "student": "跟你关系不大",
+        "elderly": "帮子女装修能用公积金",
+        "freelancer": "自己交公积金也能用"
+      },
+      "whatToDo": {
+        "office-worker": "查当地公积金提取细则",
+        "parent": "攒好装修发票去申请",
+        "student": "不用管",
+        "elderly": "问子女是否需要帮忙",
+        "freelancer": "确认自己公积金账户状态"
+      },
+      "moneyImpact": "装修物业费可省几千元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:55:28.350Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-18",
+    "title": "青海省住房城乡建设厅联合省财政厅举办2026年全省农牧民住房安全保障和财政补助资金管理工作培训",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解住房政策变化对自己的影响",
+      "关注当地住建部门通知"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/dfxx/art/2026/art_890d23369d43463ba09d899df1764d72.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "培训农牧民住房和资金管理",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子住农村老房更安全",
+        "student": "跟你关系不大",
+        "elderly": "农村老人住房补助更规范",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "留意老家住房补助政策",
+        "student": "不用特别关注",
+        "elderly": "咨询村委补助申请流程",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "农村危房补助发放更及时",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:55:31.404Z"
+    }
+  },
+  {
+    "id": "gov-housing-1780498225047-19",
+    "title": "泰州多措并举推进保障性租赁住房工作　精准保障青年人才安居",
+    "carrier": "policy",
+    "carrierName": "住建部-首页",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查看是否符合租房补贴条件",
+      "了解保障性租赁住房申请方式"
+    ],
+    "claimUrl": "https://www.mohurd.gov.cn/xinwen/dfxx/art/2026/art_d255f1217347403bb284e1fb5bf9512f.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "住建部-首页",
+    "scrapedAt": "2026-06-03T14:50:25.047Z",
+    "aiInterpretation": {
+      "summary": "泰州给青年人才盖保障房",
+      "impactOnYou": {
+        "office-worker": "租房有更多便宜选择",
+        "parent": "孩子毕业留泰州有房住",
+        "student": "毕业租房压力变小",
+        "elderly": "跟你关系不大",
+        "freelancer": "符合条件也能申请便宜房"
+      },
+      "whatToDo": {
+        "office-worker": "关注申请条件和流程",
+        "parent": "提醒孩子留意政策",
+        "student": "毕业前了解申请资格",
+        "elderly": "不用特别做什么",
+        "freelancer": "确认自己是否符合青年人才"
+      },
+      "moneyImpact": "每月房租可能省500-1000元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:55:34.731Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-0",
+    "title": "国务院关于印发《加快农业农村现代化“十五五”规划》的通知",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202606/content_7070901.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "推动农村现代化发展",
+      "impactOnYou": {
+        "office-worker": "农产品可能更便宜，但跟你关系不大",
+        "parent": "孩子上学和看病条件可能变好",
+        "student": "农村学生升学就业机会增多",
+        "elderly": "农村养老和医疗设施会改善",
+        "freelancer": "返乡创业有补贴和扶持"
+      },
+      "whatToDo": {
+        "office-worker": "关注农产品价格变化",
+        "parent": "留意农村教育医疗新政策",
+        "student": "多了解农业相关专业和机会",
+        "elderly": "咨询当地养老补贴政策",
+        "freelancer": "研究返乡创业扶持项目"
+      },
+      "moneyImpact": "农村居民收入可能增加",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:37.985Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-1",
+    "title": "国务院关于对外投资的规定",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202606/content_7070755.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "规范企业对外投资行为",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你在投资公司",
+        "parent": "跟你关系不大，主要影响企业",
+        "student": "跟你关系不大，以后找工作可能相关",
+        "elderly": "跟你关系不大，不涉及养老金",
+        "freelancer": "跟你关系不大，除非你做跨境投资"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司海外业务调整",
+        "parent": "不用特别做什么",
+        "student": "学点国际投资知识备用",
+        "elderly": "不用管，安心养老",
+        "freelancer": "有海外项目需查新规"
+      },
+      "moneyImpact": "对个人钱包基本没影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:55:41.096Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-2",
+    "title": "国务院关于同意在粤港澳大湾区内地九市暂时调整实施有关行政法规规定的批复",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-29",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202605/content_7070622.htm",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "大湾区九市试点新规调整",
+      "impactOnYou": {
+        "office-worker": "跨境工作手续可能简化",
+        "parent": "孩子上学或更便利",
+        "student": "实习就业机会或增多",
+        "elderly": "看病报销流程或优化",
+        "freelancer": "创业门槛可能降低"
+      },
+      "whatToDo": {
+        "office-worker": "关注跨境就业新规",
+        "parent": "留意教育政策变化",
+        "student": "多了解大湾区机会",
+        "elderly": "咨询医保异地结算",
+        "freelancer": "研究注册公司新规"
+      },
+      "moneyImpact": "办事成本可能降低",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:44.398Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-3",
+    "title": "国务院关于印发《城市更新“十五五”规划》的通知",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-28",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202605/content_7070539.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "推动城市老旧区域改造升级",
+      "impactOnYou": {
+        "office-worker": "通勤路可能变顺畅，周边配套更新",
+        "parent": "小区和学校附近环境可能变好",
+        "student": "上学路上更安全，活动空间增加",
+        "elderly": "老小区加装电梯，买菜更方便",
+        "freelancer": "工作室周边可能改造，租金或变化"
+      },
+      "whatToDo": {
+        "office-worker": "关注通勤路线改造通知",
+        "parent": "留意小区改造和学区变动",
+        "student": "注意施工区域安全绕行",
+        "elderly": "咨询社区加装电梯政策",
+        "freelancer": "评估工作室选址是否受影响"
+      },
+      "moneyImpact": "老旧房产可能升值或租金上涨",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:47.776Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-4",
+    "title": "国务院办公厅关于开展第三次全国残疾人抽样调查的通知",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-28",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202605/content_7070514.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "全国第三次残疾人抽样调查",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非家里有残疾人",
+        "parent": "如果孩子有残疾，可能被抽中调查",
+        "student": "跟你关系不大，除非你本人是残疾人",
+        "elderly": "如果身体有残疾，可能被抽中调查",
+        "freelancer": "跟你关系不大，除非你或家人有残疾"
+      },
+      "whatToDo": {
+        "office-worker": "留意社区通知即可",
+        "parent": "配合调查员上门登记",
+        "student": "正常学习，无需特别准备",
+        "elderly": "如实回答调查员问题",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:55:50.774Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-5",
+    "title": "国务院关于推行常住地提供基本公共服务的实施意见",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-22",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202605/content_7069960.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "按常住地给服务，不看户口",
+      "impactOnYou": {
+        "office-worker": "外地打工也能享受本地服务",
+        "parent": "孩子上学不用回老家了",
+        "student": "异地读书更方便",
+        "elderly": "外地养老也能领补贴",
+        "freelancer": "自由职业也能办医保"
+      },
+      "whatToDo": {
+        "office-worker": "查本地服务清单",
+        "parent": "确认孩子入学条件",
+        "student": "了解本地学生福利",
+        "elderly": "咨询社区养老政策",
+        "freelancer": "办理居住证和社保"
+      },
+      "moneyImpact": "看病自付可能减少",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:55:53.808Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498231011-7",
+    "title": "中办国办印发《关于用好乡镇（街道）履行职责事项清单的具体措施》",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-19",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/./202605/content_7069581.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-06-03T14:50:31.011Z",
+    "aiInterpretation": {
+      "summary": "细化乡镇街道职责清单执行",
+      "impactOnYou": {
+        "office-worker": "办事流程可能更清晰，少跑腿",
+        "parent": "孩子上学、社区活动可能更规范",
+        "student": "跟你关系不大",
+        "elderly": "办老年证、领补贴可能更方便",
+        "freelancer": "开证明、办执照可能更顺畅"
+      },
+      "whatToDo": {
+        "office-worker": "留意街道办事指南更新",
+        "parent": "关注社区通知，了解新变化",
+        "student": "不用特别做什么",
+        "elderly": "有需要就去乡镇街道问问",
+        "freelancer": "办事前先查清单，少跑冤枉路"
+      },
+      "moneyImpact": "办事成本可能降低，省路费",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:55:56.922Z"
+    }
+  },
+  {
+    "id": "gov-social-insurance-1780498238463-3",
+    "title": "关于新一批陕西省有突出贡献专家评选表彰工作通知的附件",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-01",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认权益变化",
+      "如有疑问拨打12333社保热线"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./tzgg/202606/t20260601_3643433.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance"
+    ],
+    "source": "陕西省人社厅-通知公告",
+    "scrapedAt": "2026-06-03T14:50:38.463Z",
+    "aiInterpretation": {
+      "summary": "评选表彰陕西有突出贡献专家",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你是专家候选人",
+        "parent": "跟你关系不大，主要影响专家本人",
+        "student": "跟你关系不大，这是给在职专家的",
+        "elderly": "跟你关系不大，除非你是退休老专家",
+        "freelancer": "跟你关系不大，主要针对单位推荐人选"
+      },
+      "whatToDo": {
+        "office-worker": "关注单位通知即可",
+        "parent": "不用特别做什么",
+        "student": "专心学习，以后有机会",
+        "elderly": "有资格可联系单位申报",
+        "freelancer": "与你无关，不用管"
+      },
+      "moneyImpact": "对钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:06.926Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498240218-8",
+    "title": "习近平同塞尔维亚总统武契奇会谈",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202605/content_7070179.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:40.218Z",
+    "aiInterpretation": {
+      "summary": "中塞元首会谈，无关医保",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "不用特别关注",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "对钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:09.239Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498240218-9",
+    "title": "习近平为塞尔维亚总统武契奇举行“友谊勋章”颁授仪式",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202605/content_7070194.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:40.218Z",
+    "aiInterpretation": {
+      "summary": "中国给塞尔维亚总统授勋",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班就行",
+        "parent": "正常带娃就行",
+        "student": "正常上学就行",
+        "elderly": "正常生活就行",
+        "freelancer": "正常接单就行"
+      },
+      "moneyImpact": "不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:11.646Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498240218-10",
+    "title": "习近平会见巴基斯坦总理夏巴兹",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202605/content_7070158.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:40.218Z",
+    "aiInterpretation": {
+      "summary": "中巴高层会晤，深化合作",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班即可",
+        "parent": "正常带娃即可",
+        "student": "正常学习即可",
+        "elderly": "正常生活即可",
+        "freelancer": "正常接单即可"
+      },
+      "moneyImpact": "对钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:14.181Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498240218-11",
+    "title": "习近平同俄罗斯总统普京会谈",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202605/content_7069661.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:40.218Z",
+    "aiInterpretation": {
+      "summary": "中俄元首会谈，无关医保政策",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "不用特别关注",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "对钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:16.504Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498240218-12",
+    "title": "习近平同美国总统特朗普在中南海小范围会晤",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202605/content_7068921.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:40.218Z",
+    "aiInterpretation": {
+      "summary": "中美领导人非正式会晤",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常生活工作",
+        "parent": "正常带娃生活",
+        "student": "正常学习休息",
+        "elderly": "正常养老休闲",
+        "freelancer": "正常接单干活"
+      },
+      "moneyImpact": "对钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:19.143Z"
+    }
+  },
+  {
+    "id": "gov-medical-1780498240218-13",
+    "title": "习近平同美国总统特朗普会谈",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202605/content_7068733.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-06-03T14:50:40.218Z",
+    "aiInterpretation": {
+      "summary": "中美领导人会谈，医保政策未变",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，不影响看病报销",
+        "parent": "跟你关系不大，孩子医保没变化",
+        "student": "跟你关系不大，学生医保照旧",
+        "elderly": "跟你关系不大，养老金和报销不变",
+        "freelancer": "跟你关系不大，医保缴费没调整"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班，不用操心",
+        "parent": "该带娃看病照常",
+        "student": "好好学习，别多想",
+        "elderly": "按时吃药，别担心",
+        "freelancer": "继续交医保就行"
+      },
+      "moneyImpact": "对钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:22.135Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-1",
+    "title": "民政部举行养老服务消费补贴项目推进情况专题新闻...",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nhttps://www.mca.gov.cn/xwfbh/2026/xwfbh_260326/\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "推养老服务消费补贴",
+      "impactOnYou": {
+        "office-worker": "给爸妈买养老服务可能更便宜",
+        "parent": "带老人去养老机构有补贴",
+        "student": "跟你关系不大",
+        "elderly": "自己或老伴用养老服务能省钱",
+        "freelancer": "给家里老人买服务有优惠"
+      },
+      "whatToDo": {
+        "office-worker": "关注本地补贴细则",
+        "parent": "查附近养老机构优惠",
+        "student": "不用特别做什么",
+        "elderly": "问社区或民政部门",
+        "freelancer": "留意政策落地时间"
+      },
+      "moneyImpact": "养老服务消费可能省几百元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:56:25.151Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-2",
+    "title": "陆治原到山西调研儿童福利等民政工作",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-01",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n164/c1662004999980011063/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "部长调研儿童福利工作",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要关注儿童",
+        "parent": "儿童福利政策可能更完善",
+        "student": "跟你关系不大，主要关注儿童",
+        "elderly": "跟你关系不大，主要关注儿童",
+        "freelancer": "跟你关系不大，主要关注儿童"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "留意当地儿童福利新规",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "暂无直接钱包影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:27.841Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-3",
+    "title": "关于2026年县域养老服务提升计划项目拟入选地区名单的公示",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n165/c1662004999980011165/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "选县域试点提升养老服务水平",
+      "impactOnYou": {
+        "office-worker": "老家老人可能能享受更好服务",
+        "parent": "带娃压力可能减轻，老人有人管",
+        "student": "跟你关系不大",
+        "elderly": "家门口养老设施可能更完善",
+        "freelancer": "自由时间多，可关注老家养老变化"
+      },
+      "whatToDo": {
+        "office-worker": "查老家是否在名单里",
+        "parent": "关注名单，看老人能否受益",
+        "student": "不用特别做什么",
+        "elderly": "留意社区新服务通知",
+        "freelancer": "可帮父母查询政策进展"
+      },
+      "moneyImpact": "老人养老补贴或服务费可能降低",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:56:31.244Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-4",
+    "title": "人民日报：一图读懂：民政部开展未成年人救助保护机构“提质增效”专项行动",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n166/c1662004999980011193/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "提升未成年人救助保护机构服务质量",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子受保护更靠谱了",
+        "student": "遇到困难有地方求助",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "留意社区通知即可",
+        "parent": "了解附近救助机构位置",
+        "student": "记住求助电话和地址",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "不直接影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:34.007Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-5",
+    "title": "中国新闻社：“3%”的托付，养老机构能否接住",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n166/c1662004999980011180/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "养老机构能否承接3%老人入住",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你爸妈要住养老院",
+        "parent": "帮你盯着养老院靠不靠谱",
+        "student": "跟你关系不大",
+        "elderly": "关系到你住养老院的质量",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "问问爸妈养老意愿",
+        "parent": "留意本地养老机构评价",
+        "student": "不用管",
+        "elderly": "多打听几家养老院",
+        "freelancer": "不用管"
+      },
+      "moneyImpact": "养老院收费可能更透明",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:56:37.267Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-6",
+    "title": "中国旅居养老服务发展报告（2026）蓝皮书编写启动会在京召开",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-19",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n167/c1662004999980010608/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "启动编写旅居养老蓝皮书",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但未来养老多选择",
+        "parent": "以后带爸妈旅游养老更方便",
+        "student": "跟你关系不大，可关注养老行业",
+        "elderly": "未来旅居养老更规范有保障",
+        "freelancer": "可能催生旅居养老新服务机会"
+      },
+      "whatToDo": {
+        "office-worker": "留意养老政策变化",
+        "parent": "提前了解旅居养老模式",
+        "student": "关注养老产业就业方向",
+        "elderly": "留意各地旅居养老试点",
+        "freelancer": "研究旅居养老创业方向"
+      },
+      "moneyImpact": "暂时不影响钱包，长期或降养老成本",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:40.693Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-7",
+    "title": "全国养老服务交流与合作会议在天津顺利召开",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-07",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n167/c1662004999980010553/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "全国养老交流会在天津开",
+      "impactOnYou": {
+        "office-worker": "以后给爸妈找养老院可能更方便",
+        "parent": "孩子以后养老压力可能小点",
+        "student": "跟你关系不大",
+        "elderly": "养老服务可能会更好更便宜",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "留意本地养老政策变化",
+        "parent": "关注社区养老服务新消息",
+        "student": "不用特别做什么",
+        "elderly": "多打听本地养老新服务",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "长期看养老费用可能降低",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:43.622Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-8",
+    "title": "青海省出台《养老机构失能护理基本服务规范》",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-29",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n168/c1662004999980011070/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "规范失能老人护理服务",
+      "impactOnYou": {
+        "office-worker": "家里老人护理更有保障了",
+        "parent": "以后照顾失能老人更省心",
+        "student": "跟你关系不大",
+        "elderly": "失能老人护理更规范",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "了解本地养老机构资质",
+        "parent": "关注护理标准变化",
+        "student": "不用特别做什么",
+        "elderly": "了解新规保护自己权益",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "护理费用可能更透明",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:56:46.447Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-9",
+    "title": "内蒙古积极探索“儿童福利+”新模式 多元赋能困境儿童关爱服务体系建设",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-26",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n168/c1662004999980011069/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "内蒙古创新帮扶困境儿童模式",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但可能增加你捐款渠道",
+        "parent": "你家孩子若困境可获更多帮扶",
+        "student": "困境同学可能得到更多支持",
+        "elderly": "跟你关系不大，但能减轻子女负担",
+        "freelancer": "可参与志愿服务或获得项目机会"
+      },
+      "whatToDo": {
+        "office-worker": "关注当地儿童福利信息",
+        "parent": "了解申请帮扶条件",
+        "student": "有困难可找社区或学校",
+        "elderly": "告诉有需要的邻居",
+        "freelancer": "可报名成为志愿者"
+      },
+      "moneyImpact": "困境儿童每月补贴可能增加200-500元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:56:50.044Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-10",
+    "title": "宁夏回族自治区老龄工作委员会召开第三次全体会议暨健康养老产业推进会",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-18",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n168/c1662004999980010928/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "宁夏推进健康养老产业发展",
+      "impactOnYou": {
+        "office-worker": "以后给爸妈找养老院选择更多",
+        "parent": "老人有专业照护，你更省心",
+        "student": "跟你关系不大",
+        "elderly": "养老服务更多，看病养老更方便",
+        "freelancer": "可能有机会做养老相关兼职"
+      },
+      "whatToDo": {
+        "office-worker": "关注本地养老政策变化",
+        "parent": "了解社区养老新服务",
+        "student": "不用特别做什么",
+        "elderly": "留意社区养老活动通知",
+        "freelancer": "看看养老产业招聘信息"
+      },
+      "moneyImpact": "养老服务和产品价格可能更实惠",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:56:53.210Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-11",
+    "title": "民政部办公厅关于深入贯彻落实《未成年人救助保护机构管理暂行办法》开展未成年人救助保护机构“提质增效”专项行动的通知",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-31",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\n                         https://www.mca.gov.cn/gdnps/content.jsp?id=1662004999980011072\n                        ",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "提升未成年人救助机构服务质量",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子遇困难有更靠谱的救助站",
+        "student": "遇到困境有更专业的帮助",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "无需特别行动",
+        "parent": "了解本地救助机构位置",
+        "student": "记住求助电话和地址",
+        "elderly": "无需特别行动",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "跟你钱包关系不大",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:56:56.064Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498243361-17",
+    "title": "养老有补贴 孝心更从容",
+    "carrier": "policy",
+    "carrierName": "民政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn157/n193/c1662004999980010577/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:43.361Z",
+    "aiInterpretation": {
+      "summary": "养老补贴减轻子女负担",
+      "impactOnYou": {
+        "office-worker": "给父母养老能领补贴，压力小点",
+        "parent": "给公婆或爸妈养老有补贴，省心",
+        "student": "跟你关系不大，但家里老人可能受益",
+        "elderly": "每月能多拿一笔补贴，生活更宽裕",
+        "freelancer": "给父母养老也能领补贴，减轻负担"
+      },
+      "whatToDo": {
+        "office-worker": "查当地补贴申请条件",
+        "parent": "问社区怎么领补贴",
+        "student": "提醒家人关注政策",
+        "elderly": "去社区或民政部门登记",
+        "freelancer": "了解补贴申请流程"
+      },
+      "moneyImpact": "每月到手可能多200-500元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:11.090Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498246295-4",
+    "title": "民政部办公厅关于印发《民政部2026年度立法工作计划》的通知",
+    "carrier": "policy",
+    "carrierName": "民政部-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n165/c1662004999980011142/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-通知公告",
+    "scrapedAt": "2026-06-03T14:50:46.295Z",
+    "aiInterpretation": {
+      "summary": "民政部2026年立法计划发布",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你涉及养老行业",
+        "parent": "可能影响未来托育或养老政策",
+        "student": "跟你关系不大，除非学法律或社工",
+        "elderly": "未来养老权益可能有新法律保障",
+        "freelancer": "跟你关系不大，除非做养老相关服务"
+      },
+      "whatToDo": {
+        "office-worker": "关注养老行业动态即可",
+        "parent": "留意后续具体法规出台",
+        "student": "不用特别关注",
+        "elderly": "等新法出台后了解权益",
+        "freelancer": "不用特别行动"
+      },
+      "moneyImpact": "暂时不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:57:14.353Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498246295-12",
+    "title": "关于开展2026年“润心伴成长，同心护未来”主题活动的通知",
+    "carrier": "policy",
+    "carrierName": "民政部-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-01",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\n                         https://www.mca.gov.cn/gdnps/content.jsp?id=1662004999980011067\n                        ",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-通知公告",
+    "scrapedAt": "2026-06-03T14:50:46.295Z",
+    "aiInterpretation": {
+      "summary": "关爱儿童成长主题活动",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但可参与志愿服务",
+        "parent": "孩子可能参加社区关爱活动",
+        "student": "有机会参与心理辅导和兴趣班",
+        "elderly": "跟你关系不大，但可当志愿者",
+        "freelancer": "跟你关系不大，可报名当义工"
+      },
+      "whatToDo": {
+        "office-worker": "留意社区志愿者招募",
+        "parent": "关注社区活动通知",
+        "student": "主动报名参加活动",
+        "elderly": "可申请当活动志愿者",
+        "freelancer": "有空可去当义工"
+      },
+      "moneyImpact": "不直接影响收入或支出",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:57:17.807Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498246295-14",
+    "title": "关于进一步加强流动儿童和留守儿童“精准摸排、精确建档、精细服务”工作的通知",
+    "carrier": "policy",
+    "carrierName": "民政部-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-30",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\n                         https://www.mca.gov.cn/gdnps/content.jsp?id=1662004999980011066\n                        ",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-通知公告",
+    "scrapedAt": "2026-06-03T14:50:46.295Z",
+    "aiInterpretation": {
+      "summary": "精准服务流动留守儿童",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但同事请假照顾孩子可能变少",
+        "parent": "孩子信息被登记，能享受更多帮扶",
+        "student": "流动或留守同学能得到更多帮助",
+        "elderly": "跟你关系不大，但孙辈可能受益",
+        "freelancer": "跟你关系不大，除非你带孩子流动"
+      },
+      "whatToDo": {
+        "office-worker": "留意社区通知，配合登记",
+        "parent": "主动联系社区报备孩子情况",
+        "student": "有困难找老师或社区",
+        "elderly": "提醒子女关注孙辈登记",
+        "freelancer": "如带孩子流动，及时登记"
+      },
+      "moneyImpact": "无直接现金影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:57:20.959Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498246295-15",
+    "title": "关于印发《流动儿童在居住地享有关爱服务基础清单工作索引》的通知",
+    "carrier": "policy",
+    "carrierName": "民政部-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-17",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\n                         https://www.mca.gov.cn/gdnps/content.jsp?id=1662004999980010660\n                        ",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-通知公告",
+    "scrapedAt": "2026-06-03T14:50:46.295Z",
+    "aiInterpretation": {
+      "summary": "流动儿童享居住地关爱服务",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但同事孩子可能受益",
+        "parent": "孩子在外地也能享受本地服务",
+        "student": "流动儿童上学看病更方便",
+        "elderly": "跟你关系不大，主要针对孩子",
+        "freelancer": "跟你关系不大，除非带孩子流动"
+      },
+      "whatToDo": {
+        "office-worker": "留意社区通知即可",
+        "parent": "查居住地服务清单申请",
+        "student": "告诉家长有这项福利",
+        "elderly": "不用特别做什么",
+        "freelancer": "有孩子可咨询社区"
+      },
+      "moneyImpact": "家庭可能减少额外支出",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:57:24.311Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-0",
+    "title": "2025年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2025/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2025年税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点可能提高，到手工资变多",
+        "parent": "育儿专项扣除可能增加，养娃负担减轻",
+        "student": "跟你关系不大，除非你兼职有收入",
+        "elderly": "养老金或医保相关税收优惠可能调整",
+        "freelancer": "个税计算方式可能变，收入更稳定"
+      },
+      "whatToDo": {
+        "office-worker": "核对工资单，看扣税变化",
+        "parent": "关注育儿扣除新标准，及时申报",
+        "student": "不用特别操作，留意兼职税",
+        "elderly": "咨询社区或税务部门，确认优惠",
+        "freelancer": "更新个税申报，调整预扣税"
+      },
+      "moneyImpact": "每月到手可能多200-500元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:30.963Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-1",
+    "title": "2024年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2024/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2024年税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点可能提高，到手工资变多",
+        "parent": "育儿专项扣除可能增加，减轻养娃负担",
+        "student": "跟你关系不大，除非你打工有收入",
+        "elderly": "养老金或医保可能免税，收入更稳",
+        "freelancer": "灵活用工税收优惠，交税可能更少"
+      },
+      "whatToDo": {
+        "office-worker": "关注个税APP更新",
+        "parent": "填报育儿专项扣除",
+        "student": "不用特别做什么",
+        "elderly": "咨询社区税务服务",
+        "freelancer": "核对收入申报方式"
+      },
+      "moneyImpact": "每月到手可能多200元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:34.620Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-2",
+    "title": "2023年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2023/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2023年税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点或专项扣除可能有变",
+        "parent": "孩子教育或抚养费抵扣可能调整",
+        "student": "跟你关系不大",
+        "elderly": "养老金或医疗抵扣可能有变化",
+        "freelancer": "个税或经营税政策可能有调整"
+      },
+      "whatToDo": {
+        "office-worker": "关注个税APP更新",
+        "parent": "留意子女教育抵扣细则",
+        "student": "不用特别关注",
+        "elderly": "咨询社区或税务热线",
+        "freelancer": "核对经营所得申报规则"
+      },
+      "moneyImpact": "到手工资或可多几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:38.235Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-3",
+    "title": "2022年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2022/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2022年税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点或专项扣除可能有变",
+        "parent": "子女教育等专项扣除可能调整",
+        "student": "跟你关系不大",
+        "elderly": "赡养老人专项扣除可能增加",
+        "freelancer": "个税汇算清缴规则可能有变"
+      },
+      "whatToDo": {
+        "office-worker": "关注个税APP更新",
+        "parent": "核对子女教育扣除信息",
+        "student": "不用特别做什么",
+        "elderly": "提醒子女更新赡养扣除",
+        "freelancer": "留意个税汇算通知"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:57:41.248Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-5",
+    "title": "2020年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202001wg/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2020年税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点可能调整，到手工资有变化",
+        "parent": "孩子教育费用抵扣可能增加",
+        "student": "跟你关系不大",
+        "elderly": "养老金或医保可能受影响",
+        "freelancer": "个税申报方式可能有变"
+      },
+      "whatToDo": {
+        "office-worker": "核对工资单个税扣款",
+        "parent": "关注教育专项扣除政策",
+        "student": "不用特别做什么",
+        "elderly": "留意养老金发放变化",
+        "freelancer": "及时申报个税"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:44.570Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-6",
+    "title": "2019年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg201901/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2019年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点提高，到手工资可能涨",
+        "parent": "子女教育专项附加扣除，少交税",
+        "student": "跟你关系不大，除非兼职有税",
+        "elderly": "赡养老人专项扣除，减轻负担",
+        "freelancer": "个税起征点提高，收入更划算"
+      },
+      "whatToDo": {
+        "office-worker": "核对工资单，确认扣除项",
+        "parent": "填报子女教育专项扣除",
+        "student": "关注兼职个税政策",
+        "elderly": "提醒子女填报赡养扣除",
+        "freelancer": "计算新起征点下税负"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:47.826Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-7",
+    "title": "2018年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2018/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2018年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点提高，到手工资可能变多",
+        "parent": "子女教育专项扣除，减轻养娃负担",
+        "student": "跟你关系不大，除非有兼职收入",
+        "elderly": "赡养老人专项扣除，可能少交税",
+        "freelancer": "个税起征点提高，收入税负降低"
+      },
+      "whatToDo": {
+        "office-worker": "核对工资单，看个税是否减少",
+        "parent": "填报子女教育专项扣除信息",
+        "student": "关注兼职收入是否需报税",
+        "elderly": "提醒子女填报赡养老人扣除",
+        "freelancer": "计算新起征点下应缴税额"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:57:51.053Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-8",
+    "title": "2017年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2017wg/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "财政部2017年税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点没变，影响不大",
+        "parent": "孩子教育费用可能抵扣",
+        "student": "跟你关系不大",
+        "elderly": "养老金税收优惠可能调整",
+        "freelancer": "发票报销规则可能变"
+      },
+      "whatToDo": {
+        "office-worker": "关注个税专项扣除",
+        "parent": "保留教育费用票据",
+        "student": "不用特别做什么",
+        "elderly": "咨询社区税务服务",
+        "freelancer": "更新记账方式"
+      },
+      "moneyImpact": "每月到手可能多几十元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:57:53.995Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-9",
+    "title": "2016年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2016/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2016年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点没变，影响不大",
+        "parent": "孩子教育支出可能抵扣，少交税",
+        "student": "跟你关系不大，除非打工交税",
+        "elderly": "养老金免税，影响不大",
+        "freelancer": "收入申报更规范，可能多交税"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税，不用特意操作",
+        "parent": "保留孩子教育发票，备查",
+        "student": "关注兼职收入是否超起征点",
+        "elderly": "不用额外操作",
+        "freelancer": "核对收入，避免漏报被罚"
+      },
+      "moneyImpact": "对多数人钱包影响不大",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:57:57.469Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-10",
+    "title": "2015年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2015/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2015年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点没变，跟你关系不大",
+        "parent": "部分育儿支出可能抵扣，影响不大",
+        "student": "跟你关系不大",
+        "elderly": "养老金税收优惠没变，影响不大",
+        "freelancer": "小规模纳税人税率可能降低"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税即可",
+        "parent": "关注抵扣政策变化",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "核对最新税率表"
+      },
+      "moneyImpact": "对钱包影响不大，具体看细则",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:00.338Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-11",
+    "title": "2014年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2014/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2014年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点没变，跟你关系不大",
+        "parent": "部分育儿支出可能抵扣，影响小",
+        "student": "跟你关系不大",
+        "elderly": "养老金免税政策没变，影响小",
+        "freelancer": "小规模纳税人税率可能有微调"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税，不用特别操作",
+        "parent": "留意子女教育抵扣政策",
+        "student": "不用管，跟你没关系",
+        "elderly": "保持现有养老金领取方式",
+        "freelancer": "查一下最新税率表"
+      },
+      "moneyImpact": "对多数人钱包影响不大",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:03.633Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-12",
+    "title": "2013年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2013/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2013年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "工资个税可能微调，影响不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税，无需特别操作",
+        "parent": "不用管",
+        "student": "不用管",
+        "elderly": "不用管",
+        "freelancer": "不用管"
+      },
+      "moneyImpact": "对多数人钱包影响很小",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:06.241Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-13",
+    "title": "2012年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2012wg/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2012年财政部税收政策文件",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非当年有调税",
+        "parent": "跟你关系不大，除非涉及育儿扣除",
+        "student": "跟你关系不大，学生不交税",
+        "elderly": "跟你关系不大，老人不交税",
+        "freelancer": "跟你关系不大，除非当年有个税调整"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别做什么",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对钱包基本没影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:08.868Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-14",
+    "title": "2011年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2011caizhengwengao/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2011年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点可能提高，到手工资变多",
+        "parent": "孩子教育或医疗抵扣可能有变化",
+        "student": "跟你关系不大",
+        "elderly": "养老金或医保缴费可能调整",
+        "freelancer": "个体户税率或起征点可能变动"
+      },
+      "whatToDo": {
+        "office-worker": "核对工资单个税变化",
+        "parent": "关注子女教育费用抵扣",
+        "student": "不用特意做什么",
+        "elderly": "留意养老金到账金额",
+        "freelancer": "咨询税务部门新政策"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:58:11.812Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-15",
+    "title": "2010年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2010nianwengao/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2010年财政部税收政策文件",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要是当年政策",
+        "parent": "跟你关系不大，主要是当年政策",
+        "student": "跟你关系不大，主要是当年政策",
+        "elderly": "跟你关系不大，主要是当年政策",
+        "freelancer": "跟你关系不大，主要是当年政策"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "不用特别关注",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "对当前钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:14.406Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-16",
+    "title": "2009年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2009niancaizhengbuwengao/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2009年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点可能没变，影响不大",
+        "parent": "孩子教育支出可能能抵税",
+        "student": "跟你关系不大",
+        "elderly": "养老金或医保可能有小调整",
+        "freelancer": "个税申报可能更复杂"
+      },
+      "whatToDo": {
+        "office-worker": "关注工资条个税变化",
+        "parent": "保留孩子教育费用票据",
+        "student": "不用特别做什么",
+        "elderly": "留意养老金到账金额",
+        "freelancer": "咨询税务代理怎么报税"
+      },
+      "moneyImpact": "每月到手可能多几十元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:58:17.546Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-17",
+    "title": "2008年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2008/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2008年财政部税收政策调整",
+      "impactOnYou": {
+        "office-worker": "个税起征点可能提高，到手工资变多",
+        "parent": "孩子教育支出可能抵扣个税",
+        "student": "跟你关系不大，除非打工交税",
+        "elderly": "养老金或医保可能有调整",
+        "freelancer": "自由职业者报税可能更简单"
+      },
+      "whatToDo": {
+        "office-worker": "查工资条，看个税变化",
+        "parent": "留好孩子学费发票",
+        "student": "不用特别做什么",
+        "elderly": "关注养老金发放变化",
+        "freelancer": "更新报税信息"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:58:20.692Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-18",
+    "title": "2007年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2007/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2007年财政部文件汇总",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非当年有专项调整",
+        "parent": "跟你关系不大，除非涉及教育或抚养扣除",
+        "student": "跟你关系不大，除非有学生优惠",
+        "elderly": "跟你关系不大，除非有养老金或医疗优惠",
+        "freelancer": "跟你关系不大，除非有个体户税收变化"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "不用特别关注",
+        "student": "不用特别关注",
+        "elderly": "不用特别关注",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "对钱包影响很小或没有",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:23.496Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498246608-19",
+    "title": "2006年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2006/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-06-03T14:50:46.608Z",
+    "aiInterpretation": {
+      "summary": "2006年财政部税收政策文件",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非当年有调税",
+        "parent": "跟你关系不大，年代久远",
+        "student": "跟你关系不大，不涉及学生",
+        "elderly": "跟你关系不大，不涉及养老",
+        "freelancer": "跟你关系不大，非当年政策"
+      },
+      "whatToDo": {
+        "office-worker": "不用管，看最新政策",
+        "parent": "不用管，看最新政策",
+        "student": "不用管，看最新政策",
+        "elderly": "不用管，看最新政策",
+        "freelancer": "不用管，看最新政策"
+      },
+      "moneyImpact": "对当前钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:26.459Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498259618-2",
+    "title": "2026年民政服务机构安全管理月",
+    "carrier": "policy",
+    "carrierName": "民政部-养老服务",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nhttps://www.mca.gov.cn/zt/n3099/index.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-养老服务",
+    "scrapedAt": "2026-06-03T14:50:59.618Z",
+    "aiInterpretation": {
+      "summary": "提升养老机构安全管理水平",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "送老人去养老院更放心",
+        "student": "跟你关系不大",
+        "elderly": "住养老院更安全有保障",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "关注家中老人安全",
+        "parent": "检查养老院资质",
+        "student": "不用特别做什么",
+        "elderly": "留意机构安全措施",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "养老院运营成本可能微涨，但个人费用影响不大",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:29.444Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498259618-5",
+    "title": "关于2026年精神障碍社区康复服务融合行动项目拟入选地区名单的公示",
+    "carrier": "policy",
+    "carrierName": "民政部-养老服务",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n165/c1662004999980011140/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-养老服务",
+    "scrapedAt": "2026-06-03T14:50:59.618Z",
+    "aiInterpretation": {
+      "summary": "公示精神障碍社区康复服务试点地区",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子心理问题有社区免费帮助",
+        "student": "心理压力大能就近找康复站",
+        "elderly": "老年精神障碍有社区康复服务",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "无需特别行动",
+        "parent": "留意社区康复站开放时间",
+        "student": "有需要可主动联系社区",
+        "elderly": "向社区咨询服务内容",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "看病自付可能减少",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:58:32.710Z"
+    }
+  },
+  {
+    "id": "gov-elderly-1780498259618-7",
+    "title": "人民日报：民政部开展专项行动 更好服务困境未成年人",
+    "carrier": "policy",
+    "carrierName": "民政部-养老服务",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "https://www.mca.gov.cn/\nn152/n166/c1662004999980011179/content.html\n",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "民政部-养老服务",
+    "scrapedAt": "2026-06-03T14:50:59.618Z",
+    "aiInterpretation": {
+      "summary": "民政部专项救助困境未成年人",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但可能少缴点税用于救助",
+        "parent": "孩子有困难可申请政府帮助",
+        "student": "困境同学能获得更多关爱和资助",
+        "elderly": "跟你关系不大，但政策是好事",
+        "freelancer": "跟你关系不大，但社会更稳定"
+      },
+      "whatToDo": {
+        "office-worker": "留意身边困境儿童及时报告",
+        "parent": "了解救助政策，有需要就申请",
+        "student": "关心同学，有困难找老师",
+        "elderly": "发现困境儿童可联系社区",
+        "freelancer": "转发信息帮助有需要的人"
+      },
+      "moneyImpact": "跟你钱包没直接关系",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:36.219Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-0",
+    "title": "财政部党校举行第82期处级干部进修班毕业典礼",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202606/t20260603_3991101.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "财政部培训处级干部",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用管",
+        "parent": "不用管",
+        "student": "不用管",
+        "elderly": "不用管",
+        "freelancer": "不用管"
+      },
+      "moneyImpact": "不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:44.883Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-1",
+    "title": "财政部发行2026年记账式贴现（三十四期）国债",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://zwgls.mof.gov.cn/ywgg/202606/t20260602_3991019.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "财政部发行短期国债",
+      "impactOnYou": {
+        "office-worker": "可以买短期国债，赚点利息",
+        "parent": "跟日常开销关系不大",
+        "student": "跟你关系不大",
+        "elderly": "适合用闲钱买，比存银行利息高",
+        "freelancer": "有闲钱可以买，灵活变现"
+      },
+      "whatToDo": {
+        "office-worker": "关注发行时间，可少量购买",
+        "parent": "不用特别关注",
+        "student": "不用管",
+        "elderly": "去银行或手机银行看看",
+        "freelancer": "有闲钱可考虑购买"
+      },
+      "moneyImpact": "购买后到期拿回本金加利息",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:47.957Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-3",
+    "title": "财政部吉林监管局：强化“三项举措” 推动部门决算编制审核工作提质增效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-03",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://jl.mof.gov.cn/caizhengjiancha/202604/t20260401_3986740.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "吉林加强决算审核，管好钱袋子",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，单位财务更忙了",
+        "parent": "跟你关系不大，不影响家里开销",
+        "student": "跟你关系不大，不涉及学费",
+        "elderly": "跟你关系不大，不影响养老金",
+        "freelancer": "跟你关系不大，不涉及个税变化"
+      },
+      "whatToDo": {
+        "office-worker": "配合单位财务工作即可",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对个人钱包基本没影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:50.761Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-4",
+    "title": "中央财政下达育儿补贴补助资金999亿元支持实施育儿补贴制度",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202606/t20260602_3991021.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "国家发钱鼓励生娃",
+      "impactOnYou": {
+        "office-worker": "有娃上班族能领补贴",
+        "parent": "生娃养娃直接发钱",
+        "student": "跟你关系不大",
+        "elderly": "帮你带孙辈有补贴",
+        "freelancer": "有娃也能领补贴"
+      },
+      "whatToDo": {
+        "office-worker": "关注当地申领通知",
+        "parent": "准备材料申请补贴",
+        "student": "不用做什么",
+        "elderly": "提醒子女去申请",
+        "freelancer": "留意政策落地细节"
+      },
+      "moneyImpact": "每孩每月可能多领几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T14:58:53.926Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-5",
+    "title": "财政部发行2026年记账式贴现（三十三期）国债",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://zwgls.mof.gov.cn/ywgg/202606/t20260602_3991018.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "财政部发行短期国债",
+      "impactOnYou": {
+        "office-worker": "可以买短期国债，赚点利息",
+        "parent": "跟你关系不大，除非想理财",
+        "student": "跟你关系不大，没钱买国债",
+        "elderly": "适合用闲钱买，安全有收益",
+        "freelancer": "可考虑买，比存银行利息高"
+      },
+      "whatToDo": {
+        "office-worker": "关注发行时间，可少量购买",
+        "parent": "不用特别关注",
+        "student": "不用管，好好学习",
+        "elderly": "咨询银行，用闲钱认购",
+        "freelancer": "评估资金，可参与认购"
+      },
+      "moneyImpact": "短期投资可获稳定利息收入",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:58:57.404Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-6",
+    "title": "财政部贵州监管局：三向发力 推动转移支付常态化监督提质增效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gz.mof.gov.cn/caizhengjiancha/202604/t20260424_3988303.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "加强贵州转移支付资金监督",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子上学或补贴可能更稳",
+        "student": "助学金发放可能更及时",
+        "elderly": "养老金或补贴到账更靠谱",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班即可",
+        "parent": "留意补贴到账情况",
+        "student": "关注助学金发放通知",
+        "elderly": "查查养老金是否准时",
+        "freelancer": "正常接单干活"
+      },
+      "moneyImpact": "补贴发放更规范，钱不易被截留",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:59:00.610Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-7",
+    "title": "财政部黑龙江监管局：抓好四个统筹 系统推进财会监督工作",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-02",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://hlj.mof.gov.cn/caizhengjiancha/202605/t20260509_3989325.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "黑龙江加强财会监督工作",
+      "impactOnYou": {
+        "office-worker": "单位账目更规范，报销可能变严",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "个人报税可能查得更细"
+      },
+      "whatToDo": {
+        "office-worker": "保留好所有发票凭证",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "记账要更仔细"
+      },
+      "moneyImpact": "暂时不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:03.351Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-8",
+    "title": "财政部四川监管局：加强财政金融协同 推动财会监督高质量发展",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://sc.mof.gov.cn/caizhengjiancha/202605/t20260507_3989111.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "加强财政金融协同，严管财会监督",
+      "impactOnYou": {
+        "office-worker": "报销和发票审核会更严",
+        "parent": "跟日常花钱关系不大",
+        "student": "跟你关系不大",
+        "elderly": "养老金发放会更规范",
+        "freelancer": "报税和记账要更小心"
+      },
+      "whatToDo": {
+        "office-worker": "保留好所有票据",
+        "parent": "正常生活不用管",
+        "student": "不用特别做什么",
+        "elderly": "留意养老金到账情况",
+        "freelancer": "找专业会计做账"
+      },
+      "moneyImpact": "违规报销和逃税风险增加",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:59:06.550Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-9",
+    "title": "财政部在香港成功发行人民币绿色主权债券",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-29",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202605/t20260529_3990821.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "国家在香港发绿色债券",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别做什么",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对个人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:09.077Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-10",
+    "title": "财政部与德国复兴信贷银行签署湖北省襄阳老河口市汉江流域环境综合整治项目贷款协定",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-29",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gjs.mof.gov.cn/gongzuodongtai2019/xmdt/202605/t20260527_3990678.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "德国贷款治理汉江环境",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但以后河边散步更干净",
+        "parent": "孩子能去更干净的河边玩耍",
+        "student": "跟你关系不大，但环境课可能多一个案例",
+        "elderly": "河边遛弯空气更好，心情舒畅",
+        "freelancer": "跟你关系不大，但当地环保项目可能招人"
+      },
+      "whatToDo": {
+        "office-worker": "关注当地环保动态即可",
+        "parent": "带孩子去河边时注意安全",
+        "student": "留意学校环保活动通知",
+        "elderly": "继续享受河边散步，别乱扔垃圾",
+        "freelancer": "看看有没有环保类兼职机会"
+      },
+      "moneyImpact": "跟你钱包关系不大",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:12.461Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-11",
+    "title": "财政部重庆监管局：“四坚持四注重”推动绩效自评复核工作走深走实",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-29",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://cq.mof.gov.cn/gzdt2019/caizhengjiancha/202605/t20260520_3990198.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "加强财政资金绩效自评复核",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别做什么",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对个人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:14.923Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-12",
+    "title": "财政部内蒙古监管局：锚定“四个一”工作机制 扎实推进超长期特别国债监管见行见效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-29",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://nmg.mof.gov.cn/caizhengjiancha/202605/t20260522_3990430.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "监管超长期国债资金使用",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要管政府项目钱",
+        "parent": "跟你关系不大，不直接涉及家庭",
+        "student": "跟你关系不大，不涉及学费补贴",
+        "elderly": "跟你关系不大，不影响养老金",
+        "freelancer": "跟你关系不大，不涉及个人收入"
+      },
+      "whatToDo": {
+        "office-worker": "关注政府项目招标机会",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "对个人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:18.133Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-13",
+    "title": "财政部宁波监管局：“四注重四提高”推动中央转移支付资金重点绩效评价工作提质增效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-28",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://nb.mof.gov.cn/caizhengjiancha/202605/t20260519_3990150.htm",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "中央转移支付资金绩效评价升级",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要影响政府内部工作",
+        "parent": "跟你关系不大，不直接涉及育儿补贴",
+        "student": "跟你关系不大，不直接涉及教育经费",
+        "elderly": "跟你关系不大，不直接涉及养老金",
+        "freelancer": "跟你关系不大，不直接涉及个人收入"
+      },
+      "whatToDo": {
+        "office-worker": "无需特别行动",
+        "parent": "无需特别行动",
+        "student": "无需特别行动",
+        "elderly": "无需特别行动",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "对个人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:20.922Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-14",
+    "title": "财政部福建监管局：“三强化” 推动中央非税收入征缴工作提质增效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-28",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://fj.mof.gov.cn/gzdt/caizhengjiancha/202605/t20260518_3990008.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "加强中央非税收入征缴管理",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要影响单位缴费",
+        "parent": "跟你关系不大，不涉及家庭缴费",
+        "student": "跟你关系不大，不涉及学生缴费",
+        "elderly": "跟你关系不大，不涉及养老金等",
+        "freelancer": "跟你关系不大，主要针对行政事业单位"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班，无需特别操作",
+        "parent": "正常生活，无需关注",
+        "student": "专心学习，不用管",
+        "elderly": "正常生活，不用管",
+        "freelancer": "正常接单，不用管"
+      },
+      "moneyImpact": "对个人钱包基本无影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:23.856Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-15",
+    "title": "财政部河南监管局：抓早抓细抓实 强化会计师事务所日常监督",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-27",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://ha.mof.gov.cn/caizhengjiancha/202605/t20260527_3990623.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "加强会计所监管，防假账",
+      "impactOnYou": {
+        "office-worker": "公司账目更规范，工资发放更透明",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "报税可能更严，别乱填发票"
+      },
+      "whatToDo": {
+        "office-worker": "保留工资条和个税记录",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "找正规会计帮你做账"
+      },
+      "moneyImpact": "对普通人钱包影响很小",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:26.865Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-16",
+    "title": "财政部云南监管局：四维发力 高标准赋能政策性农业保险保费补贴资金审核提质增效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-27",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://yn.mof.gov.cn/caizhengjiancha/202605/t20260519_3990133.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "严审农业保险补贴，确保钱花得实在",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但可能影响物价",
+        "parent": "跟你关系不大，除非家里种地",
+        "student": "跟你关系不大",
+        "elderly": "农村老人领补贴更靠谱了",
+        "freelancer": "跟你关系不大，除非搞农业"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "不用特别关注",
+        "student": "不用特别关注",
+        "elderly": "种地的话记得买正规保险",
+        "freelancer": "不用特别关注"
+      },
+      "moneyImpact": "农民受灾后理赔可能更顺畅",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:30.131Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-18",
+    "title": "财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省 （区、市）做好自然灾害应急抢险救灾工作",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-26",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://zyhj.mof.gov.cn/gzdt/202605/t20260526_3990536.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "中央再拨1.6亿救灾款",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子上学路更安全",
+        "student": "学校受灾能更快复课",
+        "elderly": "受灾后生活有保障",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "关注天气，注意安全",
+        "parent": "教孩子避险知识",
+        "student": "听从学校应急安排",
+        "elderly": "留意社区预警信息",
+        "freelancer": "关注当地灾情动态"
+      },
+      "moneyImpact": "受灾群众可获应急救助",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:59:33.225Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498259775-19",
+    "title": "财政部海南监管局：“四点发力”提升地方财政运行分析评估工作质效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-26",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://hq.mof.gov.cn/caizhengjiancha/202605/t20260518_3990069.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-06-03T14:50:59.775Z",
+    "aiInterpretation": {
+      "summary": "海南财政监管升级，确保钱花在刀刃上",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但可能影响单位福利",
+        "parent": "跟你关系不大，但学校拨款可能更稳",
+        "student": "跟你关系不大，但奖学金发放可能更规范",
+        "elderly": "跟你关系不大，但养老金发放可能更准时",
+        "freelancer": "跟你关系不大，但政府项目结账可能更快"
+      },
+      "whatToDo": {
+        "office-worker": "留意单位财务通知",
+        "parent": "关注学校收费公示",
+        "student": "正常学习，无需特别操作",
+        "elderly": "按时查收养老金到账",
+        "freelancer": "关注政府项目付款进度"
+      },
+      "moneyImpact": "对钱包影响不大，但财政效率提升间接利好",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:36.447Z"
+    }
+  },
+  {
+    "id": "gov-pension-1780498284742-1",
+    "title": "安康紫阳：推行城乡居民基本养老保险“135”资格认证服务机制",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-养老保险",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-26",
+    "category": "pension",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认养老金变化",
+      "了解退休条件是否调整"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/sxfc/202605/t20260526_3641584.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "pension"
+    ],
+    "source": "陕西省人社厅-养老保险",
+    "scrapedAt": "2026-06-03T14:51:24.742Z",
+    "aiInterpretation": {
+      "summary": "养老资格认证更简单方便",
+      "impactOnYou": {
+        "office-worker": "不用请假去办认证，省心",
+        "parent": "帮家里老人认证更方便",
+        "student": "跟你关系不大",
+        "elderly": "在家就能办认证，不用跑腿",
+        "freelancer": "自己抽空手机认证就行"
+      },
+      "whatToDo": {
+        "office-worker": "提醒父母用新方式认证",
+        "parent": "帮老人手机操作认证",
+        "student": "不用管",
+        "elderly": "等通知或让子女帮忙",
+        "freelancer": "留意手机认证通知"
+      },
+      "moneyImpact": "养老金按时发放，不会断档",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T14:59:42.527Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498303008-0",
+    "title": "李强签署国务院令 公布《国务院关于对外投资的规定》",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202606/content_7070766.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-06-03T14:51:43.008Z",
+    "aiInterpretation": {
+      "summary": "规范企业对外投资行为",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你公司要海外投资",
+        "parent": "跟你关系不大，主要影响企业",
+        "student": "跟你关系不大，除非学国际贸易",
+        "elderly": "跟你关系不大，不涉及养老金",
+        "freelancer": "跟你关系不大，除非你接海外项目"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司海外业务变化",
+        "parent": "不用特别做什么",
+        "student": "留意相关专业就业方向",
+        "elderly": "不用特别做什么",
+        "freelancer": "有海外客户可咨询政策"
+      },
+      "moneyImpact": "对个人钱包基本无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:48.890Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498303008-1",
+    "title": "丁薛祥在云南调研",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202606/content_7071009.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-06-03T14:51:43.008Z",
+    "aiInterpretation": {
+      "summary": "国家领导在云南调研",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班即可",
+        "parent": "正常带娃即可",
+        "student": "正常学习即可",
+        "elderly": "正常生活即可",
+        "freelancer": "正常接单即可"
+      },
+      "moneyImpact": "对钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:51.775Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498303008-2",
+    "title": "刘国中在河北调研",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202606/content_7070919.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-06-03T14:51:43.008Z",
+    "aiInterpretation": {
+      "summary": "刘国中赴河北调研民生",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要关注基层民生",
+        "parent": "可能推动育儿补贴或托育政策",
+        "student": "跟你关系不大，调研侧重基层医疗",
+        "elderly": "可能改善农村老人看病报销",
+        "freelancer": "跟你关系不大，主要针对河北本地"
+      },
+      "whatToDo": {
+        "office-worker": "关注后续政策落地",
+        "parent": "留意当地育儿福利变化",
+        "student": "正常学习即可",
+        "elderly": "关注医保报销新动态",
+        "freelancer": "保持观望"
+      },
+      "moneyImpact": "暂无直接钱包影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:54.865Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498303008-3",
+    "title": "谌贻琴出席“六一”主题活动",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202606/content_7070816.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-06-03T14:51:43.008Z",
+    "aiInterpretation": {
+      "summary": "领导出席儿童节活动",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "可能推动儿童福利政策",
+        "student": "体现国家对儿童重视",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "关注后续政策即可",
+        "parent": "留意儿童相关补贴",
+        "student": "安心学习，享受节日",
+        "elderly": "无需特别行动",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "暂无直接经济影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T14:59:57.397Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498303008-4",
+    "title": "国务院印发《加快农业农村现代化“十五五”规划》",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202606/content_7070904.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-06-03T14:51:43.008Z",
+    "aiInterpretation": {
+      "summary": "推动农村现代化发展",
+      "impactOnYou": {
+        "office-worker": "城里上班的，跟你关系不大",
+        "parent": "农村家长，孩子上学条件可能变好",
+        "student": "农村学生，以后上学更方便",
+        "elderly": "农村老人，养老金和医疗可能提高",
+        "freelancer": "做农村电商的，机会变多"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "留意当地学校新政策",
+        "student": "多学点农业科技知识",
+        "elderly": "关注村里养老补贴变化",
+        "freelancer": "研究农村电商扶持政策"
+      },
+      "moneyImpact": "农村居民收入可能增加",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:00:00.577Z"
+    }
+  },
+  {
+    "id": "gov-gov-policy-1780498303008-5",
+    "title": "“国聘行动”开展 全力促进重点群体尽早就业",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/lianbo/202606/content_7070883.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-06-03T14:51:43.008Z",
+    "aiInterpretation": {
+      "summary": "帮重点人群找工作",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子找工作有更多机会",
+        "student": "应届生岗位可能增多",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司招聘动态",
+        "parent": "提醒孩子多投简历",
+        "student": "多参加国聘招聘会",
+        "elderly": "帮孙辈留意信息",
+        "freelancer": "有稳定工作可考虑"
+      },
+      "moneyImpact": "应届生收入可能增加",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:00:03.853Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-3",
+    "title": "研发费用加计扣除项目鉴定案例",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/zcfgk/c100015/c5248633/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "明确研发费用加计扣除的鉴定标准",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你在科技公司搞研发",
+        "parent": "跟你关系不大，除非你开公司搞研发",
+        "student": "跟你关系不大，除非你学理工科将来搞研发",
+        "elderly": "跟你关系不大，退休了不涉及这个",
+        "freelancer": "跟你关系不大，除非你接研发项目"
+      },
+      "whatToDo": {
+        "office-worker": "关注公司研发项目是否合规",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "有研发收入可咨询税务"
+      },
+      "moneyImpact": "对多数人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:00:07.585Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-4",
+    "title": "企业所得税申报目录\n                        企业所得税申报目录",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/c102276/c5181990/5181990/files/e6a0323aaef848c996da13198d4a07de.pdf",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "规范企业报税流程",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "报税表格可能变了"
+      },
+      "whatToDo": {
+        "office-worker": "不用管",
+        "parent": "不用管",
+        "student": "不用管",
+        "elderly": "不用管",
+        "freelancer": "查新目录再报税"
+      },
+      "moneyImpact": "对你钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:00:10.530Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-5",
+    "title": "减免税政策代码目录\n                        减免税政策代码目录",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "确认自己是否符合减免/优惠条件",
+      "向单位财务或税务部门咨询申请"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax//n810346/c102373/c5187074/5187074/files/069b9cf7a76a4f0f9c0ed929571b6895.xlsx",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "汇总减免税政策代码",
+      "impactOnYou": {
+        "office-worker": "查代码能帮你确认能省多少税",
+        "parent": "教育、育儿相关减免可能用得上",
+        "student": "跟你关系不大",
+        "elderly": "养老、医疗减免可能适用",
+        "freelancer": "自己报税时能找对减免项"
+      },
+      "whatToDo": {
+        "office-worker": "报税前查一下代码",
+        "parent": "看有没有育儿减免代码",
+        "student": "不用管",
+        "elderly": "问子女或社区帮查",
+        "freelancer": "报税时对照代码填"
+      },
+      "moneyImpact": "可能多省几百到几千元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:00:14.112Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-6",
+    "title": "小规模纳税人提供旅游服务，计算增值税应纳税额时，可以按规定从含税销售额中扣除支付给其他单位的住宿费、...",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810356/n3255681/c5249007/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "旅游小规模纳税人可扣住宿费",
+      "impactOnYou": {
+        "office-worker": "报团旅游可能更便宜",
+        "parent": "带孩子旅游团费或降",
+        "student": "跟你关系不大",
+        "elderly": "跟团游可能省钱",
+        "freelancer": "接旅游业务税负减轻"
+      },
+      "whatToDo": {
+        "office-worker": "选团时问是否含税优惠",
+        "parent": "关注旅行社降价活动",
+        "student": "不用特别做什么",
+        "elderly": "选正规旅行社比价",
+        "freelancer": "核算成本可适当降价"
+      },
+      "moneyImpact": "旅游团费可能降几十元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:00:17.269Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-7",
+    "title": "我们公司2024年购买了安全生产专用设备，已享受企业所得税的抵免政策，近期打算把这设备转让出去。请问之前...",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810356/n3255681/c5247627/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "卖抵税设备要补缴税款",
+      "impactOnYou": {
+        "office-worker": "公司卖设备可能多缴税",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "提醒财务确认税务",
+        "parent": "不用管",
+        "student": "不用管",
+        "elderly": "不用管",
+        "freelancer": "不用管"
+      },
+      "moneyImpact": "公司可能补缴几万到几十万",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:00:20.368Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-8",
+    "title": "我们的一个供应商最近注销了，没办法补开发票，我们手里只有付款记录和采购协议，相应的支出还能税前扣除吗...",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810356/n3255681/c5246568/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "供应商注销后无发票可税前扣除",
+      "impactOnYou": {
+        "office-worker": "公司报销可能被卡，影响你报税",
+        "parent": "家里开店或做小生意可能多交税",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "自己接活没发票可能多交钱"
+      },
+      "whatToDo": {
+        "office-worker": "提醒财务保留付款记录",
+        "parent": "保存好合同和转账截图",
+        "student": "不用管",
+        "elderly": "不用管",
+        "freelancer": "尽量要发票或留足证据"
+      },
+      "moneyImpact": "可能多交25%所得税",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T15:00:24.092Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498308569-9",
+    "title": "合规小贴士｜非研发人员从事研发活动，加计扣除要合规",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-所得税",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/zcfgk/c100016/c5250115/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-所得税",
+    "scrapedAt": "2026-06-03T14:51:48.569Z",
+    "aiInterpretation": {
+      "summary": "非研发人员搞研发不能乱加计扣除",
+      "impactOnYou": {
+        "office-worker": "公司乱报研发费可能影响你的奖金",
+        "parent": "跟你关系不大，除非你开公司",
+        "student": "跟你关系不大，但学财务要注意",
+        "elderly": "跟你关系不大，不涉及退休金",
+        "freelancer": "自由职业接研发项目要合规报税"
+      },
+      "whatToDo": {
+        "office-worker": "提醒公司财务别违规操作",
+        "parent": "不用特别做什么",
+        "student": "学税法时记住这个案例",
+        "elderly": "不用特别做什么",
+        "freelancer": "确保研发人员身份真实"
+      },
+      "moneyImpact": "违规企业可能补税罚款",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:00:27.473Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498309994-12",
+    "title": "财政部、中国证监会有关部门负责人就两家内地会计师事务所获准从事H股企...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-08",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://kjs.mof.gov.cn/zhengcejiedu/202605/t20260506_3989014.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-06-03T14:51:49.994Z",
+    "aiInterpretation": {
+      "summary": "内地会计所获准审H股企业",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "会计专业就业机会可能增多",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "无需特别行动",
+        "parent": "无需特别行动",
+        "student": "关注会计所招聘动态",
+        "elderly": "无需特别行动",
+        "freelancer": "无需特别行动"
+      },
+      "moneyImpact": "对个人钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:00:43.095Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498309994-18",
+    "title": "国新办举行优化完善部分阶段性税费...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/49553/49741/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-06-03T14:51:49.994Z",
+    "aiInterpretation": {
+      "summary": "部分税费阶段性减免优化",
+      "impactOnYou": {
+        "office-worker": "个税可能少扣点，到手工资多点",
+        "parent": "养娃相关费用可能抵扣更多",
+        "student": "跟你关系不大",
+        "elderly": "看病买药可能少花点钱",
+        "freelancer": "自己交税可能少一些"
+      },
+      "whatToDo": {
+        "office-worker": "关注个税APP更新",
+        "parent": "留意专项附加扣除变化",
+        "student": "不用特别做什么",
+        "elderly": "问问社区或子女政策",
+        "freelancer": "查查自己能否享受减免"
+      },
+      "moneyImpact": "每月到手可能多几十到几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T15:01:03.177Z"
+    }
+  },
+  {
+    "id": "gov-tax-1780498309994-19",
+    "title": "国务院政策例行吹风会：介绍稳经济...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/2022n_16602/49054/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-06-03T14:51:49.994Z",
+    "aiInterpretation": {
+      "summary": "国家推稳经济税收优惠",
+      "impactOnYou": {
+        "office-worker": "个税可能少交，到手钱变多",
+        "parent": "育儿支出或能抵税，减轻负担",
+        "student": "跟你关系不大，但就业机会或增加",
+        "elderly": "养老金或更稳，看病报销可能提高",
+        "freelancer": "小规模纳税人税负或降低"
+      },
+      "whatToDo": {
+        "office-worker": "留意个税专项扣除变化",
+        "parent": "关注育儿抵税新政策",
+        "student": "多留意就业市场动态",
+        "elderly": "关注养老金和医保调整",
+        "freelancer": "查自己能否享受减税"
+      },
+      "moneyImpact": "每月到手可能多几百元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-03T15:01:06.608Z"
+    }
+  },
+  {
+    "id": "gov-social-insurance-1780498328333-1",
+    "title": "2026年春风行动暨就业援助季现场推进活动在汉中举办",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-就业创业",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认权益变化",
+      "如有疑问拨打12333社保热线"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/jdtp/202602/t20260228_3615890.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance"
+    ],
+    "source": "陕西省人社厅-就业创业",
+    "scrapedAt": "2026-06-03T14:52:08.333Z",
+    "aiInterpretation": {
+      "summary": "汉中办就业招聘活动",
+      "impactOnYou": {
+        "office-worker": "可能找到更好工作机会",
+        "parent": "有岗位适合灵活就业",
+        "student": "应届生可现场求职",
+        "elderly": "跟你关系不大",
+        "freelancer": "有零工岗位对接"
+      },
+      "whatToDo": {
+        "office-worker": "留意招聘会时间地点",
+        "parent": "带简历去现场看看",
+        "student": "提前准备简历参会",
+        "elderly": "不用特别关注",
+        "freelancer": "关注灵活就业专区"
+      },
+      "moneyImpact": "找到工作后收入增加",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:09.712Z"
+    }
+  },
+  {
+    "id": "gov-social-insurance-1780498328333-2",
+    "title": "陕西省2026年春风行动暨就业援助季活动在安康启动",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-就业创业",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认权益变化",
+      "如有疑问拨打12333社保热线"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/jdtp/202509/t20250912_3566588.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance"
+    ],
+    "source": "陕西省人社厅-就业创业",
+    "scrapedAt": "2026-06-03T14:52:08.333Z",
+    "aiInterpretation": {
+      "summary": "陕西启动就业援助季活动",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但可能招人更多",
+        "parent": "可能有育儿岗或灵活工时岗",
+        "student": "应届生找工作机会增多",
+        "elderly": "跟你关系不大，但子女就业机会多",
+        "freelancer": "可能有灵活就业补贴或培训"
+      },
+      "whatToDo": {
+        "office-worker": "留意内部转岗机会",
+        "parent": "关注社区招聘会",
+        "student": "多投简历参加活动",
+        "elderly": "转告子女留意",
+        "freelancer": "咨询就业服务中心"
+      },
+      "moneyImpact": "就业补贴或培训券可能省几百元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:13.181Z"
+    }
+  },
+  {
+    "id": "gov-social-insurance-1780498328333-4",
+    "title": "陕西新政着力破解结构性就业矛盾",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-就业创业",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-20",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认权益变化",
+      "如有疑问拨打12333社保热线"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/bsyw/202605/t20260520_3639755.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance"
+    ],
+    "source": "陕西省人社厅-就业创业",
+    "scrapedAt": "2026-06-03T14:52:08.333Z",
+    "aiInterpretation": {
+      "summary": "帮更多人找到合适工作",
+      "impactOnYou": {
+        "office-worker": "可能换工作更容易，技能培训机会多",
+        "parent": "找工作或转行有更多培训支持",
+        "student": "毕业找工作路子更宽，有补贴培训",
+        "elderly": "跟你关系不大",
+        "freelancer": "接活更稳，有政策兜底"
+      },
+      "whatToDo": {
+        "office-worker": "关注本地技能培训通知",
+        "parent": "留意社区免费培训课程",
+        "student": "多参加校企对接招聘会",
+        "elderly": "不用特别做什么",
+        "freelancer": "查查灵活就业社保补贴"
+      },
+      "moneyImpact": "培训补贴可能省几百元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:16.735Z"
+    }
+  },
+  {
+    "id": "gov-social-insurance-1780498328333-6",
+    "title": "安康：家门口的打工人——安康市着力解决返乡务工人员就业",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-就业创业",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-28",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认权益变化",
+      "如有疑问拨打12333社保热线"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/sxfc/202605/t20260528_3642222.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance"
+    ],
+    "source": "陕西省人社厅-就业创业",
+    "scrapedAt": "2026-06-03T14:52:08.333Z",
+    "aiInterpretation": {
+      "summary": "帮返乡人员在家门口找工作",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，但同事可能变多",
+        "parent": "有机会在家附近上班，方便带娃",
+        "student": "毕业回老家找工作更容易了",
+        "elderly": "子女可能回本地工作，能常回家",
+        "freelancer": "多了本地就业选择，竞争可能变大"
+      },
+      "whatToDo": {
+        "office-worker": "留意本地招聘信息",
+        "parent": "关注社区就业服务站",
+        "student": "提前了解本地岗位需求",
+        "elderly": "提醒子女关注政策",
+        "freelancer": "评估是否转全职工作"
+      },
+      "moneyImpact": "返乡人员月收入可能增加500-1000元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:20.257Z"
+    }
+  },
+  {
+    "id": "gov-social-insurance-1780498328333-7",
+    "title": "汉中城固：搭建政企桥梁激活青年就业新动能",
+    "carrier": "policy",
+    "carrierName": "陕西省人社厅-就业创业",
+    "discountAmount": 0,
+    "expirationDate": "2026-05-27",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查社保APP确认权益变化",
+      "如有疑问拨打12333社保热线"
+    ],
+    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/sxfc/202605/t20260527_3641938.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance"
+    ],
+    "source": "陕西省人社厅-就业创业",
+    "scrapedAt": "2026-06-03T14:52:08.333Z",
+    "aiInterpretation": {
+      "summary": "帮青年找工作，政企搭桥",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要针对刚毕业的",
+        "parent": "孩子找工作可能有新路子",
+        "student": "多了实习和就业机会",
+        "elderly": "跟你关系不大，主要帮年轻人",
+        "freelancer": "可能提供灵活岗位或培训"
+      },
+      "whatToDo": {
+        "office-worker": "留意公司招新政策",
+        "parent": "关注本地就业活动",
+        "student": "多参加政企对接会",
+        "elderly": "不用特别做什么",
+        "freelancer": "看看有没有合作机会"
+      },
+      "moneyImpact": "青年就业补贴可能增加几百元",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:23.695Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-4",
@@ -491,7 +5831,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "税务系统学习教育提升服务质量",
+      "impactOnYou": {
+        "office-worker": "办税可能更顺畅，少跑腿",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "税务服务更规范，报税更省心"
+      },
+      "whatToDo": {
+        "office-worker": "留意办税流程优化",
+        "parent": "不用特别做什么",
+        "student": "不用特别做什么",
+        "elderly": "不用特别做什么",
+        "freelancer": "关注税务新规变化"
+      },
+      "moneyImpact": "暂时不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:01:40.520Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-5",
@@ -517,85 +5877,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
-  },
-  {
-    "id": "gov-tax-1780477297037-6",
-    "title": "税务总局举办“求真务实担使命 实干善为当先锋”税务青年干部座谈会",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-通知公告",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-01",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-通知公告查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5249463/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
-  },
-  {
-    "id": "gov-tax-1780477297037-7",
-    "title": "税务总局首次发布丹麦、爱尔兰、阿联酋全球最低税国别实施指引",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-通知公告",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-01",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-通知公告查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5249314/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
-  },
-  {
-    "id": "gov-tax-1780477297037-8",
-    "title": "税务部门集中曝光8起私户收款偷税案件",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-通知公告",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-01",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "访问国家税务总局-通知公告查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810219/c102025/c5249875/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "八部门联手严打涉税犯罪",
+      "impactOnYou": {
+        "office-worker": "公司查税更严，工资个税别想瞒",
+        "parent": "跟你关系不大，但别帮人虚开发票",
+        "student": "跟你关系不大，兼职记得要发票",
+        "elderly": "跟你关系不大，养老金不受影响",
+        "freelancer": "接私活报税要小心，别被盯上"
+      },
+      "whatToDo": {
+        "office-worker": "核对个税专项扣除别漏填",
+        "parent": "别参与任何代开发票行为",
+        "student": "兼职收入如实申报",
+        "elderly": "不用特别做什么",
+        "freelancer": "规范记账，按时申报个税"
+      },
+      "moneyImpact": "偷税漏税风险大增，守法者不受影响",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:44.165Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-10",
@@ -621,7 +5923,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "税务总局领导会见青年税务代表",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "税务系统可能更重视青年培养",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税即可",
+        "parent": "正常报税即可",
+        "student": "关注税务实习机会",
+        "elderly": "正常领养老金就行",
+        "freelancer": "正常报税即可"
+      },
+      "moneyImpact": "对钱包暂无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:01:46.651Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-11",
@@ -647,7 +5969,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "税务总局领导会见先进代表",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，主要是表彰税务人员",
+        "parent": "跟你关系不大，不涉及育儿或教育",
+        "student": "跟你关系不大，不涉及学生政策",
+        "elderly": "跟你关系不大，不涉及养老或医保",
+        "freelancer": "跟你关系不大，不涉及自由职业者"
+      },
+      "whatToDo": {
+        "office-worker": "正常报税即可",
+        "parent": "无需特别行动",
+        "student": "无需特别行动",
+        "elderly": "无需特别行动",
+        "freelancer": "正常报税即可"
+      },
+      "moneyImpact": "对钱包无直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:01:49.466Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-12",
@@ -673,7 +6015,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "中俄税务局长会晤交流",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "跟你关系不大",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "正常上班即可",
+        "parent": "正常生活即可",
+        "student": "正常学习即可",
+        "elderly": "正常生活即可",
+        "freelancer": "正常接单即可"
+      },
+      "moneyImpact": "不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:01:52.154Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-13",
@@ -699,7 +6061,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "税务部门进商圈宣传依法纳税",
+      "impactOnYou": {
+        "office-worker": "提醒你开发票，别漏税",
+        "parent": "跟你关系不大，但购物记得要发票",
+        "student": "跟你关系不大，打工记得要税票",
+        "elderly": "跟你关系不大，购物索发票就行",
+        "freelancer": "提醒你报税要规范，别偷漏"
+      },
+      "whatToDo": {
+        "office-worker": "消费后主动索要发票",
+        "parent": "购物时记得要发票",
+        "student": "打工要签合同拿税票",
+        "elderly": "买东西记得要发票",
+        "freelancer": "规范记账按时报税"
+      },
+      "moneyImpact": "对钱包影响不大，主要是普法宣传",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:01:55.559Z"
+    }
   },
   {
     "id": "gov-tax-1780477297037-14",
@@ -725,85 +6107,27 @@
       "tax"
     ],
     "source": "国家税务总局-通知公告",
-    "scrapedAt": "2026-06-03T09:01:37.037Z"
-  },
-  {
-    "id": "gov-social-insurance-1780415149353-2",
-    "title": "陕西省各市、县（区）劳动保障监察投诉举报联系方式一览表",
-    "carrier": "policy",
-    "carrierName": "陕西省人社厅-首页",
-    "discountAmount": 0,
-    "expirationDate": "2024-11-27",
-    "category": "social-insurance",
-    "type": "policy",
-    "guide": [
-      "访问陕西省人社厅-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://rst.shaanxi.gov.cn/./sy/tzgg/202411/t20241127_3247603.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "social-insurance"
-    ],
-    "source": "陕西省人社厅-首页",
-    "scrapedAt": "2026-06-02T15:45:49.353Z"
-  },
-  {
-    "id": "gov-social-insurance-1780415149353-3",
-    "title": "关于调整失业保险待遇标准的通知",
-    "carrier": "policy",
-    "carrierName": "陕西省人社厅-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-01-26",
-    "category": "social-insurance",
-    "type": "policy",
-    "guide": [
-      "访问陕西省人社厅-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://rst.shaanxi.gov.cn/./zcfg/zcfgsjk/gfxwj/shbz/202601/t20260126_3607999.html",
-    "isHot": true,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "social-insurance"
-    ],
-    "source": "陕西省人社厅-首页",
-    "scrapedAt": "2026-06-02T15:45:49.353Z"
-  },
-  {
-    "id": "gov-social-insurance-1780415149353-4",
-    "title": "关于调整最低工资标准的通知",
-    "carrier": "policy",
-    "carrierName": "陕西省人社厅-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-01-15",
-    "category": "social-insurance",
-    "type": "policy",
-    "guide": [
-      "访问陕西省人社厅-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://rst.shaanxi.gov.cn/./zcfg/zcfgsjk/gfxwj/ldgx/202601/t20260115_3605276.html",
-    "isHot": true,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "social-insurance"
-    ],
-    "source": "陕西省人社厅-首页",
-    "scrapedAt": "2026-06-02T15:45:49.353Z"
+    "scrapedAt": "2026-06-03T09:01:37.037Z",
+    "aiInterpretation": {
+      "summary": "宣传合规纳税和智慧办税服务",
+      "impactOnYou": {
+        "office-worker": "个税申报更简单，别偷税漏税",
+        "parent": "孩子教育抵扣别忘填，省点钱",
+        "student": "跟你关系不大，但兼职要报税",
+        "elderly": "养老金不交税，办税有专人帮",
+        "freelancer": "自己报税要合规，别踩红线"
+      },
+      "whatToDo": {
+        "office-worker": "用APP查专项扣除",
+        "parent": "填好子女教育信息",
+        "student": "兼职收入记得申报",
+        "elderly": "不懂就问税务人员",
+        "freelancer": "按时申报别漏税"
+      },
+      "moneyImpact": "合规能避免罚款，省下冤枉钱",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:01:58.887Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-0",
@@ -829,33 +6153,27 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-1",
-    "title": "中国与中亚住房城乡建设交流合作迈上新台阶　2025中国—中亚建设部长会议在京召开",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-08-31",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2025/art_7ac4bf3302704ec6a84ca1747f79a5c7.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "住建部开会定住房大方向",
+      "impactOnYou": {
+        "office-worker": "租房买房政策可能有变",
+        "parent": "学区房和小区配套可能调整",
+        "student": "毕业租房或买房政策更稳",
+        "elderly": "老旧小区改造可能提速",
+        "freelancer": "租房市场更规范，租金或稳"
+      },
+      "whatToDo": {
+        "office-worker": "关注本地住房新规",
+        "parent": "留意学区政策变化",
+        "student": "了解保障性住房申请",
+        "elderly": "咨询旧楼加装电梯进展",
+        "freelancer": "查租房补贴或保障房"
+      },
+      "moneyImpact": "买房租房成本可能微调",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:02:02.427Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-2",
@@ -881,33 +6199,27 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-3",
-    "title": "国务院政策例行吹风会：切实做好保交房工作配套政策有关情况",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-08-31",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2024/art_303_778076.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "总结十四五住房建设成就",
+      "impactOnYou": {
+        "office-worker": "租房买房可能更规范",
+        "parent": "小区配套幼儿园可能增多",
+        "student": "学校周边住房条件改善",
+        "elderly": "老旧小区加装电梯更方便",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "关注保障房申请政策",
+        "parent": "留意小区配套建设进展",
+        "student": "了解学校周边住房变化",
+        "elderly": "咨询社区改造计划",
+        "freelancer": "不用特别行动"
+      },
+      "moneyImpact": "租房成本可能降低",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:02:05.302Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-5",
@@ -933,7 +6245,27 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "住建部举办住房政策讲座",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，是内部培训",
+        "parent": "跟你关系不大，是内部培训",
+        "student": "跟你关系不大，是内部培训",
+        "elderly": "跟你关系不大，是内部培训",
+        "freelancer": "跟你关系不大，是内部培训"
+      },
+      "whatToDo": {
+        "office-worker": "不用管，正常上班",
+        "parent": "不用管，正常带娃",
+        "student": "不用管，正常学习",
+        "elderly": "不用管，正常生活",
+        "freelancer": "不用管，正常接单"
+      },
+      "moneyImpact": "对钱包没直接影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:02:08.418Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-6",
@@ -959,85 +6291,27 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-7",
-    "title": "住房城乡建设部召开全系统安全生产调度视频会议",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-05-01",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_68d63064d96645b3b3b3b863daf03703.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-8",
-    "title": "树立和践行正确政绩观学习教育中央第五指导组进驻住房和城乡建设部见面会召开",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-04-03",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/xinwen/jsyw/art/2026/art_54a8a5b196ca4db095dc05bdc402160d.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-9",
-    "title": "住房城乡建设部办公厅关于开展2025年度工程造价咨询统计调查的通知",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-06-01",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2026/art_92de6b27b0ae4f219403a6bdb6802f68.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "2026年城市体检工作部署",
+      "impactOnYou": {
+        "office-worker": "小区环境可能变好，通勤路更顺",
+        "parent": "孩子上学周边安全设施会检查",
+        "student": "学校附近交通和设施可能改善",
+        "elderly": "小区适老化改造可能提上日程",
+        "freelancer": "租房区域公共设施或更完善"
+      },
+      "whatToDo": {
+        "office-worker": "留意社区通知，参与问卷",
+        "parent": "关注幼儿园周边改造计划",
+        "student": "出行注意临时施工安全",
+        "elderly": "向社区反映适老化需求",
+        "freelancer": "租房前查区域体检报告"
+      },
+      "moneyImpact": "维修基金或物业费可能微调",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-03T15:02:11.813Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-10",
@@ -1063,7 +6337,27 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "住建技能大赛规则发布",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你搞建筑",
+        "parent": "孩子学建筑可能有比赛机会",
+        "student": "学建筑可参赛拿奖找工作",
+        "elderly": "跟你关系不大，除非孙辈学这行",
+        "freelancer": "搞装修设计可参赛镀金"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别关注",
+        "parent": "留意孩子专业方向",
+        "student": "关注报名和培训信息",
+        "elderly": "不用特别关注",
+        "freelancer": "查规则看能否参赛"
+      },
+      "moneyImpact": "参赛获奖可能涨薪或接单",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:02:14.990Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-11",
@@ -1089,33 +6383,27 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-12",
-    "title": "住房城乡建设部办公厅关于印发城市公共供水管网漏损治理可复制政策机制清单（第三批）的通知",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-05-19",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2026/art_79406644ace241049d82f6dbf813e8b1.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "住建部直属单位招聘公示",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大，除非你报名了",
+        "parent": "跟你关系不大，除非孩子想考",
+        "student": "应届生可关注，多一个铁饭碗",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "不用特别做什么",
+        "parent": "不用特别做什么",
+        "student": "留意后续招聘公告",
+        "elderly": "不用特别做什么",
+        "freelancer": "不用特别做什么"
+      },
+      "moneyImpact": "不影响你的钱包",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:02:17.887Z"
+    }
   },
   {
     "id": "gov-housing-1780415149518-13",
@@ -1141,32 +6429,26 @@
       "housing"
     ],
     "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
-  },
-  {
-    "id": "gov-housing-1780415149518-14",
-    "title": "住房城乡建设部办公厅等关于深入推进建设项目联合验收“一件事”的实施意见",
-    "carrier": "policy",
-    "carrierName": "住建部-首页",
-    "discountAmount": 0,
-    "expirationDate": "2026-05-11",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "访问住建部-首页查看详情",
-      "阅读政策原文",
-      "对照自身情况判断是否适用",
-      "按政策要求准备申请材料",
-      "向当地相关部门咨询办理"
-    ],
-    "claimUrl": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2026/art_ce0048a6cecb440ab6f29d6bbb4667b1.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "住建部-首页",
-    "scrapedAt": "2026-06-02T15:45:49.518Z"
+    "scrapedAt": "2026-06-02T15:45:49.518Z",
+    "aiInterpretation": {
+      "summary": "住建部办科技周和科技工作者日",
+      "impactOnYou": {
+        "office-worker": "可能看到新技术展示，跟你关系不大",
+        "parent": "带孩子参观科技展，涨知识",
+        "student": "有机会参加科技活动，开眼界",
+        "elderly": "跟你关系不大，除非有社区活动",
+        "freelancer": "可能参与技术交流，拓展人脉"
+      },
+      "whatToDo": {
+        "office-worker": "关注本地活动通知",
+        "parent": "留意社区科技展信息",
+        "student": "报名参加科技周活动",
+        "elderly": "不用特别做什么",
+        "freelancer": "查看是否有技术沙龙"
+      },
+      "moneyImpact": "对钱包基本没影响",
+      "urgency": "low",
+      "interpretedAt": "2026-06-03T15:02:21.015Z"
+    }
   }
 ]

@@ -37,7 +37,7 @@ export default function SavingsRank() {
     const base = Math.max(1, 50000 - userScore * 5)
     const noise = ((userScore * 7 + 13) % 100)
     const rank = Math.max(1, Math.floor(base + noise))
-    const totalUsers = 328000 + Math.floor(((userScore * 3 + 7) % 500))
+    const totalUsers = 80000 + Math.floor(((userScore * 3 + 7) % 500))
     return { rank, totalUsers }
   }, [userScore])
 

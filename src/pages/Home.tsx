@@ -34,7 +34,7 @@ export default function Home() {
   const { selectedPersona, setSelectedCoupon, setShowDetail } = useAppStore()
   const { policies, loading: policiesLoading, error: policiesError, lastUpdate: policyUpdate, refetch: refetchPolicies } = useLivePolicies()
   const { status: scrapeStatus } = useScrapeStatus()
-  const { getTodayViewedCount, FREE_DAILY_LIMIT, shareCount } = useAccessControl()
+  const { getTodayViewedCount, getTotalLimit, shareCount } = useAccessControl()
 
   const persona = getPersona(selectedPersona)
   const myPolicies = sortPoliciesByRelevance(
@@ -113,17 +113,17 @@ export default function Home() {
 
       <div className="px-4 mt-2">
         <div className={`rounded-2xl p-3 flex items-center gap-2 border ${
-          getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3
+          !getTotalLimit() || (getTodayViewedCount() >= getTotalLimit() && shareCount < 3)
             ? 'bg-[#FFF5F0] border-[#FF6B35]/20'
             : 'bg-white/80 border-[#00D68F]/20'
         }`}>
-          <Eye size={14} className={getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3 ? 'text-[#FF6B35]' : 'text-[#00D68F]'} />
+          <Eye size={14} className={!getTotalLimit() || (getTodayViewedCount() >= getTotalLimit() && shareCount < 3) ? 'text-[#FF6B35]' : 'text-[#00D68F]'} />
           <span className={`text-xs font-bold ${
-            getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3 ? 'text-[#FF6B35]' : 'text-gray-600'
+            !getTotalLimit() || (getTodayViewedCount() >= getTotalLimit() && shareCount < 3) ? 'text-[#FF6B35]' : 'text-gray-600'
           }`}>
-            今日已看 {getTodayViewedCount()}/{FREE_DAILY_LIMIT} 条完整解读
+            今日已看 {getTodayViewedCount()}/{shareCount >= 3 ? '∞' : getTotalLimit()} 条完整解读
           </span>
-          {getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3 && (
+          {getTodayViewedCount() >= getTotalLimit() && shareCount < 3 && (
             <span className="ml-auto text-[10px] text-[#FF6B35] font-bold flex items-center gap-0.5">
               <Share2 size={10} />
               分享解锁更多

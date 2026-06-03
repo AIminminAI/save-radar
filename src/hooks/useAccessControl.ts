@@ -1,6 +1,7 @@
 import { useAppStore } from '@/store/useAppStore'
 
 const FREE_DAILY_LIMIT = 3
+const SHARE_UNLOCK_PER_SHARE = 5 // 每次分享解锁5条
 
 export function useAccessControl() {
   const { favorites, shareCount } = useAppStore()
@@ -10,10 +11,11 @@ export function useAccessControl() {
     if (favorites.includes(policyId)) return true
     // 分享3次以上可以看全部
     if (shareCount >= 3) return true
-    // 否则受每日限额限制
+    // 否则受每日限额限制（免费3条 + 分享解锁）
     const todayKey = `viewed_${new Date().toISOString().split('T')[0]}`
     const viewedToday: string[] = JSON.parse(localStorage.getItem(todayKey) || '[]')
-    if (viewedToday.length < FREE_DAILY_LIMIT) {
+    const totalLimit = FREE_DAILY_LIMIT + shareCount * SHARE_UNLOCK_PER_SHARE
+    if (viewedToday.length < totalLimit) {
       if (!viewedToday.includes(policyId)) {
         viewedToday.push(policyId)
         localStorage.setItem(todayKey, JSON.stringify(viewedToday))
@@ -27,8 +29,9 @@ export function useAccessControl() {
     if (shareCount >= 3) return { canView: true, reason: '', action: '' }
     const todayKey = `viewed_${new Date().toISOString().split('T')[0]}`
     const viewedToday: string[] = JSON.parse(localStorage.getItem(todayKey) || '[]')
-    if (viewedToday.length < FREE_DAILY_LIMIT) return { canView: true, reason: '', action: '' }
-    if (shareCount > 0) return { canView: false, reason: '今日免费额度已用完', action: `再分享${3 - shareCount}次解锁全部` }
+    const totalLimit = FREE_DAILY_LIMIT + shareCount * SHARE_UNLOCK_PER_SHARE
+    if (viewedToday.length < totalLimit) return { canView: true, reason: '', action: '' }
+    if (shareCount > 0) return { canView: false, reason: '今日额度已用完', action: `再分享${3 - shareCount}次解锁全部` }
     return { canView: false, reason: '今日免费额度已用完', action: '分享1次解锁5条' }
   }
 
@@ -38,5 +41,10 @@ export function useAccessControl() {
     return viewedToday.length
   }
 
-  return { canViewFullInterpretation, getAccessStatus, getTodayViewedCount, shareCount, FREE_DAILY_LIMIT }
+  const getTotalLimit = (): number => {
+    if (shareCount >= 3) return Infinity
+    return FREE_DAILY_LIMIT + shareCount * SHARE_UNLOCK_PER_SHARE
+  }
+
+  return { canViewFullInterpretation, getAccessStatus, getTodayViewedCount, getTotalLimit, shareCount, FREE_DAILY_LIMIT, SHARE_UNLOCK_PER_SHARE }
 }

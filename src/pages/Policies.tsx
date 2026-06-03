@@ -348,13 +348,13 @@ export default function Policies() {
         {loading && policies.length === 0 ? (
           <div className="text-center py-16">
             <RefreshCw size={32} className="text-gray-300 mx-auto mb-3 animate-spin" />
-            <p className="text-gray-400 text-sm">正在从政府网站获取实时政策...</p>
+            <p className="text-gray-400 text-sm">正在从政府网站获取最新政策...</p>
             <p className="text-gray-300 text-xs mt-1">数据来源于gov.cn、医保局、税务总局等官方源</p>
           </div>
         ) : displayPolicies.length === 0 ? (
           <div className="text-center py-16">
             <p className="text-gray-400 text-sm">
-              {searchQuery ? '暂无匹配的政策信息' : usePersonaFilter ? '暂无与你相关的政策' : '暂无实时政策数据'}
+              {searchQuery ? '暂无匹配的政策信息' : usePersonaFilter ? '暂无与你相关的政策' : '暂无政策数据'}
             </p>
             <p className="text-gray-300 text-xs mt-1">
               {searchQuery ? '试试其他关键词' : usePersonaFilter ? '试试切换画像或点击"全部"查看' : '请等待后端抓取任务执行'}
@@ -439,7 +439,7 @@ function PolicyCard({
             {interp.urgency === 'high' ? (
               <div className="flex items-center gap-1">
                 <TrendingUp size={14} className="text-[#FF6B35]" />
-                <span className="text-[11px] font-black text-[#FF6B35]">影响你</span>
+                <span className="text-[11px] font-black text-[#FF6B35]">可能影响你</span>
               </div>
             ) : (
               <div className="flex items-center gap-1">

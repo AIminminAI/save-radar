@@ -29,7 +29,7 @@ export default function Profile() {
           <div>
             <h2 className="text-white text-lg font-bold">{persona.name}</h2>
             <p className="text-gray-400 text-xs">{persona.description}</p>
-            <p className="text-[#00D68F] text-xl font-black">¥{totalSaved.toFixed(0)} 已省</p>
+            <p className="text-[#00D68F] text-xl font-black">{favorites.length} 收藏</p>
           </div>
         </div>
 
@@ -41,13 +41,13 @@ export default function Profile() {
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center">
             <TrendingDown size={18} className="text-[#00D68F] mx-auto mb-1" />
-            <p className="text-white text-lg font-black">{totalSaved.toFixed(0)}</p>
-            <p className="text-gray-400 text-[10px]">省钱</p>
+            <p className="text-white text-lg font-black">{favorites.length}</p>
+            <p className="text-gray-400 text-[10px]">收藏</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center">
             <Shield size={18} className="text-blue-400 mx-auto mb-1" />
             <p className="text-white text-lg font-black">{totalItems}</p>
-            <p className="text-gray-400 text-[10px]">实时数据</p>
+            <p className="text-gray-400 text-[10px]">政策数据</p>
           </div>
         </div>
       </div>
@@ -155,10 +155,10 @@ export default function Profile() {
             </div>
 
             {[
-              { feature: '数据实时性', us: '分钟级抓取', usOk: true, ai: '训练数据截止', aiOk: false },
+              { feature: '数据更新', us: '定期抓取', usOk: true, ai: '训练数据截止', aiOk: false },
               { feature: '个性化推荐', us: '按身份筛选', usOk: true, ai: '通用回答', aiOk: false },
               { feature: '政策来源', us: 'gov.cn官方', usOk: true, ai: '可能编造', aiOk: false },
-              { feature: '通俗解读', us: '白话告诉你', usOk: true, ai: '长篇大论', aiOk: false },
+              { feature: '通俗解读', us: 'AI白话解读', usOk: true, ai: '长篇大论', aiOk: false },
               { feature: '原文可验证', us: '直达原文', usOk: true, ai: '无法提供', aiOk: false },
               { feature: '行动指引', us: '告诉你做啥', usOk: true, ai: '泛泛而谈', aiOk: false },
             ].map((row, i) => (
