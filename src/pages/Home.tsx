@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { ChevronRight, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles, Eye, Share2 } from 'lucide-react'
+import { ChevronRight, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles, Eye, Share2, PlayCircle } from 'lucide-react'
 import RadarAnimation from '@/components/RadarAnimation'
 import MoneyChallenge from '@/components/MoneyChallenge'
 import SavingsRank from '@/components/SavingsRank'
@@ -34,7 +34,7 @@ export default function Home() {
   const { selectedPersona, setSelectedCoupon, setShowDetail } = useAppStore()
   const { policies, loading: policiesLoading, error: policiesError, lastUpdate: policyUpdate, refetch: refetchPolicies } = useLivePolicies()
   const { status: scrapeStatus } = useScrapeStatus()
-  const { getTodayViewedCount, getTotalLimit, shareCount } = useAccessControl()
+  const { getTodayViewedCount, getTotalLimit, shareCount, unlockByAd } = useAccessControl()
 
   const persona = getPersona(selectedPersona)
   const myPolicies = sortPoliciesByRelevance(
@@ -124,9 +124,25 @@ export default function Home() {
             今日已看 {getTodayViewedCount()}/{shareCount >= 3 ? '∞' : getTotalLimit()} 条完整解读
           </span>
           {getTodayViewedCount() >= getTotalLimit() && shareCount < 3 && (
-            <span className="ml-auto text-[10px] text-[#FF6B35] font-bold flex items-center gap-0.5">
-              <Share2 size={10} />
-              分享解锁更多
+            <span className="ml-auto flex items-center gap-1.5">
+              <button
+                onClick={async () => {
+                  const success = await unlockByAd()
+                  if (success) {
+                    // 刷新页面状态
+                    useAppStore.getState().setSelectedPersona(selectedPersona)
+                  }
+                }}
+                className="text-[10px] text-[#FF6B35] font-bold flex items-center gap-0.5"
+              >
+                <PlayCircle size={10} />
+                看广告解锁
+              </button>
+              <span className="text-[10px] text-gray-300">|</span>
+              <span className="text-[10px] text-[#FF6B35] font-bold flex items-center gap-0.5">
+                <Share2 size={10} />
+                分享解锁更多
+              </span>
             </span>
           )}
           {shareCount >= 3 && (

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { X, ExternalLink, Clock, MapPin, ShoppingBag, Share2, Lock, Sparkles, Bot } from 'lucide-react'
+import { X, ExternalLink, Clock, MapPin, ShoppingBag, Share2, Lock, Sparkles, Bot, PlayCircle } from 'lucide-react'
 import { ScrapedCoupon, getCarrier } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 import { affiliateLinks } from '@/config/affiliate'
@@ -11,8 +11,9 @@ import SharePoster from '@/components/SharePoster'
 
 export default function CouponDetail() {
   const { selectedCoupon, showDetail, setShowDetail, selectedPersona } = useAppStore()
-  const { canViewFullInterpretation, getAccessStatus } = useAccessControl()
+  const { canViewFullInterpretation, getAccessStatus, unlockByAd, shareCount } = useAccessControl()
   const [showShareCard, setShowShareCard] = useState(false)
+  const [adLoading, setAdLoading] = useState(false)
 
   if (!showDetail || !selectedCoupon) return null
 
@@ -123,7 +124,39 @@ export default function CouponDetail() {
                   <div className="text-center py-3">
                     <Lock size={24} className="text-gray-300 mx-auto mb-2" />
                     <p className="text-sm font-bold text-gray-500 mb-1">{accessStatus.reason}</p>
-                    <p className="text-xs text-[#FF6B35] font-bold">{accessStatus.action}</p>
+                    <div className="flex flex-col gap-2 mt-3">
+                      <button
+                        onClick={async () => {
+                          if (adLoading) return
+                          setAdLoading(true)
+                          const success = await unlockByAd()
+                          setAdLoading(false)
+                          if (success) {
+                            // 广告成功后自动刷新显示解锁内容
+                            setShowDetail(false)
+                            setTimeout(() => setShowDetail(true), 50)
+                          }
+                        }}
+                        disabled={adLoading}
+                        className="w-full flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white text-sm font-bold active:scale-95 transition-transform disabled:opacity-60"
+                      >
+                        <PlayCircle size={16} />
+                        {adLoading ? '加载中...' : '看广告解锁 · 30秒'}
+                      </button>
+                      <button
+                        onClick={() => setShowShareCard(!showShareCard)}
+                        className="w-full flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-white border border-[#FF6B35]/30 text-[#FF6B35] text-sm font-bold active:scale-95 transition-transform"
+                      >
+                        <Share2 size={14} />
+                        分享解锁
+                      </button>
+                      <button
+                        onClick={() => setShowDetail(false)}
+                        className="text-gray-400 text-xs py-1"
+                      >
+                        明天再来
+                      </button>
+                    </div>
                   </div>
                 )}
 
@@ -247,13 +280,42 @@ export default function CouponDetail() {
 
           {isPolicy && (
             <div className="mb-4">
-              <button
-                onClick={() => setShowShareCard(!showShareCard)}
-                className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm transition-all active:scale-95"
-              >
-                <Share2 size={16} />
-                分享给朋友，解锁完整解读
-              </button>
+              {!canView ? (
+                <div className="space-y-2">
+                  <button
+                    onClick={async () => {
+                      if (adLoading) return
+                      setAdLoading(true)
+                      const success = await unlockByAd()
+                      setAdLoading(false)
+                      if (success) {
+                        setShowDetail(false)
+                        setTimeout(() => setShowDetail(true), 50)
+                      }
+                    }}
+                    disabled={adLoading}
+                    className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm transition-all active:scale-95 disabled:opacity-60"
+                  >
+                    <PlayCircle size={16} />
+                    {adLoading ? '加载中...' : '看广告解锁 · 30秒'}
+                  </button>
+                  <button
+                    onClick={() => setShowShareCard(!showShareCard)}
+                    className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-white border border-[#FF6B35]/30 text-[#FF6B35] font-bold text-sm transition-all active:scale-95"
+                  >
+                    <Share2 size={16} />
+                    分享给朋友，解锁完整解读
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => setShowShareCard(!showShareCard)}
+                  className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm transition-all active:scale-95"
+                >
+                  <Share2 size={16} />
+                  分享给朋友，解锁完整解读
+                </button>
+              )}
 
               {showShareCard && (
                 <div className="mt-3">
