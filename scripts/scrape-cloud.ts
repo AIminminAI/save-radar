@@ -563,6 +563,8 @@ const GOV_URLS: GovScrapeSource[] = [
 
 function buildUrl(href: string, baseUrl: string): string {
   if (!href) return baseUrl
+  // 清理换行符和多余空白
+  href = href.replace(/[\r\n]/g, '').trim()
   if (href.startsWith('http')) return href
   if (href.startsWith('//')) return 'https:' + href
   if (href.startsWith('/')) return baseUrl + href
