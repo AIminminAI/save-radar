@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Search, ExternalLink, Calendar, Building2, RefreshCw, ArrowRight, Filter, X, Users, TrendingDown, TrendingUp, Wallet, Sparkles } from 'lucide-react'
+import { useState, useRef, useEffect } from 'react'
+import { Search, ExternalLink, Calendar, Building2, RefreshCw, ArrowRight, Filter, X, Users, TrendingDown, TrendingUp, Wallet, Sparkles, Zap, Share2, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useLivePolicies } from '@/hooks/useApi'
 import { ScrapedCoupon } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
@@ -30,6 +30,10 @@ export default function Policies() {
   const [expandedId, setExpandedId] = useState<string | null>(null)
   const [usePersonaFilter, setUsePersonaFilter] = useState(true)
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [speedReadMode, setSpeedReadMode] = useState(false)
+  const [swipedCount, setSwipedCount] = useState(0)
+  const [showShareUnlock, setShowShareUnlock] = useState(false)
+  const scrollContainerRef = useRef<HTMLDivElement>(null)
   const { policies, loading, error, lastUpdate, refetch } = useLivePolicies(
     activeCategory === 'all' ? undefined : activeCategory
   )
@@ -179,6 +183,40 @@ export default function Policies() {
             <div className="p-4 mt-2">
               <p className="text-[10px] text-gray-300 text-center">选完就能看到专属你的政策解读 ✨</p>
             </div>
+
+            {/* Speed read mode toggle in sidebar */}
+            <div className="p-3 border-t border-gray-100">
+              <button
+                onClick={() => {
+                  setSpeedReadMode(!speedReadMode)
+                  setSwipedCount(0)
+                  setShowShareUnlock(false)
+                  setSidebarOpen(false)
+                }}
+                className={`w-full flex items-center gap-3 p-3 rounded-2xl transition-all duration-200 ${
+                  speedReadMode
+                    ? 'bg-gradient-to-r from-[#FF6B35] to-[#E4393C] text-white shadow-lg'
+                    : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                <Zap size={18} className={speedReadMode ? 'text-yellow-300' : 'text-gray-400'} />
+                <div className="text-left">
+                  <p className={`text-xs font-black ${speedReadMode ? 'text-white' : 'text-gray-800'}`}>
+                    速读模式
+                  </p>
+                  <p className={`text-[10px] ${speedReadMode ? 'text-white/70' : 'text-gray-400'}`}>
+                    像刷抖音一样看政策
+                  </p>
+                </div>
+                <div className={`ml-auto w-8 h-5 rounded-full transition-all duration-200 flex items-center ${
+                  speedReadMode ? 'bg-white/30 justify-end' : 'bg-gray-300 justify-start'
+                }`}>
+                  <div className={`w-4 h-4 rounded-full transition-all duration-200 ${
+                    speedReadMode ? 'bg-white mr-0.5' : 'bg-white ml-0.5'
+                  }`} />
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -269,6 +307,21 @@ export default function Policies() {
               {cat.icon} {cat.name}
             </button>
           ))}
+          <button
+            onClick={() => {
+              setSpeedReadMode(!speedReadMode)
+              setSwipedCount(0)
+              setShowShareUnlock(false)
+            }}
+            className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 flex items-center gap-1 ${
+              speedReadMode
+                ? 'bg-gradient-to-r from-[#FF6B35] to-[#E4393C] text-white'
+                : 'bg-gray-100 text-gray-500'
+            }`}
+          >
+            <Zap size={10} />
+            速读
+          </button>
         </div>
       </div>
 
@@ -307,6 +360,16 @@ export default function Policies() {
               {searchQuery ? '试试其他关键词' : usePersonaFilter ? '试试切换画像或点击"全部"查看' : '请等待后端抓取任务执行'}
             </p>
           </div>
+        ) : speedReadMode ? (
+          <SpeedReadList
+            policies={displayPolicies}
+            persona={persona}
+            swipedCount={swipedCount}
+            setSwipedCount={setSwipedCount}
+            showShareUnlock={showShareUnlock}
+            setShowShareUnlock={setShowShareUnlock}
+            scrollContainerRef={scrollContainerRef}
+          />
         ) : (
           displayPolicies.map((policy) => (
             <PolicyCard
@@ -492,6 +555,228 @@ function PolicyCard({
           </div>
         )}
       </div>
+    </div>
+  )
+}
+
+function SpeedReadList({
+  policies,
+  persona,
+  swipedCount,
+  setSwipedCount,
+  showShareUnlock,
+  setShowShareUnlock,
+  scrollContainerRef,
+}: {
+  policies: ScrapedCoupon[]
+  persona: Persona
+  swipedCount: number
+  setSwipedCount: (n: number) => void
+  showShareUnlock: boolean
+  setShowShareUnlock: (b: boolean) => void
+  scrollContainerRef: React.RefObject<HTMLDivElement | null>
+}) {
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const touchStartY = useRef(0)
+  const [isAnimating, setIsAnimating] = useState(false)
+  const [direction, setDirection] = useState<'up' | 'down'>('up')
+
+  const handleShare = () => {
+    const text = '我在省钱雷达速读了最新政策，快来看看跟你有关的政策解读！'
+    if (navigator.share) {
+      navigator.share({ title: '省钱雷达', text }).catch(() => { /* ignore */ })
+    } else {
+      navigator.clipboard.writeText(text).catch(() => { /* ignore */ })
+    }
+    useAppStore.getState().incrementShareCount()
+    setShowShareUnlock(false)
+  }
+
+  const goToNext = () => {
+    if (isAnimating || currentIndex >= policies.length - 1) return
+    setIsAnimating(true)
+    setDirection('up')
+
+    const newCount = swipedCount + 1
+    setSwipedCount(newCount)
+    if (newCount >= 5 && !showShareUnlock) {
+      setShowShareUnlock(true)
+    }
+
+    setTimeout(() => {
+      setCurrentIndex(prev => prev + 1)
+      setIsAnimating(false)
+    }, 200)
+  }
+
+  const goToPrev = () => {
+    if (isAnimating || currentIndex <= 0) return
+    setIsAnimating(true)
+    setDirection('down')
+    setTimeout(() => {
+      setCurrentIndex(prev => prev - 1)
+      setIsAnimating(false)
+    }, 200)
+  }
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartY.current = e.touches[0].clientY
+  }
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    const diff = touchStartY.current - e.changedTouches[0].clientY
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) goToNext()
+      else goToPrev()
+    }
+  }
+
+  const policy = policies[currentIndex]
+  if (!policy) return null
+
+  const interp = interpretPolicy(policy, persona)
+  const cat = CATEGORY_META[policy.category] || { name: policy.category, icon: '📄', color: '#666' }
+
+  return (
+    <div className="-mx-4">
+      {/* Progress bar */}
+      <div className="px-4 mb-2">
+        <div className="flex items-center justify-between text-[10px] text-gray-400 mb-1">
+          <span>{currentIndex + 1} / {policies.length}</span>
+          <span>上下滑动切换 · 已刷 {swipedCount} 条</span>
+        </div>
+        <div className="h-1 bg-gray-200 rounded-full overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-[#FF6B35] to-[#E4393C] rounded-full transition-all duration-300"
+            style={{ width: `${((currentIndex + 1) / policies.length) * 100}%` }}
+          />
+        </div>
+      </div>
+
+      {/* Swipeable card */}
+      <div
+        ref={scrollContainerRef}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        className="px-4"
+        style={{ minHeight: 'calc(100vh - 300px)' }}
+      >
+        <div
+          className={`bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-50 transition-all duration-200 ${
+            isAnimating
+              ? direction === 'up'
+                ? 'opacity-0 -translate-y-4'
+                : 'opacity-0 translate-y-4'
+              : 'opacity-100 translate-y-0'
+          }`}
+        >
+          <div className="p-4">
+            {/* Category tag */}
+            <div className="flex items-center gap-2 mb-3">
+              <span
+                className="text-[10px] font-bold px-2 py-0.5 rounded-full text-white"
+                style={{ backgroundColor: cat.color }}
+              >
+                {cat.icon} {cat.name}
+              </span>
+              {policy.isNew && (
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#00D68F] text-white">新</span>
+              )}
+            </div>
+
+            {/* Title */}
+            <h3 className="text-sm font-black text-gray-800 leading-snug mb-3">
+              {interp.plainTitle}
+            </h3>
+
+            {/* Impact - the key info */}
+            <div className={`rounded-xl p-3 mb-3 ${
+              interp.urgency === 'high'
+                ? 'bg-gradient-to-r from-[#FFF5F0] to-[#FFF0E8] border border-[#FF6B35]/15'
+                : 'bg-[#F0F9F4] border border-[#00D68F]/10'
+            }`}>
+              <p className={`text-sm font-black leading-snug ${
+                interp.urgency === 'high' ? 'text-[#CC4400]' : 'text-[#2D6A4F]'
+              }`}>
+                {interp.impactOnYou}
+              </p>
+              {interp.moneyImpact && !interp.moneyImpact.startsWith('待确认') && (
+                <p className="text-[11px] text-[#FF6B35] font-bold mt-1">
+                  💰 {interp.moneyImpact}
+                </p>
+              )}
+            </div>
+
+            {/* What to do */}
+            <div className="flex items-center gap-1.5 bg-[#1A1A2E]/5 rounded-lg px-2.5 py-2">
+              <ArrowRight size={12} className="text-[#1A1A2E] flex-shrink-0" />
+              <p className="text-[11px] text-[#1A1A2E] font-bold flex-1">
+                {interp.whatToDo}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Navigation buttons */}
+      <div className="flex items-center justify-center gap-6 mt-4 px-4">
+        <button
+          onClick={goToPrev}
+          disabled={currentIndex <= 0}
+          className={`w-12 h-12 rounded-full flex items-center justify-center transition-all ${
+            currentIndex <= 0
+              ? 'bg-gray-100 text-gray-300'
+              : 'bg-gray-200 text-gray-600 active:scale-90'
+          }`}
+        >
+          <ChevronLeft size={20} />
+        </button>
+        <div className="text-[10px] text-gray-400">
+          {currentIndex + 1}/{policies.length}
+        </div>
+        <button
+          onClick={goToNext}
+          disabled={currentIndex >= policies.length - 1}
+          className={`w-12 h-12 rounded-full flex items-center justify-center transition-all ${
+            currentIndex >= policies.length - 1
+              ? 'bg-gray-100 text-gray-300'
+              : 'bg-gradient-to-r from-[#FF6B35] to-[#E4393C] text-white active:scale-90 shadow-md'
+          }`}
+        >
+          <ChevronRight size={20} />
+        </button>
+      </div>
+
+      {/* Share unlock modal */}
+      {showShareUnlock && (
+        <div
+          className="fixed inset-0 z-50 flex items-end justify-center"
+          style={{ animation: 'fadeInUp 0.3s ease-out' }}
+        >
+          <div className="absolute inset-0 bg-black/40" onClick={() => setShowShareUnlock(false)} />
+          <div className="relative w-full max-w-[480px] bg-white rounded-t-2xl p-5 pb-8">
+            <div className="w-10 h-1 bg-gray-200 rounded-full mx-auto mb-4" />
+            <div className="text-center mb-4">
+              <span className="text-4xl">🔥</span>
+              <h3 className="text-lg font-black text-gray-800 mt-2">已速读5条政策！</h3>
+              <p className="text-sm text-gray-500 mt-1">分享给朋友，解锁更多政策速读</p>
+            </div>
+            <button
+              onClick={handleShare}
+              className="w-full py-3 bg-gradient-to-r from-[#FF6B35] to-[#E4393C] text-white rounded-xl text-sm font-bold active:scale-95 transition-transform flex items-center justify-center gap-2"
+            >
+              <Share2 size={16} />
+              分享解锁更多
+            </button>
+            <button
+              onClick={() => setShowShareUnlock(false)}
+              className="w-full py-2.5 text-gray-400 text-xs font-bold mt-2"
+            >
+              稍后再说
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

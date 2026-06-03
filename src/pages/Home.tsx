@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom'
 import { ChevronRight, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles, Eye, Share2 } from 'lucide-react'
 import RadarAnimation from '@/components/RadarAnimation'
+import MoneyChallenge from '@/components/MoneyChallenge'
+import SavingsRank from '@/components/SavingsRank'
 import { useAppStore } from '@/store/useAppStore'
 import { useScrapeStatus, useLivePolicies } from '@/hooks/useApi'
 import { useAccessControl } from '@/hooks/useAccessControl'
@@ -67,6 +69,8 @@ export default function Home() {
 
         <RadarAnimation />
       </div>
+
+      <MoneyChallenge />
 
       <div className="px-4 -mt-4">
         <div className="bg-white rounded-2xl p-3 shadow-sm">
@@ -243,6 +247,8 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      <SavingsRank />
 
       <div className="mt-4 px-4 pb-24">
         <div
