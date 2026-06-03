@@ -2,7 +2,6 @@ export const affiliateLinks = {
   taobao: {
     name: '淘宝联盟',
     description: '手机话费充值 - 全国通用 + 自动充值 + 快速到账',
-    price: '11.25元',
     url: 'https://s.click.taobao.com/rPV9SQl',
   },
   jd: {

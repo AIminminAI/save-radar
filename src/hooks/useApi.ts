@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { ScrapedCoupon } from '@/data/mockCoupons'
+import { ScrapedCoupon } from '@/data/types'
 
 const DATA_BASE = '/data'
 
@@ -63,6 +63,7 @@ export function useLiveCoupons(carrier?: string) {
 
   const fetchCoupons = useCallback(async () => {
     setError(null)
+    clearDataCache()
     try {
       const { coupons: all } = await loadAllData()
       let filtered = all.filter(
@@ -97,11 +98,21 @@ export function useLivePolicies(category?: string) {
 
   const fetchPolicies = useCallback(async () => {
     setError(null)
+    clearDataCache()
     try {
       const { coupons: all } = await loadAllData()
       let filtered = all.filter(
         c => c.type === 'policy' || c.carrier === 'policy'
       )
+      // 过滤掉明显过期的政策（expirationDate 早于30天前）
+      const thirtyDaysAgo = new Date()
+      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30)
+      filtered = filtered.filter(c => {
+        if (!c.expirationDate) return true
+        const expDate = new Date(c.expirationDate)
+        if (isNaN(expDate.getTime())) return true // 无法解析的日期保留
+        return expDate >= thirtyDaysAgo
+      })
       if (category && category !== 'all') {
         filtered = filtered.filter(c => c.category === category)
       }
@@ -137,8 +148,8 @@ export function useScrapeStatus() {
           lastGovScrapeTime: meta.lastGovScrapeTime || '',
           results: meta.results,
           schedule: {
-            fullScrape: '每天 02:00',
-            govScrape: '每天 03:00, 12:00, 18:00',
+            fullScrape: '每30分钟自动更新',
+            govScrape: '每30分钟自动更新',
           },
         })
       } catch {

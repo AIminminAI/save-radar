@@ -1,9 +1,11 @@
-import { User, Heart, TrendingDown, Shield, Clock, Database, CheckCircle2, XCircle, RefreshCw } from 'lucide-react'
+import { User, Heart, TrendingDown, Shield, Clock, Database, CheckCircle2, XCircle, RefreshCw, FileText } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 import { useAppStore } from '@/store/useAppStore'
 import { useLiveCoupons, useLivePolicies, useScrapeStatus } from '@/hooks/useApi'
 import { personas, getPersona } from '@/data/personas'
 
 export default function Profile() {
+  const navigate = useNavigate()
   const { totalSaved, favorites, selectedPersona, setSelectedPersona } = useAppStore()
   const { coupons, loading: couponsLoading, error: couponsError, refetch: refetchCoupons } = useLiveCoupons()
   const { policies, loading: policiesLoading, error: policiesError, refetch: refetchPolicies } = useLivePolicies()
@@ -191,7 +193,7 @@ export default function Profile() {
             <div className="flex items-start gap-2">
               <Database size={12} className="text-[#00D68F] mt-0.5 flex-shrink-0" />
               <p className="text-xs text-gray-500 leading-relaxed">
-                所有政策来自政府官方网站实时抓取，每条附带原文链接可验证，绝不编造。
+                所有政策来自政府官方网站定期抓取，每条附带原文链接可验证，绝不编造。政策解读基于标题自动推断，仅供参考，请以政策原文为准。
               </p>
             </div>
             <div className="flex items-start gap-2">
@@ -200,6 +202,23 @@ export default function Profile() {
                 根据你的身份自动筛选相关政策，用白话解读"影响你什么"+"你需要做什么"，不是今日头条式的长篇大论。
               </p>
             </div>
+          </div>
+        </div>
+        <div className="bg-white rounded-2xl p-4 shadow-sm">
+          <div className="flex items-center gap-2 mb-3">
+            <FileText size={16} className="text-[#2B7A9B]" />
+            <h3 className="text-sm font-bold text-gray-800">法律信息</h3>
+          </div>
+          <div className="space-y-2">
+            <button
+              onClick={() => navigate('/privacy')}
+              className="w-full text-left px-3 py-2.5 bg-gray-50 rounded-xl text-xs text-gray-600 font-medium active:scale-95 transition-transform"
+            >
+              隐私政策
+            </button>
+            <p className="text-[10px] text-gray-400 leading-relaxed">
+              本产品政策解读基于标题自动推断，仅供参考，不构成法律建议。请以政策原文为准。
+            </p>
           </div>
         </div>
       </div>

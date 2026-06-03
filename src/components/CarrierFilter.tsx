@@ -1,4 +1,4 @@
-import { carriers } from '@/data/mockCoupons'
+import { carriers } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 
 const tabs = [

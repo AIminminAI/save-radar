@@ -1,12 +1,10 @@
 import { useNavigate, useLocation } from 'react-router-dom'
-import { Radar, Ticket, Calculator, Landmark, User } from 'lucide-react'
+import { Radar, Landmark, User, Heart, FileText } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 
 const tabs = [
   { id: 'home', label: '雷达', icon: Radar, path: '/' },
-  { id: 'coupons', label: '优惠券', icon: Ticket, path: '/coupons' },
   { id: 'policies', label: '政策', icon: Landmark, path: '/policies' },
-  { id: 'calculator', label: '计算器', icon: Calculator, path: '/calculator' },
   { id: 'profile', label: '我的', icon: User, path: '/profile' },
 ]
 
@@ -30,7 +28,7 @@ export default function BottomNav() {
                 setActiveTab(tab.id)
                 navigate(tab.path)
               }}
-              className="flex flex-col items-center justify-center gap-0.5 w-16 h-full transition-all duration-200"
+              className="flex flex-col items-center justify-center gap-0.5 w-20 h-full transition-all duration-200"
             >
               <div className={`p-1.5 rounded-2xl transition-all duration-300 ${isActive ? 'bg-gradient-to-br from-[#FF6B35] to-[#FF8F5E] scale-110' : ''}`}>
                 <Icon

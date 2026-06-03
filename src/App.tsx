@@ -5,9 +5,9 @@ import Calculator from '@/pages/Calculator'
 import Profile from '@/pages/Profile'
 import Policies from '@/pages/Policies'
 import NotFound from '@/pages/NotFound'
+import Privacy from '@/pages/Privacy'
 import BottomNav from '@/components/BottomNav'
 import CouponDetail from '@/components/CouponDetail'
-import PWAInstallPrompt from '@/components/PWAInstallPrompt'
 import WeChatGuard from '@/components/WeChatGuard'
 
 export default function App() {
@@ -21,11 +21,11 @@ export default function App() {
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/policies" element={<Policies />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <BottomNav />
         <CouponDetail />
-        <PWAInstallPrompt />
       </div>
     </Router>
     </WeChatGuard>

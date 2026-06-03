@@ -84,10 +84,10 @@ export default function Coupons() {
         ) : filteredCoupons.length === 0 ? (
           <div className="text-center py-16">
             <p className="text-gray-400 text-sm">
-              {searchQuery ? '暂无匹配的优惠信息' : '暂无实时优惠数据'}
+              {searchQuery ? '暂无匹配的优惠信息' : '暂无话费优惠券数据'}
             </p>
             <p className="text-gray-300 text-xs mt-1">
-              {searchQuery ? '试试其他筛选条件' : '请等待后端抓取任务执行'}
+              {searchQuery ? '试试其他筛选条件' : '当前仅提供政策类信息，请前往「政策雷达」查看'}
             </p>
           </div>
         ) : (

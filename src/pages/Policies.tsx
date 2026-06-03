@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Search, ExternalLink, Calendar, Building2, RefreshCw, ArrowRight, Filter, X, Users, TrendingDown, TrendingUp, Wallet, Sparkles } from 'lucide-react'
 import { useLivePolicies } from '@/hooks/useApi'
-import { ScrapedCoupon } from '@/data/mockCoupons'
+import { ScrapedCoupon } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 import { getPersona, personas, Persona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
@@ -53,6 +53,9 @@ export default function Policies() {
   }
 
   const toggleExpand = (id: string) => {
+    if (expandedId !== id) {
+      useAppStore.getState().addRecentlyViewed(id)
+    }
     setExpandedId(expandedId === id ? null : id)
   }
 
@@ -194,7 +197,7 @@ export default function Policies() {
                 <h1 className="text-xl font-black text-gray-900">民生政策雷达</h1>
                 <p className="text-gray-400 text-xs mt-0.5">
                   {loading ? '正在获取...' : `${usePersonaFilter ? persona.icon + ' ' + persona.name + ' · ' : ''}${displayPolicies.length} 条跟你有关`}
-                  {lastUpdate && <span className="ml-1 text-[#00D68F]">· 刚刚更新</span>}
+                  {lastUpdate && <span className="ml-1 text-[#00D68F]">· 已更新</span>}
                 </p>
               </div>
             </div>
@@ -389,7 +392,7 @@ function PolicyCard({
           }`}>
             {interp.impactOnYou}
           </p>
-          {interp.moneyImpact && interp.moneyImpact !== '待确认' && (
+          {interp.moneyImpact && !interp.moneyImpact.startsWith('待确认') && (
             <p className="text-[11px] text-[#FF6B35] font-bold mt-1 flex items-center gap-1">
               <Wallet size={10} />
               {interp.moneyImpact}

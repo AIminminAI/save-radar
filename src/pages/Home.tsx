@@ -1,11 +1,12 @@
 import { useNavigate } from 'react-router-dom'
-import { Zap, ChevronRight, Wifi, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles } from 'lucide-react'
+import { ChevronRight, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles, Eye, Share2 } from 'lucide-react'
 import RadarAnimation from '@/components/RadarAnimation'
-import { carriers } from '@/data/mockCoupons'
 import { useAppStore } from '@/store/useAppStore'
 import { useScrapeStatus, useLivePolicies } from '@/hooks/useApi'
+import { useAccessControl } from '@/hooks/useAccessControl'
 import { getPersona, personas } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
+import { policyCategories } from '@/data/policies'
 
 const CATEGORY_NAMES: Record<string, string> = {
   'gov-policy': '国家政策',
@@ -14,6 +15,8 @@ const CATEGORY_NAMES: Record<string, string> = {
   'social-insurance': '社保公积金',
   'housing': '买房租房',
   'pension': '养老金',
+  'child': '子女教育',
+  'elderly': '赡养老人',
 }
 
 const PERSONA_BG: Record<string, string> = {
@@ -26,9 +29,10 @@ const PERSONA_BG: Record<string, string> = {
 
 export default function Home() {
   const navigate = useNavigate()
-  const { selectedCarrier, setSelectedCarrier, selectedPersona, setSelectedCoupon, setShowDetail } = useAppStore()
+  const { selectedPersona, setSelectedCoupon, setShowDetail } = useAppStore()
   const { policies, loading: policiesLoading, error: policiesError, lastUpdate: policyUpdate, refetch: refetchPolicies } = useLivePolicies()
   const { status: scrapeStatus } = useScrapeStatus()
+  const { getTodayViewedCount, FREE_DAILY_LIMIT, shareCount } = useAccessControl()
 
   const persona = getPersona(selectedPersona)
   const myPolicies = sortPoliciesByRelevance(
@@ -53,7 +57,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-white text-xl font-black">省钱雷达</h1>
-              <p className="text-gray-400 text-xs mt-0.5">实时抓取 · 只看跟你有关的</p>
+              <p className="text-gray-400 text-xs mt-0.5">定期更新 · 只看跟你有关的</p>
             </div>
             <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-lg">
               {persona.icon}
@@ -91,9 +95,8 @@ export default function Home() {
 
       <div className="px-4 mt-3">
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-3 flex items-center gap-2 border border-[#00D68F]/20">
-          <Wifi size={14} className="text-[#00D68F]" />
           <span className="text-xs text-gray-600">
-            实时更新: <span className="text-[#00D68F] font-bold">{lastUpdateTime}</span>
+            最近更新: <span className="text-[#00D68F] font-bold">{lastUpdateTime}</span>
             {scrapeStatus?.isRunning && (
               <span className="ml-2 text-[#FF6B35] animate-pulse">抓取中...</span>
             )}
@@ -101,6 +104,30 @@ export default function Home() {
           <span className="ml-auto text-[10px] text-gray-400">
             跟你有关 {myPolicies.length} 条
           </span>
+        </div>
+      </div>
+
+      <div className="px-4 mt-2">
+        <div className={`rounded-2xl p-3 flex items-center gap-2 border ${
+          getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3
+            ? 'bg-[#FFF5F0] border-[#FF6B35]/20'
+            : 'bg-white/80 border-[#00D68F]/20'
+        }`}>
+          <Eye size={14} className={getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3 ? 'text-[#FF6B35]' : 'text-[#00D68F]'} />
+          <span className={`text-xs font-bold ${
+            getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3 ? 'text-[#FF6B35]' : 'text-gray-600'
+          }`}>
+            今日已看 {getTodayViewedCount()}/{FREE_DAILY_LIMIT} 条完整解读
+          </span>
+          {getTodayViewedCount() >= FREE_DAILY_LIMIT && shareCount < 3 && (
+            <span className="ml-auto text-[10px] text-[#FF6B35] font-bold flex items-center gap-0.5">
+              <Share2 size={10} />
+              分享解锁更多
+            </span>
+          )}
+          {shareCount >= 3 && (
+            <span className="ml-auto text-[10px] text-[#00D68F] font-bold">已解锁全部</span>
+          )}
         </div>
       </div>
 
@@ -132,7 +159,7 @@ export default function Home() {
         ) : policiesLoading && myPolicies.length === 0 ? (
           <div className="bg-white/80 rounded-2xl p-8 text-center">
             <RefreshCw size={28} className="text-gray-300 mx-auto mb-3 animate-spin" />
-            <p className="text-gray-400 text-sm">正在获取实时政策...</p>
+            <p className="text-gray-400 text-sm">正在获取政策数据...</p>
             <p className="text-gray-300 text-xs mt-1">数据来源于gov.cn等官方源</p>
           </div>
         ) : topPolicies.length === 0 ? (
@@ -173,7 +200,7 @@ export default function Home() {
                           <Wallet size={12} className="text-[#00D68F]" />
                         )}
                         <span className={`text-[10px] font-black ${interp.urgency === 'high' ? 'text-[#FF6B35]' : 'text-[#00D68F]'}`}>
-                          {interp.urgency === 'high' ? '影响你' : '跟你有关'}
+                          {interp.urgency === 'high' ? '可能影响你' : '跟你有关'}
                         </span>
                       </div>
                       <p className={`text-xs font-black leading-snug ${interp.urgency === 'high' ? 'text-[#CC4400]' : 'text-[#2D6A4F]'}`}>
@@ -201,49 +228,23 @@ export default function Home() {
 
       <div className="mt-4 px-4">
         <div className="flex items-center justify-between mb-3">
-          <h2 className="text-gray-800 text-base font-bold">快捷入口</h2>
+          <h2 className="text-gray-800 text-base font-bold">政策分类</h2>
         </div>
-        <div className="grid grid-cols-3 gap-3">
-          {carriers.map((carrier) => (
+        <div className="grid grid-cols-4 gap-2">
+          {policyCategories.map((cat) => (
             <button
-              key={carrier.id}
-              onClick={() => {
-                setSelectedCarrier(carrier.id)
-                navigate('/coupons')
-              }}
-              className="flex flex-col items-center gap-2 py-3 rounded-2xl transition-all duration-200 active:scale-95"
-              style={{ backgroundColor: carrier.lightBg }}
+              key={cat.id}
+              onClick={() => navigate('/policies')}
+              className="flex flex-col items-center gap-1.5 py-2.5 rounded-2xl bg-white transition-all duration-200 active:scale-95 shadow-sm"
             >
-              <div
-                className="w-9 h-9 rounded-full flex items-center justify-center text-white text-xs font-black"
-                style={{ backgroundColor: carrier.color }}
-              >
-                {carrier.shortName[0]}
-              </div>
-              <span className="text-[11px] font-bold" style={{ color: carrier.color }}>
-                {carrier.shortName}
-              </span>
+              <span className="text-lg">{cat.icon}</span>
+              <span className="text-[10px] font-bold text-gray-600">{cat.name}</span>
             </button>
           ))}
         </div>
       </div>
 
-      <div className="mt-6 px-4 pb-24 space-y-3">
-        <div
-          className="bg-gradient-to-br from-[#1A1A2E] to-[#16213E] rounded-2xl p-4 cursor-pointer active:scale-[0.98] transition-transform"
-          onClick={() => navigate('/calculator')}
-        >
-          <div className="flex items-center justify-between">
-            <div>
-              <h3 className="text-white font-bold text-sm mb-1">省钱计算器</h3>
-              <p className="text-gray-400 text-xs">输入话费，一键匹配最优方案</p>
-            </div>
-            <div className="w-10 h-10 rounded-full bg-[#00D68F]/20 flex items-center justify-center">
-              <Zap size={20} className="text-[#00D68F]" />
-            </div>
-          </div>
-        </div>
-
+      <div className="mt-4 px-4 pb-24">
         <div
           className="bg-gradient-to-br from-[#2B7A9B] to-[#1A5276] rounded-2xl p-4 cursor-pointer active:scale-[0.98] transition-transform"
           onClick={() => navigate('/policies')}
@@ -251,7 +252,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div>
               <h3 className="text-white font-bold text-sm mb-1">全部政策一览</h3>
-              <p className="text-gray-300 text-xs">共 {policies.length} 条实时政策 · 按画像筛选</p>
+              <p className="text-gray-300 text-xs">共 {policies.length} 条政策 · 按画像筛选</p>
             </div>
             <ChevronRight size={20} className="text-white/50" />
           </div>

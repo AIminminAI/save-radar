@@ -1,4 +1,4 @@
-import { ScrapedCoupon } from '@/data/mockCoupons'
+import { ScrapedCoupon } from '@/data/types'
 
 export interface SavingsResult {
   originalAmount: number
@@ -50,8 +50,6 @@ export function calculateSavings(
   let strategy = ''
   if (applicableCoupons.length === 0) {
     strategy = '暂无适用优惠，建议关注后续活动更新'
-  } else if (appliedCoupons.length === 0) {
-    strategy = '当前金额暂无匹配优惠，可尝试调整金额'
   } else if (appliedCoupons.length === 1) {
     strategy = `推荐使用「${appliedCoupons[0].title}」，可节省¥${appliedCoupons[0].discountAmount}`
   } else {

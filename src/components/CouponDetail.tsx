@@ -1,16 +1,30 @@
-import { X, ExternalLink, Clock, MapPin, ShoppingBag } from 'lucide-react'
-import { ScrapedCoupon, getCarrier } from '@/data/mockCoupons'
+import { useState } from 'react'
+import { X, ExternalLink, Clock, MapPin, ShoppingBag, Share2, Lock, Sparkles, Bot } from 'lucide-react'
+import { ScrapedCoupon, getCarrier } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 import { affiliateLinks } from '@/config/affiliate'
+import { useAccessControl } from '@/hooks/useAccessControl'
+import { interpretPolicy } from '@/utils/policyInterpreter'
+import { getPersona } from '@/data/personas'
+import ShareCard from '@/components/ShareCard'
+import SharePoster from '@/components/SharePoster'
 
 export default function CouponDetail() {
-  const { selectedCoupon, showDetail, setShowDetail } = useAppStore()
+  const { selectedCoupon, showDetail, setShowDetail, selectedPersona } = useAppStore()
+  const { canViewFullInterpretation, getAccessStatus } = useAccessControl()
+  const [showShareCard, setShowShareCard] = useState(false)
 
   if (!showDetail || !selectedCoupon) return null
 
   const coupon: ScrapedCoupon = selectedCoupon
   const carrier = getCarrier(coupon.carrier)
   const isPolicy = coupon.type === 'policy' || coupon.carrier === 'policy'
+  const hasAIInterpretation = !!coupon.aiInterpretation
+  const persona = getPersona(selectedPersona)
+  const interp = isPolicy ? interpretPolicy(coupon, persona) : null
+
+  const canView = canViewFullInterpretation(coupon.id)
+  const accessStatus = getAccessStatus()
 
   return (
     <div className="fixed inset-0 z-[100] flex items-end justify-center" onClick={() => setShowDetail(false)}>
@@ -21,7 +35,22 @@ export default function CouponDetail() {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="sticky top-0 bg-white/95 backdrop-blur-lg z-10 flex items-center justify-between px-5 py-4 border-b border-gray-100">
-          <h2 className="text-base font-bold text-gray-800">{isPolicy ? '政策详情' : '优惠详情'}</h2>
+          <div className="flex items-center gap-2">
+            <h2 className="text-base font-bold text-gray-800">{isPolicy ? '政策详情' : '优惠详情'}</h2>
+            {isPolicy && (
+              hasAIInterpretation ? (
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#00D68F]/15 text-[#00D68F] flex items-center gap-0.5">
+                  <Bot size={10} />
+                  AI解读
+                </span>
+              ) : (
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-100 text-gray-400 flex items-center gap-0.5">
+                  <Sparkles size={10} />
+                  自动推断
+                </span>
+              )
+            )}
+          </div>
           <button
             onClick={() => setShowDetail(false)}
             className="p-1.5 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
@@ -49,6 +78,61 @@ export default function CouponDetail() {
           <h3 className="text-lg font-bold text-gray-900 mb-4 leading-snug">
             {coupon.title}
           </h3>
+
+          {isPolicy && interp && (
+            <div className="mb-5">
+              <div className={`rounded-2xl p-4 ${
+                interp.urgency === 'high'
+                  ? 'bg-gradient-to-r from-[#FFF5F0] to-[#FFF0E8] border border-[#FF6B35]/15'
+                  : 'bg-[#F0F9F4] border border-[#00D68F]/10'
+              }`}>
+                <div className="flex items-center gap-2 mb-2">
+                  {hasAIInterpretation ? (
+                    <span className="text-[11px] font-black text-[#00D68F] flex items-center gap-1">
+                      <Bot size={14} />
+                      AI解读
+                    </span>
+                  ) : (
+                    <span className="text-[11px] font-black text-gray-400 flex items-center gap-1">
+                      <Sparkles size={14} />
+                      自动推断
+                    </span>
+                  )}
+                </div>
+
+                {canView ? (
+                  <>
+                    <p className={`text-sm font-black leading-snug mb-2 ${
+                      interp.urgency === 'high' ? 'text-[#CC4400]' : 'text-[#2D6A4F]'
+                    }`}>
+                      {interp.impactOnYou}
+                    </p>
+                    <p className="text-xs text-gray-600 leading-relaxed mb-2">
+                      {interp.whatChanged}
+                    </p>
+                    <div className="flex items-center gap-1.5 bg-white/60 rounded-lg px-2.5 py-2">
+                      <span className="text-[11px] text-[#1A1A2E] font-bold">{interp.whatToDo}</span>
+                    </div>
+                    {interp.moneyImpact && !interp.moneyImpact.startsWith('待确认') && (
+                      <p className="text-[11px] text-[#FF6B35] font-bold mt-2">
+                        💰 {interp.moneyImpact}
+                      </p>
+                    )}
+                  </>
+                ) : (
+                  <div className="text-center py-3">
+                    <Lock size={24} className="text-gray-300 mx-auto mb-2" />
+                    <p className="text-sm font-bold text-gray-500 mb-1">{accessStatus.reason}</p>
+                    <p className="text-xs text-[#FF6B35] font-bold">{accessStatus.action}</p>
+                  </div>
+                )}
+
+                <p className="text-[10px] text-gray-400 mt-2 pt-2 border-t border-gray-100">
+                  {interp.disclaimer}
+                </p>
+              </div>
+            </div>
+          )}
 
           {!isPolicy && (
             <div className="bg-gradient-to-br from-[#1A1A2E] to-[#16213E] rounded-2xl p-5 mb-5">
@@ -83,10 +167,10 @@ export default function CouponDetail() {
             <div className="bg-gradient-to-r from-[#FF6B35]/10 to-[#FF8F5E]/10 rounded-2xl p-4 mb-5 border border-[#FF6B35]/20">
               <div className="flex items-center gap-2 mb-2">
                 <ShoppingBag size={14} className="text-[#FF6B35]" />
-                <span className="text-xs font-bold text-[#FF6B35]">充值优惠通道</span>
+                <span className="text-xs font-bold text-[#FF6B35]">广告 · 充值优惠通道</span>
               </div>
               <p className="text-gray-600 text-xs mb-3">
-                淘宝联盟: {affiliateLinks.taobao.description}，到手价仅 {affiliateLinks.taobao.price}
+                淘宝联盟: {affiliateLinks.taobao.description}
               </p>
               <div className="flex gap-2">
                 <a
@@ -160,6 +244,34 @@ export default function CouponDetail() {
               </span>
             ))}
           </div>
+
+          {isPolicy && (
+            <div className="mb-4">
+              <button
+                onClick={() => setShowShareCard(!showShareCard)}
+                className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm transition-all active:scale-95"
+              >
+                <Share2 size={16} />
+                分享给朋友，解锁完整解读
+              </button>
+
+              {showShareCard && (
+                <div className="mt-3">
+                  <ShareCard
+                    policyTitle={coupon.title}
+                    summary={interp?.impactOnYou || coupon.title}
+                    policyId={coupon.id}
+                  />
+                  <div className="mt-3">
+                    <SharePoster
+                      policyTitle={coupon.title}
+                      impactDesc={interp?.impactOnYou || '查看政策详情'}
+                    />
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           <a
             href={coupon.claimUrl}

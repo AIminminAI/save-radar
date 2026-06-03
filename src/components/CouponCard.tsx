@@ -1,5 +1,5 @@
 import { Clock, Heart, ChevronRight } from 'lucide-react'
-import { ScrapedCoupon, getCarrier } from '@/data/mockCoupons'
+import { ScrapedCoupon, getCarrier } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 
 interface CouponCardProps {

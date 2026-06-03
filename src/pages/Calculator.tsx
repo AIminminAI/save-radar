@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Calculator as CalcIcon, Sparkles } from 'lucide-react'
-import { carriers } from '@/data/mockCoupons'
+import { carriers } from '@/data/types'
 import { calculateSavings, SavingsResult } from '@/utils/calculator'
 import SavingsResultCard from '@/components/SavingsResultCard'
 import { useLiveCoupons } from '@/hooks/useApi'

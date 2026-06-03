@@ -1,3 +1,12 @@
+export interface AIInterpretation {
+  summary: string
+  impactOnYou: Record<string, string>
+  whatToDo: Record<string, string>
+  moneyImpact: string
+  urgency: 'high' | 'medium' | 'low'
+  interpretedAt: string
+}
+
 export interface ScrapedCoupon {
   id: string
   title: string
@@ -18,6 +27,7 @@ export interface ScrapedCoupon {
   tags: string[]
   source: string
   scrapedAt: string
+  aiInterpretation?: AIInterpretation
 }
 
 export interface CarrierConfig {

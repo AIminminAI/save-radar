@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
+import { useScrapeStatus } from '@/hooks/useApi'
 
 export default function RadarAnimation() {
   const [pulse, setPulse] = useState(0)
+  const { status } = useScrapeStatus()
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -9,6 +11,10 @@ export default function RadarAnimation() {
     }, 1200)
     return () => clearInterval(timer)
   }, [])
+
+  const lastUpdateText = status?.lastGovScrapeTime
+    ? `最后更新：${new Date(status.lastGovScrapeTime).toLocaleString('zh-CN', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })}`
+    : '正在获取最新数据...'
 
   return (
     <div className="relative flex flex-col items-center justify-center py-6 overflow-hidden">
@@ -63,7 +69,7 @@ export default function RadarAnimation() {
           <span className="text-[#00D68F] text-xs font-medium tracking-wide">AI 实时扫描中</span>
         </div>
         <p className="text-gray-400 text-[10px] mt-1">
-          最后更新：刚刚（精准2026数据源）
+          {lastUpdateText}
         </p>
       </div>
     </div>
