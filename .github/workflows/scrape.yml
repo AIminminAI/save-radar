@@ -2,7 +2,8 @@ name: Scrape Gov Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 2 * * *'   # 每天凌晨2点执行
+    - cron: '0 12 * * *'  # 每天中午12点执行
   workflow_dispatch:
 
 permissions:
@@ -23,6 +24,12 @@ jobs:
 
       - name: Run scraper
         run: npx tsx scripts/scrape-cloud.ts
+
+      - name: Run AI interpretation
+        if: ${{ secrets.DEEPSEEK_API_KEY != '' }}
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: npx tsx scripts/ai-interpret.ts
 
       - name: Commit and push if changed
         run: |
