@@ -7,4 +7,6 @@ export const policyCategories = [
   { id: 'medical', name: '医疗健康', icon: '🏥', color: '#FF6B35' },
   { id: 'tax', name: '交税扣税', icon: '💰', color: '#F59E0B' },
   { id: 'gov-policy', name: '国家政策', icon: '📋', color: '#6366F1' },
+  { id: 'education', name: '教育升学', icon: '🎓', color: '#3B82F6' },
+  { id: 'employment', name: '就业创业', icon: '🚀', color: '#10B981' },
 ] as const

@@ -233,10 +233,10 @@ const GOV_URLS: GovScrapeSource[] = [
   {
     name: '教育部-政策文件',
     url: 'http://www.moe.gov.cn/jyb_xxgk/s5743/s5981/',
-    category: 'child',
+    category: 'education',
     selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li, .fl li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
     baseUrl: 'http://www.moe.gov.cn',
-    keywords: ['教育', '子女', '入学', '学费', '补贴', '扣除', '政策', '调整', '义务教育', '幼儿园'],
+    keywords: ['教育', '高考', '招生', '学费', '助学', '奖学金', '贷款', '政策', '调整', '义务教育', '考研', '学位', '毕业', '考试', '录取', '培训', '技能', '资格'],
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图', '版权', '备案', '无障碍'],
     minTitleLength: 8,
     fallbackUrls: ['http://www.moe.gov.cn/jyb_xxgk/', 'http://www.moe.gov.cn/'],
@@ -244,10 +244,10 @@ const GOV_URLS: GovScrapeSource[] = [
   {
     name: '教育部-通知公告',
     url: 'http://www.moe.gov.cn/jyb_xxgk/s5743/',
-    category: 'child',
+    category: 'education',
     selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li, .fl li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
     baseUrl: 'http://www.moe.gov.cn',
-    keywords: ['教育', '子女', '入学', '学费', '补贴', '扣除', '政策', '调整', '通知'],
+    keywords: ['教育', '高考', '招生', '学费', '助学', '奖学金', '贷款', '政策', '调整', '通知', '考试', '录取', '考研'],
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图', '版权', '备案', '无障碍'],
     minTitleLength: 8,
   },
@@ -327,10 +327,10 @@ const GOV_URLS: GovScrapeSource[] = [
   {
     name: '教育部-政策解读',
     url: 'http://www.moe.gov.cn/jyb_xxgk/s5743/s5982/',
-    category: 'child',
+    category: 'education',
     selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li', title: 'a', date: 'span, .date, .time', link: 'a' },
     baseUrl: 'http://www.moe.gov.cn',
-    keywords: ['教育', '子女', '入学', '招生', '义务', '学前', '高考', '政策', '补贴'],
+    keywords: ['教育', '高考', '招生', '助学', '义务', '学前', '考研', '政策', '补贴', '学位', '毕业', '考试', '录取', '培训'],
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
     minTitleLength: 8,
     fallbackUrls: ['http://www.moe.gov.cn/jyb_xxgk/s5743/', 'http://www.moe.gov.cn/'],
@@ -393,10 +393,10 @@ const GOV_URLS: GovScrapeSource[] = [
   {
     name: '教育部-新闻通气',
     url: 'http://www.moe.gov.cn/jyb_xwfb/xw_fb/moe_1911/',
-    category: 'child',
+    category: 'education',
     selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li', title: 'a', date: 'span, .date, .time', link: 'a' },
     baseUrl: 'http://www.moe.gov.cn',
-    keywords: ['教育', '子女', '入学', '招生', '义务', '学前', '高考', '政策', '补贴', '双减'],
+    keywords: ['教育', '高考', '招生', '助学', '义务', '学前', '考研', '政策', '补贴', '双减', '学位', '毕业', '考试'],
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
     minTitleLength: 8,
     fallbackUrls: ['http://www.moe.gov.cn/jyb_xxgk/', 'http://www.moe.gov.cn/'],
@@ -404,10 +404,10 @@ const GOV_URLS: GovScrapeSource[] = [
   {
     name: '教育部-政策法规',
     url: 'http://www.moe.gov.cn/s78/A02/',
-    category: 'child',
+    category: 'education',
     selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li', title: 'a', date: 'span, .date, .time', link: 'a' },
     baseUrl: 'http://www.moe.gov.cn',
-    keywords: ['教育', '子女', '入学', '招生', '义务', '学前', '高考', '政策', '双减', '幼儿园'],
+    keywords: ['教育', '高考', '招生', '助学', '义务', '学前', '考研', '政策', '双减', '幼儿园', '学位', '毕业', '考试', '培训'],
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
     minTitleLength: 8,
     fallbackUrls: ['http://www.moe.gov.cn/'],
@@ -530,10 +530,10 @@ const GOV_URLS: GovScrapeSource[] = [
   {
     name: '陕西省人社厅-就业创业',
     url: 'https://rst.shaanxi.gov.cn/jycy/',
-    category: 'social-insurance',
+    category: 'employment',
     selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li, .fl li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
     baseUrl: 'https://rst.shaanxi.gov.cn',
-    keywords: ['社保', '就业', '补贴', '保障', '创业', '政策', '调整'],
+    keywords: ['就业', '补贴', '保障', '创业', '政策', '调整', '培训', '见习', '招聘', '人才', '应届', '校招'],
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
     minTitleLength: 8,
     fallbackUrls: ['https://rst.shaanxi.gov.cn/'],
@@ -558,6 +558,73 @@ const GOV_URLS: GovScrapeSource[] = [
     excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
     minTitleLength: 8,
     fallbackUrls: ['https://www.gov.cn/zhengce/'],
+  },
+  // ===== 第五批：教育升学+就业创业专项 =====
+  {
+    name: '人社部-就业促进',
+    url: 'https://www.mohrss.gov.cn/SYrlzyhshbzb/jycjs/',
+    category: 'employment',
+    selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li, .fl li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
+    baseUrl: 'https://www.mohrss.gov.cn',
+    keywords: ['就业', '创业', '补贴', '培训', '见习', '招聘', '人才', '应届', '政策', '保障', '扶持'],
+    excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
+    minTitleLength: 8,
+    fallbackUrls: ['https://www.mohrss.gov.cn/SYrlzyhshbzb/', 'https://www.mohrss.gov.cn/'],
+  },
+  {
+    name: '人社部-高校毕业生就业',
+    url: 'https://www.mohrss.gov.cn/SYrlzyhshbzb/kaoshi/',
+    category: 'employment',
+    selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li, .fl li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
+    baseUrl: 'https://www.mohrss.gov.cn',
+    keywords: ['毕业', '就业', '应届', '校招', '见习', '补贴', '创业', '政策', '三支一扶', '西部计划', '特岗', '选调'],
+    excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
+    minTitleLength: 8,
+    fallbackUrls: ['https://www.mohrss.gov.cn/SYrlzyhshbzb/', 'https://www.mohrss.gov.cn/'],
+  },
+  {
+    name: '教育部-高校学生司',
+    url: 'http://www.moe.gov.cn/s78/A15/',
+    category: 'education',
+    selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li', title: 'a', date: 'span, .date, .time', link: 'a' },
+    baseUrl: 'http://www.moe.gov.cn',
+    keywords: ['高考', '招生', '录取', '考研', '保送', '加分', '学位', '毕业', '助学', '奖学金', '贷款', '政策'],
+    excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
+    minTitleLength: 8,
+    fallbackUrls: ['http://www.moe.gov.cn/'],
+  },
+  {
+    name: '教育部-职业教育',
+    url: 'http://www.moe.gov.cn/s78/A07/',
+    category: 'education',
+    selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li', title: 'a', date: 'span, .date, .time', link: 'a' },
+    baseUrl: 'http://www.moe.gov.cn',
+    keywords: ['职业', '技能', '培训', '资格证', '中职', '高职', '技校', '政策', '补贴', '人才'],
+    excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
+    minTitleLength: 8,
+    fallbackUrls: ['http://www.moe.gov.cn/'],
+  },
+  {
+    name: '中国政府网-就业政策',
+    url: 'https://www.gov.cn/zhengce/content/jiuye/',
+    category: 'employment',
+    selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
+    baseUrl: 'https://www.gov.cn',
+    keywords: ['就业', '创业', '补贴', '培训', '见习', '招聘', '人才', '应届', '政策', '保障', '扶持', '毕业'],
+    excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
+    minTitleLength: 8,
+    fallbackUrls: ['https://www.gov.cn/zhengce/'],
+  },
+  {
+    name: '人社部-人才流动',
+    url: 'https://www.mohrss.gov.cn/SYrlzyhshbzb/rencailiudong/',
+    category: 'employment',
+    selectors: { list: '.list li, .news-list li, .content-list li, ul.list li, .info-list li, .article-list li, .fl li', title: 'a', date: 'span, .date, .time, em', link: 'a' },
+    baseUrl: 'https://www.mohrss.gov.cn',
+    keywords: ['人才', '就业', '创业', '补贴', '政策', '引进', '落户', '扶持'],
+    excludeKeywords: ['登录', '注册', '搜索', '导航', '首页', '联系我们', '网站地图'],
+    minTitleLength: 8,
+    fallbackUrls: ['https://www.mohrss.gov.cn/SYrlzyhshbzb/', 'https://www.mohrss.gov.cn/'],
   },
 ]
 
@@ -736,6 +803,40 @@ function generateGuide(title: string, category: string, sourceName: string): str
     } else {
       guides.push('了解养老补贴和护理政策变化')
       guides.push('关注当地民政部门通知')
+    }
+  } else if (category === 'education') {
+    if (title.includes('高考') || title.includes('招生') || title.includes('录取')) {
+      guides.push('关注本省教育考试院最新通知')
+      guides.push('确认招生计划和录取规则变化')
+    } else if (title.includes('助学') || title.includes('贷款') || title.includes('奖学金')) {
+      guides.push('向学校学生资助管理中心咨询')
+      guides.push('确认申请条件和额度变化')
+    } else if (title.includes('考研') || title.includes('研究生') || title.includes('学位')) {
+      guides.push('关注研招网和目标院校最新通知')
+      guides.push('确认报考条件和招生计划变化')
+    } else if (title.includes('职业') || title.includes('技能') || title.includes('培训')) {
+      guides.push('了解职业培训补贴和资格证政策')
+      guides.push('确认培训报名和补贴申请方式')
+    } else {
+      guides.push('了解教育政策变化对自己学业的影响')
+      guides.push('关注学校和教育部门通知')
+    }
+  } else if (category === 'employment') {
+    if (title.includes('创业') || title.includes('扶持')) {
+      guides.push('了解创业补贴和扶持政策')
+      guides.push('向当地人社部门咨询申请条件')
+    } else if (title.includes('见习') || title.includes('实习')) {
+      guides.push('关注就业见习岗位发布')
+      guides.push('确认见习补贴申请方式')
+    } else if (title.includes('补贴') || title.includes('津贴')) {
+      guides.push('确认自己是否符合补贴条件')
+      guides.push('向学校就业指导中心或人社部门咨询')
+    } else if (title.includes('三支一扶') || title.includes('西部计划') || title.includes('特岗')) {
+      guides.push('关注报名时间和条件')
+      guides.push('向学校就业指导中心咨询报名')
+    } else {
+      guides.push('了解就业政策变化对自己求职的影响')
+      guides.push('关注学校就业信息网和人社部门通知')
     }
   } else {
     guides.push('对照自身情况判断是否适用')

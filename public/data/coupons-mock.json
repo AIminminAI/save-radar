@@ -1,0 +1,422 @@
+[
+  {
+    "id": "mock-education-1",
+    "title": "关于做好2026年普通高等学校招生全国统一考试工作的通知",
+    "carrier": "policy",
+    "carrierName": "教育部",
+    "discountAmount": 0,
+    "expirationDate": "2026-06-30",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "关注本省教育考试院最新通知",
+      "确认招生计划和录取规则变化"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/example/1",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education",
+      "高考"
+    ],
+    "source": "教育部-高校学生司",
+    "scrapedAt": "2026-06-04T14:43:53.423Z",
+    "aiInterpretation": {
+      "summary": "2026年高考工作安排发布",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子高考规则有调整",
+        "student": "高考新规出台，关注本省变化",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "帮孩子关注考试院通知",
+        "student": "关注本省教育考试院通知",
+        "elderly": "了解即可",
+        "freelancer": "了解即可"
+      },
+      "moneyImpact": "升学路径可能变化",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-education-2",
+    "title": "关于调整国家助学贷款额度和利率的通知",
+    "carrier": "policy",
+    "carrierName": "教育部",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-01",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "向学校学生资助管理中心咨询",
+      "确认申请条件和额度变化"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/example/2",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education",
+      "助学"
+    ],
+    "source": "教育部-政策文件",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "助学贷款额度提高利率降低",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子贷款额度可能提高",
+        "student": "助学贷款额度提高，利率降低",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "帮孩子了解贷款新标准",
+        "student": "向学校资助中心咨询新标准",
+        "elderly": "了解即可",
+        "freelancer": "了解即可"
+      },
+      "moneyImpact": "每年可能少还几百利息",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-education-3",
+    "title": "关于2026年全国硕士研究生招生考试初试时间安排的公告",
+    "carrier": "policy",
+    "carrierName": "教育部",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "关注研招网和目标院校最新通知",
+      "确认报考条件和招生计划变化"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/example/3",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education",
+      "考研"
+    ],
+    "source": "教育部-高校学生司",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "2026考研初试时间确定",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "考研初试时间已定，抓紧备考",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "了解即可",
+        "student": "关注研招网确认报名时间",
+        "elderly": "了解即可",
+        "freelancer": "了解即可"
+      },
+      "moneyImpact": "报考费可能变化",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-education-4",
+    "title": "关于扩大职业技能等级认定社会培训评价组织范围的通知",
+    "carrier": "policy",
+    "carrierName": "人社部",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "了解培训补贴申请条件",
+      "确认培训报名和补贴申请方式"
+    ],
+    "claimUrl": "https://www.mohrss.gov.cn/example/4",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education",
+      "技能"
+    ],
+    "source": "人社部-就业促进",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "技能认证范围扩大",
+      "impactOnYou": {
+        "office-worker": "考资格证选择更多了",
+        "parent": "跟你关系不大",
+        "student": "更多技能证可以考了，培训有补贴",
+        "elderly": "跟你关系不大",
+        "freelancer": "考资格证选择更多了"
+      },
+      "whatToDo": {
+        "office-worker": "看有没有想考的证",
+        "parent": "了解即可",
+        "student": "了解资格证考试新规定",
+        "elderly": "了解即可",
+        "freelancer": "看有没有想考的证"
+      },
+      "moneyImpact": "考证费用可能降低",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-employment-1",
+    "title": "关于做好2026届高校毕业生就业创业工作的通知",
+    "carrier": "policy",
+    "carrierName": "人社部",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "employment",
+    "type": "policy",
+    "guide": [
+      "向学校就业指导中心咨询",
+      "确认应届生补贴申请方式"
+    ],
+    "claimUrl": "https://www.mohrss.gov.cn/example/5",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "employment",
+      "就业"
+    ],
+    "source": "人社部-高校毕业生就业",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "2026届毕业生就业扶持加码",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "孩子毕业就业有更多扶持",
+        "student": "应届生就业补贴和见习岗位增加",
+        "elderly": "跟你关系不大",
+        "freelancer": "创业扶持政策也有利好"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "帮孩子了解就业扶持",
+        "student": "向学校就业指导中心咨询",
+        "elderly": "了解即可",
+        "freelancer": "了解创业扶持条件"
+      },
+      "moneyImpact": "应届生补贴可能多拿几千",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-employment-2",
+    "title": "关于实施2026年高校毕业生等青年就业创业推进计划的通知",
+    "carrier": "policy",
+    "carrierName": "人社部",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "employment",
+    "type": "policy",
+    "guide": [
+      "了解创业补贴和扶持政策",
+      "向当地人社部门咨询申请条件"
+    ],
+    "claimUrl": "https://www.mohrss.gov.cn/example/6",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "employment",
+      "创业"
+    ],
+    "source": "人社部-就业促进",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "青年创业推进计划启动",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "毕业创业有补贴和扶持",
+        "elderly": "跟你关系不大",
+        "freelancer": "创业补贴和扶持力度加大"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "了解即可",
+        "student": "了解创业补贴和扶持政策",
+        "elderly": "了解即可",
+        "freelancer": "向当地人社部门咨询创业扶持"
+      },
+      "moneyImpact": "创业补贴可能多拿上万元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-employment-3",
+    "title": "关于扩大就业见习岗位规模提高见习补贴标准的通知",
+    "carrier": "policy",
+    "carrierName": "人社部",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "employment",
+    "type": "policy",
+    "guide": [
+      "关注就业见习岗位发布",
+      "确认见习补贴申请方式"
+    ],
+    "claimUrl": "https://www.mohrss.gov.cn/example/7",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "employment",
+      "见习"
+    ],
+    "source": "人社部-就业促进",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "见习岗位和补贴双提高",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "见习岗位更多，补贴标准提高",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "了解即可",
+        "student": "关注见习岗位发布和补贴申请",
+        "elderly": "了解即可",
+        "freelancer": "了解即可"
+      },
+      "moneyImpact": "见习期每月可能多拿几百",
+      "urgency": "medium",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-employment-4",
+    "title": "关于做好2026年\"三支一扶\"计划实施工作的通知",
+    "carrier": "policy",
+    "carrierName": "人社部",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "employment",
+    "type": "policy",
+    "guide": [
+      "关注报名时间和条件",
+      "向学校就业指导中心咨询报名"
+    ],
+    "claimUrl": "https://www.mohrss.gov.cn/example/8",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "employment",
+      "三支一扶"
+    ],
+    "source": "人社部-高校毕业生就业",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "三支一扶计划启动招募",
+      "impactOnYou": {
+        "office-worker": "跟你关系不大",
+        "parent": "跟你关系不大",
+        "student": "三支一扶开始报名，服务期满可转编",
+        "elderly": "跟你关系不大",
+        "freelancer": "跟你关系不大"
+      },
+      "whatToDo": {
+        "office-worker": "了解即可",
+        "parent": "了解即可",
+        "student": "关注报名时间和条件",
+        "elderly": "了解即可",
+        "freelancer": "了解即可"
+      },
+      "moneyImpact": "服务期有生活补贴",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-tax-1",
+    "title": "关于提高个人所得税专项附加扣除标准的通知",
+    "carrier": "policy",
+    "carrierName": "国家税务总局",
+    "discountAmount": 0,
+    "expirationDate": "2026-12-31",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/example/1",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax",
+      "扣除"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-06-04T14:43:53.424Z",
+    "aiInterpretation": {
+      "summary": "个税扣除标准提高",
+      "impactOnYou": {
+        "office-worker": "每月到手可能多几百",
+        "parent": "养孩子扣除标准提高",
+        "student": "家里交税变少，间接影响生活费",
+        "elderly": "赡养老人扣除标准提高",
+        "freelancer": "自己申报扣除额度变大"
+      },
+      "whatToDo": {
+        "office-worker": "个税APP更新扣除信息",
+        "parent": "个税APP更新子女教育扣除",
+        "student": "提醒父母更新扣除信息",
+        "elderly": "让子女帮忙更新扣除信息",
+        "freelancer": "个税APP自行更新扣除"
+      },
+      "moneyImpact": "每月可能多拿200-500元",
+      "urgency": "high",
+      "interpretedAt": "2026-06-04T14:43:53.424Z"
+    }
+  },
+  {
+    "id": "mock-social-1",
+    "title": "关于调整2026年度社会保险缴费基数的通知",
+    "carrier": "policy",
+    "carrierName": "人社部",
+    "discountAmount": 0,
+    "expirationDate": "2026-07-01",
+    "category": "social-insurance",
+    "type": "policy",
+    "guide": [
+      "查社保APP看缴费基数是否变化",
+      "查工资条确认扣费变化"
+    ],
+    "claimUrl": "https://www.mohrss.gov.cn/example/9",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "social-insurance",
+      "缴费"
+    ],
+    "source": "人社部-社保保险",
+    "scrapedAt": "2026-06-04T14:43:53.424Z"
+  }
+]

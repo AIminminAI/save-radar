@@ -413,6 +413,136 @@ const IMPACT_DB: Record<string, Record<string, {
       urgency: 'low',
     },
   },
+  'education': {
+    '高考': {
+      impact: '高考政策有变化',
+      change: '高考相关规则有调整，影响考试和录取',
+      action: '关注本省教育考试院通知',
+      money: '升学路径可能变化',
+      urgency: 'high',
+    },
+    '招生': {
+      impact: '招生政策有变化',
+      change: '招生计划或规则有调整',
+      action: '关注目标学校招生简章变化',
+      money: '录取机会可能变化',
+      urgency: 'high',
+    },
+    '助学': {
+      impact: '助学政策有变化',
+      change: '助学贷款或资助标准有调整',
+      action: '向学校资助中心咨询新标准',
+      money: '贷款额度或利率可能变化',
+      urgency: 'high',
+    },
+    '奖学金': {
+      impact: '奖学金政策有变化',
+      change: '奖学金评定标准或金额有调整',
+      action: '向学校了解新评定标准',
+      money: '奖学金额度可能变化',
+      urgency: 'high',
+    },
+    '考研': {
+      impact: '考研政策有变化',
+      change: '研究生招生或考试规则有调整',
+      action: '关注研招网和目标院校通知',
+      money: '报考成本可能变化',
+      urgency: 'high',
+    },
+    '学费': {
+      impact: '学费标准有变化',
+      change: '学费收费标准有调整',
+      action: '确认新学费标准和减免条件',
+      money: '学费支出可能增减',
+      urgency: 'high',
+    },
+    '培训': {
+      impact: '培训补贴有变化',
+      change: '职业培训补贴或政策有调整',
+      action: '了解培训补贴申请条件',
+      money: '培训费用可能降低',
+      urgency: 'medium',
+    },
+    '技能': {
+      impact: '技能认证政策有变化',
+      change: '职业技能评价或资格证政策有调整',
+      action: '了解资格证考试新规定',
+      money: '考证费用可能变化',
+      urgency: 'medium',
+    },
+    'default': {
+      impact: '教育政策有变化',
+      change: '教育相关政策有更新，可能影响学业',
+      action: '关注学校和教育部门通知',
+      money: '教育支出可能变化',
+      urgency: 'medium',
+    },
+  },
+  'employment': {
+    '就业见习': {
+      impact: '见习补贴有变化',
+      change: '就业见习政策或补贴有调整',
+      action: '关注见习岗位发布和补贴申请',
+      money: '见习期收入可能变化',
+      urgency: 'medium',
+    },
+    '就业': {
+      impact: '就业政策有变化',
+      change: '就业扶持或保障政策有调整',
+      action: '关注学校就业信息网和人社部门通知',
+      money: '就业补贴可能变化',
+      urgency: 'high',
+    },
+    '创业': {
+      impact: '创业扶持有变化',
+      change: '创业补贴或扶持政策有调整',
+      action: '向当地人社部门咨询创业扶持',
+      money: '创业补贴可能增加',
+      urgency: 'high',
+    },
+    '见习': {
+      impact: '见习补贴有变化',
+      change: '就业见习政策或补贴有调整',
+      action: '关注见习岗位发布和补贴申请',
+      money: '见习期收入可能变化',
+      urgency: 'medium',
+    },
+    '应届': {
+      impact: '应届生政策有变化',
+      change: '应届毕业生就业扶持有调整',
+      action: '向学校就业指导中心咨询',
+      money: '应届生补贴可能变化',
+      urgency: 'high',
+    },
+    '补贴': {
+      impact: '就业补贴有变化',
+      change: '就业相关补贴标准有调整',
+      action: '确认自己是否符合补贴条件',
+      money: '可能多拿补贴',
+      urgency: 'high',
+    },
+    '人才': {
+      impact: '人才政策有变化',
+      change: '人才引进或落户政策有调整',
+      action: '了解人才引进新条件和待遇',
+      money: '人才补贴可能变化',
+      urgency: 'medium',
+    },
+    '培训': {
+      impact: '就业培训有变化',
+      change: '就业培训补贴或政策有调整',
+      action: '了解培训报名和补贴申请方式',
+      money: '培训费用可能降低',
+      urgency: 'medium',
+    },
+    'default': {
+      impact: '就业政策有变化',
+      change: '就业相关政策有更新，可能影响求职',
+      action: '关注人社部门和学校就业通知',
+      money: '就业补贴可能变化',
+      urgency: 'medium',
+    },
+  },
 }
 
 function findBestMatch(
@@ -497,8 +627,18 @@ export function interpretPolicy(policy: ScrapedCoupon, persona: Persona): Policy
     const actionPrefix = match.action.includes('了解') ? '了解' : match.action.includes('查') ? '查询' : '办理'
     whatToDo = `建议让子女帮忙${actionPrefix}，${match.action}`
   } else if (persona.id === 'student') {
-    if (category === 'tax') {
+    if (category === 'education') {
+      impactOnYou = `学业影响：${match.impact}`
+    } else if (category === 'employment') {
+      impactOnYou = `求职影响：${match.impact}`
+    } else if (category === 'tax') {
       impactOnYou = `家里交税有变化，间接影响生活费`
+    } else if (category === 'gov-policy') {
+      if (personaKw) {
+        impactOnYou = `${personaKw}相关：${match.impact}`
+      } else {
+        impactOnYou = match.impact
+      }
     } else {
       impactOnYou = match.impact
     }

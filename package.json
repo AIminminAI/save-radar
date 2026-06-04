@@ -13,7 +13,9 @@
     "preview": "vite preview",
     "check": "tsc -b --noEmit",
     "server": "tsx server/server.ts",
-    "export-data": "tsx scripts/export-data.ts"
+    "export-data": "tsx scripts/export-data.ts",
+    "daily-update": "tsx scripts/daily-update.ts",
+    "daily-update:sync": "tsx scripts/daily-update.ts --sync"
   },
   "dependencies": {
     "@pm2/io": "^6.1.0",

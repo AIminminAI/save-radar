@@ -55,6 +55,14 @@ const client = new OpenAI({
 })
 
 function buildPrompt(coupon: ScrapedCoupon): string {
+  // 针对教育就业类政策，给学生更具体的解读指引
+  const isStudentRelevant = ['education', 'employment'].includes(coupon.category)
+    || ['高考', '招生', '助学', '奖学金', '贷款', '考研', '考公', '就业', '毕业', '应届', '创业', '见习', '培训', '技能', '资格证', '学位', '实习', '选调', '三支一扶', '西部计划', '特岗', '校招'].some(kw => coupon.title.includes(kw))
+
+  const studentInstruction = isStudentRelevant
+    ? `3. 对学生/考生群体，要特别关注：升学考试影响、助学贷款/奖学金变化、就业扶持政策、创业补贴、见习实习机会、职业资格认证等。如果政策与学生相关，写具体影响（如"高考加分政策调整"、"助学贷款额度提高"、"应届生就业补贴"），不要写"跟你关系不大"`
+    : `3. 如果该政策对某类人群影响不大，写"跟你关系不大"`
+
   return `你是一个民生政策解读专家。请对以下政策标题进行解读，生成5种人群的个性化影响分析。
 
 政策标题：${coupon.title}
@@ -84,9 +92,9 @@ function buildPrompt(coupon: ScrapedCoupon): string {
 
 要求：
 1. 用大白话，不要官话套话
-2. 如果该政策对某类人群影响不大，写"跟你关系不大"
-3. moneyImpact要具体，不要"待确认"
-4. urgency: 直接影响钱包的=high，间接影响=medium，关系不大=low`
+2. ${studentInstruction}
+4. moneyImpact要具体，不要"待确认"
+5. urgency: 直接影响钱包的=high，间接影响=medium，关系不大=low`
 }
 
 function isWithin24Hours(isoString: string): boolean {
