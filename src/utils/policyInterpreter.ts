@@ -587,7 +587,7 @@ export function interpretPolicy(policy: ScrapedCoupon, persona: Persona): Policy
       urgency: ai.urgency,
       relatedPersona: persona,
       moneyImpact: ai.moneyImpact,
-      disclaimer: '以上解读由AI生成，仅供参考，请以政策原文为准',
+      disclaimer: '以上解读由AI生成，仅供参考，不构成法律或专业建议。具体政策内容以政府官方发布为准，如有疑问请咨询相关部门。',
     }
   }
 
@@ -659,7 +659,7 @@ export function interpretPolicy(policy: ScrapedCoupon, persona: Persona): Policy
     urgency: match.urgency,
     relatedPersona: persona,
     moneyImpact,
-    disclaimer: '以上解读基于政策标题自动推断，仅供参考，请以政策原文为准',
+    disclaimer: '以上解读基于政策标题自动推断，仅供参考，不构成法律或专业建议。具体政策内容以政府官方发布为准，如有疑问请咨询相关部门。',
   }
 }
 

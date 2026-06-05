@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { ChevronRight, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles, Eye, Share2, PlayCircle } from 'lucide-react'
+import { ChevronRight, RefreshCw, ArrowRight, TrendingUp, Wallet, Sparkles, Eye, Share2, PlayCircle, Calculator as CalcIcon } from 'lucide-react'
 import RadarAnimation from '@/components/RadarAnimation'
 import MoneyChallenge from '@/components/MoneyChallenge'
 import SavingsRank from '@/components/SavingsRank'
@@ -94,6 +94,26 @@ export default function Home() {
             ))}
           </div>
           <p className="text-[10px] text-gray-400 mt-1.5">{persona.catchphrase}</p>
+        </div>
+      </div>
+
+      <div className="px-4 mt-3">
+        <div
+          className="bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] rounded-2xl p-4 cursor-pointer active:scale-[0.98] transition-transform shadow-lg shadow-[#FF6B35]/20"
+          onClick={() => navigate('/subsidy-calculator')}
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-2xl bg-white/20 flex items-center justify-center">
+                <CalcIcon size={20} className="text-white" />
+              </div>
+              <div>
+                <h3 className="text-white font-bold text-sm">补贴计算器</h3>
+                <p className="text-white/70 text-xs mt-0.5">输入条件，估算你能拿的补贴</p>
+              </div>
+            </div>
+            <ChevronRight size={20} className="text-white/50" />
+          </div>
         </div>
       </div>
 

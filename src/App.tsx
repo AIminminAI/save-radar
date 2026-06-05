@@ -6,6 +6,7 @@ import Profile from '@/pages/Profile'
 import Policies from '@/pages/Policies'
 import NotFound from '@/pages/NotFound'
 import Privacy from '@/pages/Privacy'
+import SubsidyCalculator from '@/pages/SubsidyCalculator'
 import BottomNav from '@/components/BottomNav'
 import CouponDetail from '@/components/CouponDetail'
 import WeChatGuard from '@/components/WeChatGuard'
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/coupons" element={<Coupons />} />
           <Route path="/calculator" element={<Calculator />} />
+          <Route path="/subsidy-calculator" element={<SubsidyCalculator />} />
           <Route path="/policies" element={<Policies />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/privacy" element={<Privacy />} />

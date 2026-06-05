@@ -1,10 +1,11 @@
 import { useNavigate, useLocation } from 'react-router-dom'
-import { Radar, Landmark, User, Heart, FileText } from 'lucide-react'
+import { Radar, Landmark, User, Wallet } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 
 const tabs = [
   { id: 'home', label: '雷达', icon: Radar, path: '/' },
   { id: 'policies', label: '政策', icon: Landmark, path: '/policies' },
+  { id: 'subsidy', label: '补贴', icon: Wallet, path: '/subsidy-calculator' },
   { id: 'profile', label: '我的', icon: User, path: '/profile' },
 ]
 

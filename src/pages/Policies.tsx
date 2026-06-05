@@ -537,6 +537,16 @@ function PolicyCard({
               <ExternalLink size={14} />
               查看政策原文
             </a>
+
+            <div className="mt-3 pt-2 border-t border-gray-100">
+              <p className="text-[10px] text-gray-400 leading-relaxed">{interp.disclaimer}</p>
+              <div className="flex items-center gap-2 mt-1 text-[9px] text-gray-300">
+                <span>数据来源：{policy.source}</span>
+                {policy.scrapedAt && (
+                  <span>· 更新于{new Date(policy.scrapedAt).toLocaleDateString('zh-CN')}</span>
+                )}
+              </div>
+            </div>
           </div>
         )}
 

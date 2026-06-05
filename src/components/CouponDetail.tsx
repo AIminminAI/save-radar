@@ -160,9 +160,15 @@ export default function CouponDetail() {
                   </div>
                 )}
 
-                <p className="text-[10px] text-gray-400 mt-2 pt-2 border-t border-gray-100">
-                  {interp.disclaimer}
-                </p>
+                <div className="mt-2 pt-2 border-t border-gray-100">
+                  <p className="text-[10px] text-gray-400 leading-relaxed">{interp.disclaimer}</p>
+                  <div className="flex items-center gap-2 mt-1.5 text-[9px] text-gray-300">
+                    <span>数据来源：{coupon.source}</span>
+                    {coupon.scrapedAt && (
+                      <span>· 更新于{new Date(coupon.scrapedAt).toLocaleDateString('zh-CN')}</span>
+                    )}
+                  </div>
+                </div>
               </div>
             </div>
           )}
