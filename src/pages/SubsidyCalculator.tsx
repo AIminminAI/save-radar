@@ -5,6 +5,14 @@ import { getPersona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { ScrapedCoupon } from '@/data/types'
 import { requestPayment, PRODUCTS, isSubsidyUnlocked } from '@/services/paymentService'
+import {
+  getSubscriptionConfig,
+  saveSubscriptionConfig,
+  requestBrowserNotification,
+  getMatchedPolicyCount,
+  isWeChatBrowser,
+  type SubscriptionConfig
+} from '@/services/subscriptionService'
 
 const CITIES = ['北京', '上海', '广州', '深圳', '杭州', '成都', '武汉', '南京', '重庆', '西安', '其他']
 
@@ -98,6 +106,7 @@ export default function SubsidyCalculator() {
   const [calculated, setCalculated] = useState(false)
   const [isUnlocked, setIsUnlocked] = useState(isSubsidyUnlocked())
   const [payLoading, setPayLoading] = useState(false)
+  const [subscription, setSubscription] = useState<SubscriptionConfig>(getSubscriptionConfig())
 
   const results = useMemo(() => {
     if (!calculated || !employment) return []
@@ -124,6 +133,23 @@ export default function SubsidyCalculator() {
       alert('支付出错，请重试')
     } finally {
       setPayLoading(false)
+    }
+  }
+
+  const handleSubscribe = async () => {
+    saveSubscriptionConfig({
+      city,
+      education,
+      employment,
+    })
+
+    const success = await requestBrowserNotification()
+    if (success) {
+      setSubscription(getSubscriptionConfig())
+    } else if (isWeChatBrowser()) {
+      alert('请在微信中关注我们的公众号以接收推送')
+    } else {
+      alert('请允许浏览器通知以接收政策推送')
     }
   }
 
@@ -352,6 +378,24 @@ export default function SubsidyCalculator() {
                     </p>
                   </div>
                 )}
+              </div>
+            )}
+
+            {/* Subscription Prompt */}
+            {results.length > 0 && !subscription.subscribed && (
+              <div className="bg-gradient-to-br from-[#1A1A2E] to-[#16213E] rounded-2xl p-5 text-center mt-4">
+                <span className="text-2xl">🔔</span>
+                <p className="text-white font-bold text-sm mt-2 mb-1">不想错过新补贴？</p>
+                <p className="text-gray-400 text-xs mb-3">
+                  开启推送，有新政策自动提醒你 · 预计{getMatchedPolicyCount(policies || [], mapEmploymentToPersona(employment))}条政策与你有关
+                </p>
+                <button
+                  onClick={handleSubscribe}
+                  className="w-full py-3 rounded-xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm active:scale-95 transition-transform"
+                >
+                  开启政策推送
+                </button>
+                <p className="text-gray-500 text-[10px] mt-2">可随时关闭，不会打扰你</p>
               </div>
             )}
 

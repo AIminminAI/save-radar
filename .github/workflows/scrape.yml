@@ -38,3 +38,12 @@ jobs:
           git add public/data/ data/
           git diff --staged --quiet || git commit -m "chore: update scraped data [skip ci]"
           git push
+
+      - name: Trigger push notifications
+        if: success()
+        run: |
+          echo "推送通知触发说明："
+          echo "1. 小程序端：需要在微信云开发中部署 sendNotifications 云函数"
+          echo "2. 部署后，在此步骤添加：npx tsx scripts/trigger-push.ts"
+          echo "3. 或在微信云开发中设置定时触发器，每天自动调用 sendNotifications"
+          echo "4. 当前数据已更新，用户下次打开小程序时会看到新政策"

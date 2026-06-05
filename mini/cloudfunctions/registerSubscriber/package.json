@@ -1,0 +1,9 @@
+{
+  "name": "registerSubscriber",
+  "version": "1.0.0",
+  "description": "注册/更新推送订阅用户",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

@@ -2,6 +2,7 @@ import { reactive } from 'vue'
 import type { ScrapedCoupon } from '@/data/types'
 import type { PurchaseRecord } from '@/services/paymentService'
 import { PRODUCTS, savePurchase as savePurchaseRecord } from '@/services/paymentService'
+import { getSubscriptionConfig, saveSubscriptionConfig, type SubscriptionConfig } from '@/services/subscriptionService'
 
 interface AppState {
   selectedPersona: string
@@ -13,6 +14,7 @@ interface AppState {
   subsidyUnlocked: boolean
   monthlyPassExpiry: string | null
   purchases: PurchaseRecord[]
+  subscription: SubscriptionConfig
 }
 
 const state = reactive<AppState>({
@@ -25,6 +27,7 @@ const state = reactive<AppState>({
   subsidyUnlocked: false,
   monthlyPassExpiry: null,
   purchases: [],
+  subscription: getSubscriptionConfig(),
 })
 
 function persist() {
@@ -90,6 +93,41 @@ export function useStore() {
       if (state.monthlyPassExpiry) {
         state.subsidyUnlocked = true
       }
+    },
+    updateSubscription(config: Partial<SubscriptionConfig>) {
+      Object.assign(state.subscription, config)
+      saveSubscriptionConfig(config)
+    },
+    async subscribeToNotifications() {
+      const { requestSubscribe } = await import('@/services/subscriptionService')
+      const success = await requestSubscribe()
+      if (success) {
+        state.subscription.subscribed = true
+        saveSubscriptionConfig({ subscribed: true })
+
+        // 同步到云端（如果云开发可用）
+        // #ifdef MP-WEIXIN
+        try {
+          // @ts-expect-error wx is WeChat Mini Program global
+          if (typeof wx !== 'undefined' && wx.cloud) {
+            // @ts-expect-error wx is WeChat Mini Program global
+            await wx.cloud.callFunction({
+              name: 'registerSubscriber',
+              data: {
+                persona: state.selectedPersona,
+                city: state.subscription.city,
+                education: state.subscription.education,
+                employment: state.subscription.employment,
+                frequency: state.subscription.frequency,
+              }
+            })
+          }
+        } catch (e) {
+          console.log('云函数调用失败，订阅信息仅保存在本地', e)
+        }
+        // #endif
+      }
+      return success
     },
   }
 }

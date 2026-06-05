@@ -61,6 +61,55 @@
         </view>
       </view>
 
+      <!-- 政策推送 -->
+      <view class="card">
+        <view class="card-header">
+          <text class="card-icon">🔔</text>
+          <text class="card-title">政策推送</text>
+        </view>
+        <text class="card-desc">每天自动推送跟你有关的新政策</text>
+
+        <!-- 未订阅状态 -->
+        <view v-if="!subscription.subscribed" class="subscribe-action">
+          <view class="subscribe-btn" @tap="onSubscribe">
+            <text class="subscribe-btn-text">开启推送</text>
+          </view>
+        </view>
+
+        <!-- 已订阅状态 -->
+        <view v-else class="subscribe-active">
+          <view class="subscribe-status">
+            <text class="subscribe-status-text">已开启 ✓</text>
+          </view>
+          <view class="freq-selector">
+            <view
+              class="freq-tag"
+              :class="{ 'freq-tag-active': subscription.frequency === 'daily' }"
+              @tap="setFrequency('daily')"
+            >
+              <text class="freq-tag-text" :class="{ 'freq-tag-text-active': subscription.frequency === 'daily' }">每天</text>
+            </view>
+            <view
+              class="freq-tag"
+              :class="{ 'freq-tag-active': subscription.frequency === 'weekly' }"
+              @tap="setFrequency('weekly')"
+            >
+              <text class="freq-tag-text" :class="{ 'freq-tag-text-active': subscription.frequency === 'weekly' }">每周</text>
+            </view>
+            <view
+              class="freq-tag"
+              :class="{ 'freq-tag-active': subscription.frequency === 'important-only' }"
+              @tap="setFrequency('important-only')"
+            >
+              <text class="freq-tag-text" :class="{ 'freq-tag-text-active': subscription.frequency === 'important-only' }">仅重要</text>
+            </view>
+          </view>
+        </view>
+
+        <text class="subscribe-match">预计有 {{ matchedCount }} 条政策与你有关</text>
+        <text class="subscribe-hint">推送需要授权订阅消息，你可以随时关闭</text>
+      </view>
+
       <!-- 收藏列表 -->
       <view v-if="favoritePolicies.length > 0" class="card">
         <view class="card-header">
@@ -170,6 +219,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { useStore } from '@/store'
 import { personas, getPersona } from '@/data/personas'
+import { getSubscriptionConfig, getMatchedPolicyCount } from '@/services/subscriptionService'
 import type { ScrapedCoupon } from '@/data/types'
 import type { Persona } from '@/data/personas'
 import couponsData from '@/static/data/coupons.json'
@@ -231,6 +281,17 @@ function getCategoryName(category: string): string {
 
 function goToPrivacy() {
   uni.navigateTo({ url: '/pages/privacy/index' })
+}
+
+const subscription = computed(() => store.state.subscription)
+const matchedCount = computed(() => getMatchedPolicyCount(store.state.policies, store.state.selectedPersona))
+
+async function onSubscribe() {
+  await store.subscribeToNotifications()
+}
+
+function setFrequency(freq: 'daily' | 'weekly' | 'important-only') {
+  store.updateSubscription({ frequency: freq })
 }
 
 onMounted(async () => {
@@ -660,6 +721,80 @@ onMounted(async () => {
   font-size: 20rpx;
   color: #cccccc;
   line-height: 1.5;
+  margin-top: 8rpx;
+  display: block;
+}
+
+/* 政策推送 */
+.subscribe-action {
+  margin-top: 16rpx;
+}
+
+.subscribe-btn {
+  background: linear-gradient(135deg, #FF6B35, #FF8C00);
+  border-radius: 40rpx;
+  padding: 16rpx 0;
+  text-align: center;
+}
+
+.subscribe-btn-text {
+  font-size: 26rpx;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.subscribe-active {
+  margin-top: 16rpx;
+}
+
+.subscribe-status {
+  margin-bottom: 16rpx;
+}
+
+.subscribe-status-text {
+  font-size: 26rpx;
+  font-weight: 700;
+  color: #00D68F;
+}
+
+.freq-selector {
+  display: flex;
+  gap: 12rpx;
+}
+
+.freq-tag {
+  flex: 1;
+  padding: 12rpx 0;
+  border-radius: 40rpx;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.freq-tag-active {
+  background: #1A1A2E;
+}
+
+.freq-tag-text {
+  font-size: 22rpx;
+  font-weight: 700;
+  color: #999999;
+}
+
+.freq-tag-text-active {
+  color: #ffffff;
+}
+
+.subscribe-match {
+  font-size: 22rpx;
+  color: #FF6B35;
+  font-weight: 700;
+  margin-top: 16rpx;
+  display: block;
+}
+
+.subscribe-hint {
+  font-size: 18rpx;
+  color: #cccccc;
   margin-top: 8rpx;
   display: block;
 }

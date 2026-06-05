@@ -1,8 +1,17 @@
-import { User, Heart, TrendingDown, Shield, Clock, Database, CheckCircle2, XCircle, RefreshCw, FileText } from 'lucide-react'
+import { useState } from 'react'
+import { User, Heart, TrendingDown, Shield, Clock, Database, CheckCircle2, XCircle, RefreshCw, FileText, Bell } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { useAppStore } from '@/store/useAppStore'
 import { useLiveCoupons, useLivePolicies, useScrapeStatus } from '@/hooks/useApi'
 import { personas, getPersona } from '@/data/personas'
+import {
+  getSubscriptionConfig,
+  saveSubscriptionConfig,
+  requestBrowserNotification,
+  getMatchedPolicyCount,
+  isWeChatBrowser,
+  type SubscriptionConfig
+} from '@/services/subscriptionService'
 
 export default function Profile() {
   const navigate = useNavigate()
@@ -10,14 +19,32 @@ export default function Profile() {
   const { coupons, loading: couponsLoading, error: couponsError, refetch: refetchCoupons } = useLiveCoupons()
   const { policies, loading: policiesLoading, error: policiesError, refetch: refetchPolicies } = useLivePolicies()
   const { status: scrapeStatus } = useScrapeStatus()
+  const [subscription, setSubscription] = useState<SubscriptionConfig>(getSubscriptionConfig())
 
   const persona = getPersona(selectedPersona)
   const favCoupons = coupons.filter(c => favorites.includes(c.id))
   const totalItems = coupons.length + policies.length
+  const matchedCount = getMatchedPolicyCount(policies, selectedPersona)
 
   const lastScrapeTime = scrapeStatus?.lastScrapeTime
     ? new Date(scrapeStatus.lastScrapeTime).toLocaleString('zh-CN')
     : '等待首次抓取'
+
+  const handleSubscribe = async () => {
+    const success = await requestBrowserNotification()
+    if (success) {
+      setSubscription(getSubscriptionConfig())
+    } else if (isWeChatBrowser()) {
+      alert('请在微信中关注我们的公众号以接收推送')
+    } else {
+      alert('请允许浏览器通知以接收政策推送')
+    }
+  }
+
+  const handleFrequencyChange = (frequency: SubscriptionConfig['frequency']) => {
+    saveSubscriptionConfig({ frequency })
+    setSubscription(getSubscriptionConfig())
+  }
 
   return (
     <div className="min-h-screen bg-[#f5f5f5]">
@@ -108,6 +135,51 @@ export default function Profile() {
               </button>
             ))}
           </div>
+        </div>
+
+        {/* Subscription Card */}
+        <div className="bg-white rounded-2xl p-4 shadow-sm">
+          <div className="flex items-center gap-2 mb-3">
+            <Bell size={16} className="text-[#FF6B35]" />
+            <h3 className="text-sm font-bold text-gray-800">政策推送</h3>
+          </div>
+          {!subscription.subscribed ? (
+            <>
+              <p className="text-xs text-gray-400 mb-3">
+                开启推送，有新政策自动提醒你 · 预计{matchedCount}条政策与你有关
+              </p>
+              <button
+                onClick={handleSubscribe}
+                className="w-full py-3 rounded-xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm active:scale-95 transition-transform"
+              >
+                开启推送
+              </button>
+              <p className="text-gray-400 text-[10px] mt-2 text-center">可随时关闭，不会打扰你</p>
+            </>
+          ) : (
+            <>
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-[#00D68F] text-xs font-bold">已开启 ✓</span>
+                <span className="text-gray-400 text-[10px]">· 预计{matchedCount}条政策与你有关</span>
+              </div>
+              <div className="flex gap-2 mb-2">
+                {(['daily', 'weekly', 'important-only'] as const).map((freq) => (
+                  <button
+                    key={freq}
+                    onClick={() => handleFrequencyChange(freq)}
+                    className={`flex-1 py-2 rounded-xl text-[10px] font-bold transition-all duration-200 ${
+                      subscription.frequency === freq
+                        ? 'bg-[#1A1A2E] text-white'
+                        : 'bg-gray-50 text-gray-500 hover:bg-gray-100'
+                    }`}
+                  >
+                    {freq === 'daily' ? '每天' : freq === 'weekly' ? '每周' : '仅重要'}
+                  </button>
+                ))}
+              </div>
+              <p className="text-gray-400 text-[10px]">推送频率可随时调整</p>
+            </>
+          )}
         </div>
 
         {favCoupons.length > 0 && (

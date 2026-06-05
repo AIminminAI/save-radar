@@ -154,6 +154,16 @@
           </view>
           <text class="unlock-terms">支付即表示同意《用户协议》和《隐私政策》</text>
         </view>
+
+        <!-- 订阅推送提示 -->
+        <view v-if="matchedPolicies.length > 0 && !subscription.subscribed" class="subscribe-card">
+          <text class="subscribe-icon">🔔</text>
+          <text class="subscribe-title">不想错过新补贴？</text>
+          <text class="subscribe-desc">开启推送，有新政策自动提醒你</text>
+          <view class="subscribe-btn" @tap="onSubscribeFromCalc">
+            <text class="subscribe-btn-text">开启政策推送</text>
+          </view>
+        </view>
       </view>
     </view>
 
@@ -175,6 +185,7 @@ import { getPersona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { shareToFriend, shareToTimeline } from '@/utils/share'
 import { requestPayment, PRODUCTS, isSubsidyUnlocked, savePurchase } from '@/services/paymentService'
+import { getSubscriptionConfig } from '@/services/subscriptionService'
 import type { ScrapedCoupon } from '@/data/types'
 import type { PolicyInterpretation } from '@/utils/policyInterpreter'
 import couponsData from '@/static/data/coupons.json'
@@ -278,6 +289,18 @@ async function onUnlock() {
   } else {
     uni.showToast({ title: result.errorMsg || '支付失败', icon: 'none' })
   }
+}
+
+const subscription = computed(() => store.state.subscription)
+
+async function onSubscribeFromCalc() {
+  // 先保存用户输入到订阅配置
+  store.updateSubscription({
+    city: selectedCity.value,
+    education: selectedEducation.value,
+    employment: selectedEmployment.value,
+  })
+  await store.subscribeToNotifications()
 }
 
 async function loadPolicies() {
@@ -661,6 +684,52 @@ onShareTimeline(() => {
   font-size: 18rpx;
   color: #dddddd;
   display: block;
+}
+
+/* 订阅推送卡片 */
+.subscribe-card {
+  background: linear-gradient(135deg, #1A1A2E, #16213E);
+  border-radius: 24rpx;
+  padding: 32rpx 28rpx;
+  margin-bottom: 24rpx;
+  text-align: center;
+}
+
+.subscribe-icon {
+  font-size: 40rpx;
+  display: block;
+  margin-bottom: 12rpx;
+}
+
+.subscribe-title {
+  font-size: 28rpx;
+  font-weight: 900;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+.subscribe-desc {
+  font-size: 22rpx;
+  color: rgba(255,255,255,0.6);
+  display: block;
+  margin-bottom: 24rpx;
+}
+
+.subscribe-btn {
+  background: linear-gradient(135deg, #FF6B35, #FF8C00);
+  border-radius: 40rpx;
+  padding: 16rpx 0;
+  text-align: center;
+  display: inline-block;
+  padding-left: 48rpx;
+  padding-right: 48rpx;
+}
+
+.subscribe-btn-text {
+  font-size: 26rpx;
+  font-weight: 900;
+  color: #ffffff;
 }
 
 .bottom-space {
