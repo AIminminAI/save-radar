@@ -10,6 +10,8 @@ lerna-debug-log*
 node_modules
 dist
 dist-ssr
+mini/dist
+mini/node_modules
 *.local
 
 # Environment
