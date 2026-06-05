@@ -1,5 +1,7 @@
 import { reactive } from 'vue'
 import type { ScrapedCoupon } from '@/data/types'
+import type { PurchaseRecord } from '@/services/paymentService'
+import { PRODUCTS, savePurchase as savePurchaseRecord } from '@/services/paymentService'
 
 interface AppState {
   selectedPersona: string
@@ -8,6 +10,9 @@ interface AppState {
   recentlyViewed: string[]
   policies: ScrapedCoupon[]
   loading: boolean
+  subsidyUnlocked: boolean
+  monthlyPassExpiry: string | null
+  purchases: PurchaseRecord[]
 }
 
 const state = reactive<AppState>({
@@ -17,6 +22,9 @@ const state = reactive<AppState>({
   recentlyViewed: JSON.parse(uni.getStorageSync('recentlyViewed') || '[]'),
   policies: [],
   loading: false,
+  subsidyUnlocked: false,
+  monthlyPassExpiry: null,
+  purchases: [],
 })
 
 function persist() {
@@ -46,5 +54,42 @@ export function useStore() {
     },
     setPolicies(policies: ScrapedCoupon[]) { state.policies = policies },
     setLoading(loading: boolean) { state.loading = loading },
+    unlockSubsidy(orderId: string) {
+      state.subsidyUnlocked = true
+      savePurchaseRecord(PRODUCTS.SUBSIDY_FULL, orderId)
+      const now = new Date().toISOString()
+      state.purchases.push({ productId: PRODUCTS.SUBSIDY_FULL.id, orderId, purchasedAt: now })
+    },
+    activateMonthlyPass(orderId: string) {
+      const expiry = new Date()
+      expiry.setDate(expiry.getDate() + 30)
+      const expiryStr = expiry.toISOString()
+      state.monthlyPassExpiry = expiryStr
+      savePurchaseRecord(PRODUCTS.MONTHLY_PASS, orderId)
+      const now = new Date().toISOString()
+      state.purchases.push({ productId: PRODUCTS.MONTHLY_PASS.id, orderId, purchasedAt: now, expiresAt: expiryStr })
+    },
+    loadPurchases() {
+      const raw = uni.getStorageSync('purchaseRecords')
+      if (raw) {
+        try {
+          state.purchases = JSON.parse(raw) as PurchaseRecord[]
+        } catch {
+          state.purchases = []
+        }
+      }
+      // Derive unlock state from purchase records
+      const now = new Date()
+      state.subsidyUnlocked = state.purchases.some(
+        (p) => p.productId === PRODUCTS.SUBSIDY_FULL.id
+      )
+      const monthlyRecord = state.purchases.find(
+        (p) => p.productId === PRODUCTS.MONTHLY_PASS.id && p.expiresAt && new Date(p.expiresAt) > now
+      )
+      state.monthlyPassExpiry = monthlyRecord?.expiresAt || null
+      if (state.monthlyPassExpiry) {
+        state.subsidyUnlocked = true
+      }
+    },
   }
 }

@@ -143,10 +143,16 @@
         </view>
 
         <!-- 解锁全部结果 -->
-        <view v-if="matchedPolicies.length > 3" class="unlock-card" @tap="onUnlock">
-          <text class="unlock-icon">🔒</text>
-          <text class="unlock-text">解锁全部 {{ matchedPolicies.length }} 条结果</text>
-          <text class="unlock-arrow">›</text>
+        <view v-if="!isUnlocked && matchedPolicies.length > 3" class="unlock-card" @tap="onUnlock">
+          <view class="unlock-header">
+            <text class="unlock-icon">🔒</text>
+            <text class="unlock-title">解锁全部结果</text>
+          </view>
+          <text class="unlock-desc">9.9元查看全部匹配结果及申请指南</text>
+          <view class="unlock-btn">
+            <text class="unlock-btn-text">立即解锁</text>
+          </view>
+          <text class="unlock-terms">支付即表示同意《用户协议》和《隐私政策》</text>
         </view>
       </view>
     </view>
@@ -168,6 +174,7 @@ import { useStore } from '@/store'
 import { getPersona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { shareToFriend, shareToTimeline } from '@/utils/share'
+import { requestPayment, PRODUCTS, isSubsidyUnlocked, savePurchase } from '@/services/paymentService'
 import type { ScrapedCoupon } from '@/data/types'
 import type { PolicyInterpretation } from '@/utils/policyInterpreter'
 import couponsData from '@/static/data/coupons.json'
@@ -176,6 +183,7 @@ const store = useStore()
 
 const statusBarHeight = ref(0)
 const hasCalculated = ref(false)
+const isUnlocked = ref(isSubsidyUnlocked())
 
 const cities = ['北京', '上海', '广州', '深圳', '杭州', '成都', '武汉', '南京', '重庆', '西安', '其他']
 const educations = ['高中及以下', '大专', '本科', '硕士', '博士']
@@ -233,6 +241,7 @@ const matchedPolicies = computed(() => {
 })
 
 const displayedPolicies = computed(() => {
+  if (isUnlocked.value) return matchedPolicies.value
   return matchedPolicies.value.slice(0, 3)
 })
 
@@ -258,8 +267,17 @@ function onCalculate() {
   hasCalculated.value = true
 }
 
-function onUnlock() {
-  uni.showToast({ title: '完整功能即将上线', icon: 'none' })
+async function onUnlock() {
+  if (isUnlocked.value) return
+  const result = await requestPayment(PRODUCTS.SUBSIDY_FULL)
+  if (result.success && result.orderId) {
+    savePurchase(PRODUCTS.SUBSIDY_FULL, result.orderId)
+    isUnlocked.value = true
+    store.unlockSubsidy(result.orderId)
+    uni.showToast({ title: '解锁成功', icon: 'success' })
+  } else {
+    uni.showToast({ title: result.errorMsg || '支付失败', icon: 'none' })
+  }
 }
 
 async function loadPolicies() {
@@ -557,27 +575,53 @@ onShareTimeline(() => {
 .unlock-card {
   background: linear-gradient(135deg, #2B7A9B, #1A5276);
   border-radius: 24rpx;
-  padding: 28rpx;
+  padding: 32rpx 28rpx;
+  margin-bottom: 24rpx;
+}
+
+.unlock-header {
   display: flex;
   align-items: center;
-  gap: 16rpx;
-  margin-bottom: 24rpx;
+  gap: 12rpx;
+  margin-bottom: 12rpx;
 }
 
 .unlock-icon {
   font-size: 32rpx;
 }
 
-.unlock-text {
-  font-size: 26rpx;
-  font-weight: 700;
+.unlock-title {
+  font-size: 30rpx;
+  font-weight: 900;
   color: #ffffff;
-  flex: 1;
 }
 
-.unlock-arrow {
-  font-size: 36rpx;
-  color: rgba(255,255,255,0.5);
+.unlock-desc {
+  font-size: 22rpx;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 24rpx;
+  display: block;
+}
+
+.unlock-btn {
+  background: linear-gradient(135deg, #FF6B35, #FF8C00);
+  border-radius: 40rpx;
+  padding: 16rpx 0;
+  text-align: center;
+  margin-bottom: 16rpx;
+}
+
+.unlock-btn-text {
+  font-size: 26rpx;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.unlock-terms {
+  font-size: 18rpx;
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+  display: block;
 }
 
 /* 空状态 */

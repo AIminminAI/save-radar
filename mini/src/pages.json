@@ -28,6 +28,12 @@
       }
     },
     {
+      "path": "pages/agreement/index",
+      "style": {
+        "navigationBarTitleText": "用户协议"
+      }
+    },
+    {
       "path": "pages/calculator/index",
       "style": {
         "navigationBarTitleText": "补贴计算器",

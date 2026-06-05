@@ -4,6 +4,7 @@ import { useLivePolicies } from '@/hooks/useApi'
 import { getPersona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { ScrapedCoupon } from '@/data/types'
+import { requestPayment, PRODUCTS, isSubsidyUnlocked } from '@/services/paymentService'
 
 const CITIES = ['北京', '上海', '广州', '深圳', '杭州', '成都', '武汉', '南京', '重庆', '西安', '其他']
 
@@ -95,6 +96,8 @@ export default function SubsidyCalculator() {
   const [employment, setEmployment] = useState('')
   const [income, setIncome] = useState('')
   const [calculated, setCalculated] = useState(false)
+  const [isUnlocked, setIsUnlocked] = useState(isSubsidyUnlocked())
+  const [payLoading, setPayLoading] = useState(false)
 
   const results = useMemo(() => {
     if (!calculated || !employment) return []
@@ -108,8 +111,20 @@ export default function SubsidyCalculator() {
     setCalculated(true)
   }
 
-  const handleUnlock = () => {
-    alert('解锁全部结果功能即将上线，敬请期待！')
+  const handleUnlock = async () => {
+    setPayLoading(true)
+    try {
+      const result = await requestPayment(PRODUCTS.SUBSIDY_FULL)
+      if (result.success) {
+        setIsUnlocked(true)
+      } else {
+        alert(result.errorMsg || '支付失败，请重试')
+      }
+    } catch {
+      alert('支付出错，请重试')
+    } finally {
+      setPayLoading(false)
+    }
   }
 
   return (
@@ -253,7 +268,7 @@ export default function SubsidyCalculator() {
               </div>
             ) : (
               <div className="space-y-3">
-                {results.slice(0, FREE_RESULT_LIMIT).map((item) => (
+                {results.slice(0, isUnlocked ? undefined : FREE_RESULT_LIMIT).map((item) => (
                   <div
                     key={item.policy.id}
                     className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-50"
@@ -320,15 +335,22 @@ export default function SubsidyCalculator() {
                 ))}
 
                 {/* Unlock More */}
-                {results.length > FREE_RESULT_LIMIT && (
-                  <button
-                    onClick={handleUnlock}
-                    className="w-full py-3.5 rounded-2xl bg-white border-2 border-dashed border-[#FF6B35]/30 text-[#FF6B35] font-bold text-sm transition-all duration-200 active:scale-[0.98] flex items-center justify-center gap-2"
-                  >
-                    <Lock size={14} />
-                    解锁全部结果（共 {results.length} 项）
-                    <ChevronRight size={14} />
-                  </button>
+                {!isUnlocked && results.length > FREE_RESULT_LIMIT && (
+                  <div className="bg-gradient-to-br from-[#1A1A2E] to-[#16213E] rounded-2xl p-5 text-center">
+                    <Lock size={24} className="text-[#FF6B35] mx-auto mb-2" />
+                    <p className="text-white font-bold text-sm mb-1">解锁全部 {results.length} 条匹配结果</p>
+                    <p className="text-gray-400 text-xs mb-3">9.9元查看全部补贴匹配结果及申请指南</p>
+                    <button
+                      onClick={handleUnlock}
+                      disabled={payLoading}
+                      className="w-full py-3 rounded-xl bg-gradient-to-r from-[#FF6B35] to-[#FF8F5E] text-white font-bold text-sm active:scale-95 transition-transform disabled:opacity-60"
+                    >
+                      {payLoading ? '支付中...' : '立即解锁 · ¥9.9'}
+                    </button>
+                    <p className="text-gray-500 text-[10px] mt-2">
+                      支付即表示同意《用户协议》和《隐私政策》
+                    </p>
+                  </div>
                 )}
               </div>
             )}
