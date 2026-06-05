@@ -97,6 +97,7 @@ async function cloudPayment(product: PaymentProduct): Promise<PaymentResult> {
 
 export async function requestPayment(product: PaymentProduct): Promise<PaymentResult> {
   if (isDevMode()) {
+    console.warn('[Payment] 开发模式：使用模拟支付。生产环境请确保已部署云函数 createOrder 并配置商户信息')
     return mockPayment(product)
   }
   return cloudPayment(product)

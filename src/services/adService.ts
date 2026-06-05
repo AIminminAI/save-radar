@@ -51,7 +51,7 @@ export async function showRewardedAd(callbacks: AdCallbacks): Promise<void> {
 
 // 检查广告是否可用
 export function isAdAvailable(): boolean {
-  return true // H5广告始终可用（只要SDK加载成功）
+  return !!CSJ_RIT_ID && typeof window !== 'undefined'
 }
 
 // 声明全局类型

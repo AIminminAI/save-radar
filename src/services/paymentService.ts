@@ -154,8 +154,8 @@ async function genericPayment(product: PaymentProduct): Promise<PaymentResult> {
       return { success: true, orderId: data.outTradeNo }
     }
 
-    // Development mode: treat as mock success
-    return { success: true, orderId: data.outTradeNo }
+    // Payment URL not returned - payment failed
+    return { success: false, errorMsg: '支付渠道暂不可用，请稍后重试' }
   } catch {
     return { success: false, errorMsg: '支付请求失败' }
   }
@@ -165,6 +165,7 @@ export async function requestPayment(product: PaymentProduct): Promise<PaymentRe
   const isDev = import.meta.env.DEV
 
   if (isDev) {
+    console.warn('[Payment] 开发模式：使用模拟支付，生产环境将使用真实支付')
     const result = await mockPayment(product)
     if (result.success && result.orderId) {
       savePurchase(product, result.orderId)

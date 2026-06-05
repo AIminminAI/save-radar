@@ -1,0 +1,27 @@
+{
+  "subscribers": {
+    "description": "推送订阅用户表",
+    "fields": {
+      "_id": "自动生成",
+      "openid": "用户唯一标识（微信自动获取）",
+      "persona": "用户画像ID: office-worker/parent/student/elderly/freelancer",
+      "city": "用户选择的城市",
+      "education": "用户选择的学历",
+      "employment": "用户选择的就业状态",
+      "frequency": "推送频率: daily/weekly/important-only",
+      "subscribedAt": "订阅时间",
+      "lastPushAt": "上次推送时间",
+      "updatedAt": "更新时间"
+    },
+    "indexes": [
+      { "field": "openid", "unique": true },
+      { "field": "frequency" },
+      { "field": "persona" }
+    ],
+    "permissions": {
+      "read": false,
+      "write": false,
+      "cloudFunctionOnly": true
+    }
+  }
+}
