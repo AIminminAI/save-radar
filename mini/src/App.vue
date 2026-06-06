@@ -36,6 +36,18 @@ const showPrivacyModal = ref(false)
 
 onLaunch(() => {
   console.log("App Launch")
+
+  // 初始化微信云开发
+  // @ts-expect-error wx.cloud
+  if (typeof wx !== 'undefined' && wx.cloud) {
+    // @ts-expect-error wx.cloud.init
+    wx.cloud.init({
+      env: 'cloud1-xxxx', // TODO: 替换为你的云开发环境ID（运行 node scripts/setup-cloud.js 自动填入）
+      traceUser: true,
+    })
+    console.log('[Cloud] 云开发初始化成功')
+  }
+
   // 初始化广告（adUnitId 后续填写，空字符串时不初始化）
   const adUnitId = '' // 填写真实的广告位ID后即可启用
   if (adUnitId) {

@@ -29,12 +29,13 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx37ad636fcc51ce5f",
         "setting" : {
             "urlCheck" : false
         },
         "usingComponents" : true,
-        "permission" : {}
+        "permission" : {},
+        "cloud" : true
     },
     "mp-alipay" : {
         "usingComponents" : true
