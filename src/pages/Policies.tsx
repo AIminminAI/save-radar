@@ -1,11 +1,11 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, Fragment } from 'react'
 import { Search, ExternalLink, Calendar, Building2, RefreshCw, ArrowRight, Filter, X, Users, TrendingDown, TrendingUp, Wallet, Sparkles, Zap, Share2, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useLivePolicies } from '@/hooks/useApi'
 import { ScrapedCoupon } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 import { getPersona, personas, Persona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
-import { BannerAd } from '@/components/BannerAd'
+import { BannerAd, InFeedAd } from '@/components/BannerAd'
 
 const CATEGORY_META: Record<string, { name: string; icon: string; color: string }> = {
   'gov-policy': { name: '国家政策', icon: '📋', color: '#1A1A2E' },
@@ -372,14 +372,16 @@ export default function Policies() {
             scrollContainerRef={scrollContainerRef}
           />
         ) : (
-          displayPolicies.map((policy) => (
-            <PolicyCard
-              key={policy.id}
-              policy={policy}
-              persona={persona}
-              isExpanded={expandedId === policy.id}
-              onToggle={() => toggleExpand(policy.id)}
-            />
+          displayPolicies.map((policy, idx) => (
+            <Fragment key={policy.id}>
+              <InFeedAd index={idx} />
+              <PolicyCard
+                policy={policy}
+                persona={persona}
+                isExpanded={expandedId === policy.id}
+                onToggle={() => toggleExpand(policy.id)}
+              />
+            </Fragment>
           ))
         )}
       </div>
