@@ -640,6 +640,9 @@ function buildUrl(href: string, baseUrl: string): string {
 
 /** 判断标题是否是有效的政策标题 */
 function isValidPolicyTitle(title: string, source: GovScrapeSource): boolean {
+  // 清理标题中的换行符和重复文本
+  title = title.replace(/\n/g, '').replace(/(.{4,}?)\1/g, '$1')
+
   // 长度检查：太短通常是导航链接
   if (title.length < source.minTitleLength) return false
   // 太长也不合理
@@ -670,6 +673,21 @@ function isValidPolicyTitle(title: string, source: GovScrapeSource): boolean {
   if (/2022年冬奥|2021年/.test(title)) return false
   // 政务公开领导小组等内部人事
   if (/政务公开领导小组|领军人才/.test(title)) return false
+
+  // 排除非政策内容
+  const nonPolicyPatterns = [
+    /^习近平/, /^胡静林/, /^刘国中/, /^谌贻琴/,  // 领导人名字开头的（会见/调研/出席）
+    /会见/, /国事访问/,  // 外交活动
+    /^组图/,  // 图片集
+    /【人民日报】/, /【上观新闻】/, /【央视新闻】/, /【济南日报】/, /【人民日报客户端】/,  // 媒体转载
+    /客户端】/, /日报】/,  // 通用媒体转载格式
+    /^高校学生司/, /^就业服务司/,  // 部门名称
+    /上午，由/, /下午，由/,  // 会议报道
+  ]
+  for (const pattern of nonPolicyPatterns) {
+    if (pattern.test(title)) return false
+  }
+
   return true
 }
 
@@ -844,6 +862,39 @@ function generateGuide(title: string, category: string, sourceName: string): str
   }
 
   return guides
+}
+
+/** 基于关键词修正分类 */
+function refineCategory(entry: { title: string; category: string; sourceCategory?: string }): string {
+  const title = entry.title || ''
+  const sourceCategory = entry.sourceCategory || ''
+
+  // 就业相关
+  if (/就业|招聘|创业|求职|岗位|失业|应届/.test(title)) return 'employment'
+  if (sourceCategory.includes('就业')) return 'employment'
+
+  // 住房相关
+  if (/住房|公积金|公租房|廉租房|保障房|房贷|装修|物业/.test(title)) return 'housing'
+
+  // 教育相关
+  if (/高考|招生|学校|教育|学费|助学/.test(title)) return 'education'
+
+  // 养老相关
+  if (/养老|退休|养老金|退休金/.test(title)) return 'pension'
+
+  // 医疗相关
+  if (/医保|医疗|看病|门诊|住院|药品|报销/.test(title)) return 'medical'
+
+  // 儿童相关
+  if (/儿童|幼儿|生育|产假|托育|母婴/.test(title)) return 'child'
+
+  // 老年相关
+  if (/老人|老年|适老|敬老|居家养老/.test(title)) return 'elderly'
+
+  // 救灾相关
+  if (/救灾|灾害|防汛|抗震|赈灾/.test(title)) return 'gov-policy'
+
+  return entry.category
 }
 
 /** 带重试的HTTP请求，超时30秒，最多重试2次 */
@@ -1048,22 +1099,24 @@ async function scrapeGovSource(govSource: GovScrapeSource) {
     if (!isValidPolicyUrl(fullUrl)) return
 
     const dateText = normalizeDate(rawDate)
-    const guide = generateGuide(title, govSource.category, govSource.name)
+    // 基于关键词修正分类
+    const refinedCategory = refineCategory({ title, category: govSource.category, sourceCategory: govSource.name })
+    const guide = generateGuide(title, refinedCategory, govSource.name)
 
     coupons.push({
-      id: `gov-${govSource.category}-${Date.now()}-${index}`,
+      id: `gov-${refinedCategory}-${Date.now()}-${index}`,
       title,
       carrier: 'policy',
       carrierName: govSource.name,
       discountAmount: 0,
       expirationDate: dateText || new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
-      category: govSource.category,
+      category: refinedCategory,
       type: 'policy',
       guide,
       claimUrl: fullUrl,
       isHot: title.includes('调整') || title.includes('提高') || title.includes('降低') || title.includes('减免'),
       isNew: true,
-      tags: ['政策', govSource.category],
+      tags: ['政策', refinedCategory],
       source: govSource.name,
       scrapedAt: new Date().toISOString(),
     })

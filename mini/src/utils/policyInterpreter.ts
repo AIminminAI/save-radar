@@ -97,7 +97,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '退休后拿的钱可能有变化',
       change: '养老金计发办法或标准有调整',
       action: '查社保APP核算未来养老金变化',
-      money: '每月可能多拿或少拿几百',
+      money: '养老金金额可能调整',
       urgency: 'high',
     },
     '医保': {
@@ -118,7 +118,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '每月扣的社保费可能有变化',
       change: '社保缴费基数调整，每月扣的钱可能增减',
       action: '查工资条确认扣费变化',
-      money: '每月可能多扣或少扣几十到几百',
+      money: '缴费金额可能调整',
       urgency: 'high',
     },
     '退休': {

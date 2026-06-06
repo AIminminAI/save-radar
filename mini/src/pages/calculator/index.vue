@@ -174,9 +174,9 @@
     </view>
 
     <!-- 免责声明 -->
-    <view v-if="hasCalculated" class="disclaimer-section">
-      <text class="disclaimer-text">以上估算基于政策标题匹配，实际补贴金额以当地政策为准。建议咨询当地人社部门确认。</text>
-      <text class="disclaimer-source">数据来源：政府官方网站 · 每日自动更新</text>
+    <view v-if="hasCalculated" class="disclaimer-box">
+      <text class="disclaimer-title">⚠️ 重要提示</text>
+      <text class="disclaimer-text">以上结果基于政策标题匹配，仅供参考，不构成法律或专业建议。实际补贴金额以当地政策为准，如有疑问请咨询相关部门。</text>
     </view>
 
     <view class="bottom-space"></view>
@@ -785,22 +785,26 @@ onShareTimeline(() => {
 }
 
 /* 免责声明 */
-.disclaimer-section {
-  padding: 32rpx;
-  text-align: center;
+.disclaimer-box {
+  margin: 24rpx 0;
+  padding: 24rpx;
+  background: #FFFBEB;
+  border: 2rpx solid #FDE68A;
+  border-radius: 16rpx;
 }
 
-.disclaimer-text {
-  font-size: 20rpx;
-  color: #cccccc;
-  line-height: 1.6;
+.disclaimer-title {
+  font-size: 24rpx;
+  color: #92400E;
+  font-weight: 600;
   display: block;
   margin-bottom: 8rpx;
 }
 
-.disclaimer-source {
-  font-size: 18rpx;
-  color: #dddddd;
+.disclaimer-text {
+  font-size: 22rpx;
+  color: #A16207;
+  line-height: 1.6;
   display: block;
 }
 

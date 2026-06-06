@@ -481,12 +481,12 @@ export default function SubsidyCalculator() {
             )}
 
             {/* Disclaimer */}
-            <div className="mt-4 space-y-1">
-              <p className="text-[10px] text-gray-400 leading-relaxed">
-                以上估算基于政策标题匹配，实际补贴金额以当地政策为准。建议咨询当地人社部门确认。
+            <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-xl">
+              <p className="text-xs text-yellow-800 font-medium">
+                ⚠️ 重要提示
               </p>
-              <p className="text-[10px] text-gray-400 leading-relaxed">
-                数据来源：政府官方网站 · 每日自动更新
+              <p className="text-xs text-yellow-700 mt-1">
+                以上结果基于政策标题匹配，仅供参考，不构成法律或专业建议。实际补贴金额以当地政策为准，如有疑问请咨询相关部门。
               </p>
             </div>
           </>
