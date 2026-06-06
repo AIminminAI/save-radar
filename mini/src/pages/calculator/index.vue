@@ -155,6 +155,12 @@
           <text class="unlock-terms">支付即表示同意《用户协议》和《隐私政策》</text>
         </view>
 
+        <!-- 看广告解锁 -->
+        <view v-if="!isUnlocked && matchedPolicies.length > 3" class="ad-unlock-btn" @tap="onUnlockByAd">
+          <text class="ad-unlock-btn-text">看广告免费解锁</text>
+        </view>
+        <text v-if="!isUnlocked && matchedPolicies.length > 3" class="ad-unlock-hint">看一次广告可解锁全部结果24小时</text>
+
         <!-- 订阅推送提示 -->
         <view v-if="matchedPolicies.length > 0 && !subscription.subscribed" class="subscribe-card">
           <text class="subscribe-icon">🔔</text>
@@ -185,6 +191,7 @@ import { getPersona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { shareToFriend, shareToTimeline } from '@/utils/share'
 import { requestPayment, PRODUCTS, isSubsidyUnlocked, savePurchase } from '@/services/paymentService'
+import { initAd, showRewardedAd } from '@/services/adService'
 import { getSubscriptionConfig } from '@/services/subscriptionService'
 import type { ScrapedCoupon } from '@/data/types'
 import type { PolicyInterpretation } from '@/utils/policyInterpreter'
@@ -194,7 +201,20 @@ const store = useStore()
 
 const statusBarHeight = ref(0)
 const hasCalculated = ref(false)
-const isUnlocked = ref(isSubsidyUnlocked())
+
+// TODO: 在微信后台创建激励视频广告位后填入
+const REWARDED_AD_UNIT_ID = '' // 填入激励视频广告位ID
+
+function checkUnlockExpiry(): boolean {
+  // Check payment unlock
+  if (isSubsidyUnlocked()) return true
+  // Check ad unlock (24 hour)
+  const expiry = uni.getStorageSync('subsidy_unlock_expiry')
+  if (expiry && new Date(expiry) > new Date()) return true
+  return false
+}
+
+const isUnlocked = ref(checkUnlockExpiry())
 
 const cities = ['北京', '上海', '广州', '深圳', '杭州', '成都', '武汉', '南京', '重庆', '西安', '其他']
 const educations = ['高中及以下', '大专', '本科', '硕士', '博士']
@@ -291,6 +311,23 @@ async function onUnlock() {
   }
 }
 
+async function onUnlockByAd() {
+  try {
+    const rewarded = await showRewardedAd()
+    if (rewarded) {
+      // 看完广告，解锁24小时
+      const unlockExpiry = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString()
+      uni.setStorageSync('subsidy_unlock_expiry', unlockExpiry)
+      isUnlocked.value = true
+      uni.showToast({ title: '已解锁全部结果', icon: 'success' })
+    } else {
+      uni.showToast({ title: '需要看完广告才能解锁', icon: 'none' })
+    }
+  } catch {
+    uni.showToast({ title: '广告加载失败，请稍后重试', icon: 'none' })
+  }
+}
+
 const subscription = computed(() => store.state.subscription)
 
 async function onSubscribeFromCalc() {
@@ -337,6 +374,10 @@ async function loadPolicies() {
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
   statusBarHeight.value = sysInfo.statusBarHeight || 44
+  // 初始化激励视频广告
+  if (REWARDED_AD_UNIT_ID) {
+    initAd(REWARDED_AD_UNIT_ID)
+  }
   loadPolicies()
 })
 
@@ -730,6 +771,28 @@ onShareTimeline(() => {
   font-size: 26rpx;
   font-weight: 900;
   color: #ffffff;
+}
+
+.ad-unlock-btn {
+  margin-top: 12rpx;
+  padding: 20rpx;
+  border-radius: 16rpx;
+  border: 2rpx dashed #FF6B35;
+  text-align: center;
+}
+
+.ad-unlock-btn-text {
+  font-size: 26rpx;
+  color: #FF6B35;
+  font-weight: 600;
+}
+
+.ad-unlock-hint {
+  font-size: 20rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 8rpx;
+  display: block;
 }
 
 .bottom-space {

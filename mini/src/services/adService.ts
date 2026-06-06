@@ -39,3 +39,40 @@ export function showRewardedAd(): Promise<boolean> {
     })
   })
 }
+
+/** 创建banner广告组件 */
+export function createBannerAd(adUnitId: string): any {
+  // #ifdef MP-WEIXIN
+  if (typeof wx !== 'undefined' && wx.createBannerAd) {
+    // @ts-expect-error wx.createBannerAd
+    const bannerAd = wx.createBannerAd({
+      adUnitId,
+      style: {
+        left: 0,
+        top: 0,
+        width: 300,
+      }
+    })
+    bannerAd.onError((err: any) => {
+      console.error('[AdService] Banner广告错误:', err)
+    })
+    return bannerAd
+  }
+  // #endif
+  return null
+}
+
+/** 创建插屏广告 */
+export function createInterstitialAd(adUnitId: string): any {
+  // #ifdef MP-WEIXIN
+  if (typeof wx !== 'undefined' && wx.createInterstitialAd) {
+    // @ts-expect-error wx.createInterstitialAd
+    const interstitialAd = wx.createInterstitialAd({ adUnitId })
+    interstitialAd.onError((err: any) => {
+      console.error('[AdService] 插屏广告错误:', err)
+    })
+    return interstitialAd
+  }
+  // #endif
+  return null
+}

@@ -202,7 +202,7 @@ import { policyCategories } from '@/data/policies'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { canViewFullInterpretation, addAdUnlock, getAccessStatus } from '@/utils/accessControl'
 import { shareToFriend, shareToTimeline } from '@/utils/share'
-import { showRewardedAd } from '@/services/adService'
+import { showRewardedAd, createInterstitialAd } from '@/services/adService'
 import type { ScrapedCoupon } from '@/data/types'
 import type { PolicyInterpretation } from '@/utils/policyInterpreter'
 import couponsData from '@/static/data/coupons.json'
@@ -214,6 +214,12 @@ const activeCategory = ref('all')
 const usePersonaFilter = ref(true)
 const expandedId = ref('')
 const showAccessModal = ref(false)
+
+// 插屏广告
+let interstitialAd: any = null
+let viewCount = 0
+// TODO: 在微信后台创建广告位后填入adUnitId
+const INTERSTITIAL_AD_UNIT_ID = '' // 填入插屏广告位ID
 
 const personaBgMap: Record<string, string> = {
   'office-worker': 'linear-gradient(135deg, #1A1A2E, #2D3561)',
@@ -296,6 +302,17 @@ function onPolicyTap(policy: ScrapedCoupon) {
     return
   }
   expandedId.value = expandedId.value === policy.id ? '' : policy.id
+
+  // 追踪查看次数并展示插屏广告
+  if (expandedId.value === policy.id) {
+    viewCount++
+    // 第3次查看及之后每5次查看展示一次插屏广告
+    if (viewCount >= 3 && viewCount % 5 === 3 && interstitialAd) {
+      interstitialAd.show().catch(() => {
+        // 广告展示失败，静默处理
+      })
+    }
+  }
 }
 
 function onViewOriginal(policy: ScrapedCoupon) {
@@ -320,6 +337,11 @@ async function onWatchAd() {
 onMounted(async () => {
   const sysInfo = uni.getSystemInfoSync()
   statusBarHeight.value = sysInfo.statusBarHeight || 44
+
+  // 初始化插屏广告
+  if (INTERSTITIAL_AD_UNIT_ID) {
+    interstitialAd = createInterstitialAd(INTERSTITIAL_AD_UNIT_ID)
+  }
 
   // 如果 store 中没有数据则加载
   if (store.state.policies.length === 0) {

@@ -169,6 +169,14 @@
       <text class="all-policies-arrow">›</text>
     </view>
 
+    <!-- 底部banner广告 -->
+    <!-- TODO: 在微信后台创建广告位后填入unit-id，否则不显示广告 -->
+    <view class="ad-container">
+      <!-- #ifdef MP-WEIXIN -->
+      <ad unit-id="" ad-intervals="30" ad-type="banner" binderror="onAdError" bindload="onAdLoad"></ad>
+      <!-- #endif -->
+    </view>
+
     <view class="bottom-space"></view>
   </view>
 </template>
@@ -873,6 +881,16 @@ onShareTimeline(() => {
   color: #cccccc;
   margin-top: 8rpx;
   display: block;
+}
+
+.ad-container {
+  position: fixed;
+  bottom: 100rpx; /* above tab bar */
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10rpx 0;
+  z-index: 10;
 }
 
 .bottom-space {
