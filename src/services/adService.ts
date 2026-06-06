@@ -43,9 +43,9 @@ export function isAdAvailable(): boolean {
 /** 显示激励视频广告 */
 export async function showRewardedAd(callbacks: AdCallbacks = {}): Promise<boolean> {
   if (!AD_CONFIG.rewardedRitId) {
-    console.warn('[AdService] 未配置激励视频广告位ID，模拟成功')
-    setTimeout(() => callbacks.onReward?.(), 1000)
-    return true
+    console.warn('[AdService] 激励视频广告未配置，无法展示')
+    callbacks.onError?.('广告服务暂未开通')
+    return false
   }
 
   try {

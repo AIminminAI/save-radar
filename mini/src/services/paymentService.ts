@@ -124,7 +124,13 @@ export function savePurchase(product: PaymentProduct, orderId: string): void {
 
 export function hasPurchased(productId: string): boolean {
   const records = getPurchases()
-  return records.some((r) => r.productId === productId)
+  return records.some((r) => {
+    if (r.productId !== productId) return false
+    if (r.expiresAt) {
+      return new Date(r.expiresAt) > new Date()
+    }
+    return true
+  })
 }
 
 export function getPurchases(): PurchaseRecord[] {

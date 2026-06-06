@@ -143,21 +143,30 @@ async function genericPayment(product: PaymentProduct): Promise<PaymentResult> {
     const data = await response.json()
 
     // If backend returns a redirect URL (H5 payment via MWEB)
+    // DO NOT save purchase yet - user hasn't completed payment
     if (data.mwebUrl) {
       window.location.href = data.mwebUrl
-      return { success: true, orderId: data.outTradeNo }
+      return {
+        success: false,
+        orderId: data.outTradeNo,
+        errorMsg: '支付处理中，完成支付后请返回本页面'
+      }
     }
 
     // Fallback: show QR code page or redirect
     if (data.payUrl) {
       window.location.href = data.payUrl
-      return { success: true, orderId: data.outTradeNo }
+      return {
+        success: false,
+        orderId: data.outTradeNo,
+        errorMsg: '支付处理中，完成支付后请返回本页面'
+      }
     }
 
     // Payment URL not returned - payment failed
     return { success: false, errorMsg: '支付渠道暂不可用，请稍后重试' }
   } catch {
-    return { success: false, errorMsg: '支付请求失败' }
+    return { success: false, errorMsg: '支付请求失败，请检查网络' }
   }
 }
 

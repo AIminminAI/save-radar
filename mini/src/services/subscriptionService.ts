@@ -8,6 +8,9 @@
  * 4. 每次授权只能发一条消息，需要用户多次授权才能发多条
  */
 
+import { filterPoliciesForPersona } from '@/utils/policyInterpreter'
+import { getPersona } from '@/data/personas'
+
 export interface SubscriptionConfig {
   /** 用户选择的推送频率 */
   frequency: 'daily' | 'weekly' | 'important-only'
@@ -119,8 +122,7 @@ export function shouldPushNow(config: SubscriptionConfig): boolean {
     case 'daily':
       // 每天推送一次
       if (!lastPush) return true
-      return now.getDate() !== lastPush.getDate() ||
-             now.getMonth() !== lastPush.getMonth()
+      return now.toISOString().split('T')[0] !== lastPush.toISOString().split('T')[0]
     case 'weekly':
       // 每周推送一次
       if (!lastPush) return true
@@ -141,15 +143,9 @@ export function recordPushTime(): void {
 
 /** 获取用户的匹配政策数量（用于展示订阅价值） */
 export function getMatchedPolicyCount(policies: any[], personaId: string): number {
-  // 简单估算：根据画像分类匹配
-  const personaCategories: Record<string, string[]> = {
-    'office-worker': ['social-insurance', 'tax', 'housing', 'pension', 'medical'],
-    'parent': ['medical', 'tax', 'social-insurance', 'child'],
-    'student': ['education', 'employment', 'tax', 'gov-policy'],
-    'elderly': ['social-insurance', 'medical', 'housing', 'pension', 'elderly'],
-    'freelancer': ['social-insurance', 'tax', 'pension', 'medical', 'employment'],
+  const persona = getPersona(personaId)
+  if (persona) {
+    return filterPoliciesForPersona(policies, persona).length
   }
-
-  const categories = personaCategories[personaId] || []
-  return policies.filter(p => categories.includes(p.category)).length
+  return 0
 }

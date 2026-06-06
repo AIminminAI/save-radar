@@ -18,6 +18,27 @@ import {
 
 const CITIES = ['北京', '上海', '广州', '深圳', '杭州', '成都', '武汉', '南京', '重庆', '西安', '其他']
 
+const CITY_PROVINCE: Record<string, string> = {
+  '北京': '北京', '上海': '上海', '广州': '广东', '深圳': '广东',
+  '杭州': '浙江', '成都': '四川', '武汉': '湖北', '南京': '江苏',
+  '重庆': '重庆', '西安': '陕西', '其他': '',
+}
+
+const EDUCATION_KEYWORDS: Record<string, string[]> = {
+  '高中及以下': ['义务教育', '中职', '技校', '职业'],
+  '大专': ['高职', '专科', '大专', '职业'],
+  '本科': ['本科', '高校', '大学', '学士'],
+  '硕士': ['研究生', '硕士', '博士', '学位'],
+  '博士': ['研究生', '博士', '学位', '科研', '人才'],
+}
+
+const INCOME_CATEGORIES: Record<string, string[]> = {
+  '5万以下': ['social-insurance', 'medical', 'pension', 'education'],
+  '5-10万': ['social-insurance', 'tax', 'medical', 'housing'],
+  '10-20万': ['tax', 'social-insurance', 'housing'],
+  '20万以上': ['tax', 'housing'],
+}
+
 const EDUCATION_LEVELS = ['高中及以下', '大专', '本科', '硕士', '博士']
 
 const EMPLOYMENT_STATUSES = ['在校学生', '应届毕业生', '在职', '自由职业', '退休']
@@ -76,15 +97,33 @@ function extractEstimatedAmount(moneyImpact: string, title: string): string {
 function matchPolicies(
   policies: ScrapedCoupon[],
   employmentStatus: string,
-  _education: string,
-  _city: string,
-  _income: string
+  education: string,
+  city: string,
+  income: string
 ): MatchedPolicy[] {
   const personaId = mapEmploymentToPersona(employmentStatus)
   const persona = getPersona(personaId)
 
-  const filtered = filterPoliciesForPersona(policies, persona)
-  const sorted = sortPoliciesByRelevance(filtered, persona)
+  let filtered = filterPoliciesForPersona(policies, persona)
+
+  // City filtering: show national policies + province-matching policies
+  if (city) {
+    const province = CITY_PROVINCE[city] || ''
+    filtered = filtered.filter(p => {
+      const title = p.title || ''
+      const hasRegionPrefix = /【[^】]+】/.test(title)
+      if (!hasRegionPrefix) return true // national policy
+      if (province && title.includes(`【${province}】`)) return true // matching province
+      return false
+    })
+  }
+
+  // Sort with education/income boosts
+  const sorted = [...filtered].sort((a, b) => {
+    const scoreA = getBoostedRelevanceScore(a, persona, education, income)
+    const scoreB = getBoostedRelevanceScore(b, persona, education, income)
+    return scoreB - scoreA
+  })
 
   return sorted.map((policy) => {
     const interp = interpretPolicy(policy, persona)
@@ -97,6 +136,42 @@ function matchPolicies(
       whatChanged: interp.whatChanged,
     }
   })
+}
+
+function getBoostedRelevanceScore(
+  policy: ScrapedCoupon,
+  persona: ReturnType<typeof getPersona>,
+  education: string,
+  income: string
+): number {
+  let score = 0
+  if (persona.categories.includes(policy.category)) score += 10
+  for (const kw of persona.keywords) {
+    if (policy.title.includes(kw)) score += 5
+  }
+  if (policy.isHot) score += 3
+  if (policy.isNew) score += 2
+
+  // Education boost: policies matching education keywords rank higher
+  if (education && EDUCATION_KEYWORDS[education]) {
+    const eduKws = EDUCATION_KEYWORDS[education]
+    for (const kw of eduKws) {
+      if (policy.title.includes(kw)) {
+        score += 4
+        break
+      }
+    }
+  }
+
+  // Income boost: policies in income-relevant categories rank higher
+  if (income && INCOME_CATEGORIES[income]) {
+    const incomeCats = INCOME_CATEGORIES[income]
+    if (incomeCats.includes(policy.category)) {
+      score += 3
+    }
+  }
+
+  return score
 }
 
 export default function SubsidyCalculator() {
@@ -343,7 +418,9 @@ export default function SubsidyCalculator() {
                           {item.impactOnYou}
                         </p>
                         <div className="flex items-center gap-1 mt-1">
-                          <span className="text-[10px] text-gray-400">预估金额：</span>
+                          <span className="text-[10px] text-gray-400">
+                            {/^\d/.test(item.estimatedAmount) ? '预估金额' : '影响说明'}
+                          </span>
                           <span className="text-sm font-black text-[#00D68F]">{item.estimatedAmount}</span>
                         </div>
                       </div>

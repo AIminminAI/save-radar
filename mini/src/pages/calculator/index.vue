@@ -132,7 +132,7 @@
           </view>
 
           <view v-if="extractEstimatedAmount(getInterp(policy).moneyImpact)" class="result-amount">
-            <text class="result-amount-label">预估金额</text>
+            <text class="result-amount-label">{{ /^\d/.test(extractEstimatedAmount(getInterp(policy).moneyImpact)) ? '预估金额' : '影响说明' }}</text>
             <text class="result-amount-value">{{ extractEstimatedAmount(getInterp(policy).moneyImpact) }}</text>
           </view>
 
@@ -188,6 +188,7 @@ import { ref, computed, onMounted } from 'vue'
 import { onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { useStore } from '@/store'
 import { getPersona } from '@/data/personas'
+import type { Persona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { shareToFriend, shareToTimeline } from '@/utils/share'
 import { requestPayment, PRODUCTS, isSubsidyUnlocked, savePurchase } from '@/services/paymentService'
@@ -220,6 +221,27 @@ const cities = ['北京', '上海', '广州', '深圳', '杭州', '成都', '武
 const educations = ['高中及以下', '大专', '本科', '硕士', '博士']
 const employments = ['在校学生', '应届毕业生', '在职', '自由职业', '退休']
 const incomes = ['5万以下', '5-10万', '10-20万', '20万以上']
+
+const CITY_PROVINCE: Record<string, string> = {
+  '北京': '北京', '上海': '上海', '广州': '广东', '深圳': '广东',
+  '杭州': '浙江', '成都': '四川', '武汉': '湖北', '南京': '江苏',
+  '重庆': '重庆', '西安': '陕西', '其他': '',
+}
+
+const EDUCATION_KEYWORDS: Record<string, string[]> = {
+  '高中及以下': ['义务教育', '中职', '技校', '职业'],
+  '大专': ['高职', '专科', '大专', '职业'],
+  '本科': ['本科', '高校', '大学', '学士'],
+  '硕士': ['研究生', '硕士', '博士', '学位'],
+  '博士': ['研究生', '博士', '学位', '科研', '人才'],
+}
+
+const INCOME_CATEGORIES: Record<string, string[]> = {
+  '5万以下': ['social-insurance', 'medical', 'pension', 'education'],
+  '5-10万': ['social-insurance', 'tax', 'medical', 'housing'],
+  '10-20万': ['tax', 'social-insurance', 'housing'],
+  '20万以上': ['tax', 'housing'],
+}
 
 const selectedCity = ref('北京')
 const selectedEducation = ref('本科')
@@ -263,12 +285,67 @@ function extractEstimatedAmount(text: string): string {
   return ''
 }
 
+function getBoostedRelevanceScore(
+  policy: ScrapedCoupon,
+  persona: Persona,
+  education: string,
+  income: string
+): number {
+  let score = 0
+  if (persona.categories.includes(policy.category)) score += 10
+  for (const kw of persona.keywords) {
+    if (policy.title.includes(kw)) score += 5
+  }
+  if (policy.isHot) score += 3
+  if (policy.isNew) score += 2
+
+  // Education boost
+  if (education && EDUCATION_KEYWORDS[education]) {
+    const eduKws = EDUCATION_KEYWORDS[education]
+    for (const kw of eduKws) {
+      if (policy.title.includes(kw)) {
+        score += 4
+        break
+      }
+    }
+  }
+
+  // Income boost
+  if (income && INCOME_CATEGORIES[income]) {
+    const incomeCats = INCOME_CATEGORIES[income]
+    if (incomeCats.includes(policy.category)) {
+      score += 3
+    }
+  }
+
+  return score
+}
+
 const matchedPolicies = computed(() => {
   if (!hasCalculated.value) return []
   const personaId = mapEmploymentToPersona(selectedEmployment.value)
   const persona = getPersona(personaId)
-  const filtered = filterPoliciesForPersona(store.state.policies, persona)
-  return sortPoliciesByRelevance(filtered, persona)
+  let filtered = filterPoliciesForPersona(store.state.policies, persona)
+
+  // City filtering: show national policies + province-matching policies
+  const city = selectedCity.value
+  if (city) {
+    const province = CITY_PROVINCE[city] || ''
+    filtered = filtered.filter((p: ScrapedCoupon) => {
+      const title = p.title || ''
+      const hasRegionPrefix = /【[^】]+】/.test(title)
+      if (!hasRegionPrefix) return true
+      if (province && title.includes(`【${province}】`)) return true
+      return false
+    })
+  }
+
+  // Sort with education/income boosts
+  return [...filtered].sort((a: ScrapedCoupon, b: ScrapedCoupon) => {
+    const scoreA = getBoostedRelevanceScore(a, persona, selectedEducation.value, selectedIncome.value)
+    const scoreB = getBoostedRelevanceScore(b, persona, selectedEducation.value, selectedIncome.value)
+    return scoreB - scoreA
+  })
 })
 
 const displayedPolicies = computed(() => {

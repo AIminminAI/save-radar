@@ -1,3 +1,6 @@
+import { filterPoliciesForPersona } from '@/utils/policyInterpreter'
+import { getPersona } from '@/data/personas'
+
 /**
  * H5端政策推送订阅服务
  *
@@ -119,15 +122,11 @@ export async function registerSubscription(config: SubscriptionConfig): Promise<
 
 /** 获取匹配政策数量 */
 export function getMatchedPolicyCount(policies: any[], personaId: string): number {
-  const personaCategories: Record<string, string[]> = {
-    'office-worker': ['social-insurance', 'tax', 'housing', 'pension', 'medical'],
-    'parent': ['medical', 'tax', 'social-insurance', 'child'],
-    'student': ['education', 'employment', 'tax', 'gov-policy'],
-    'elderly': ['social-insurance', 'medical', 'housing', 'pension', 'elderly'],
-    'freelancer': ['social-insurance', 'tax', 'pension', 'medical', 'employment'],
+  const persona = getPersona(personaId)
+  if (persona) {
+    return filterPoliciesForPersona(policies, persona).length
   }
-  const categories = personaCategories[personaId] || []
-  return policies.filter(p => categories.includes(p.category)).length
+  return 0
 }
 
 /** 检查是否需要推送 */
@@ -139,7 +138,7 @@ export function shouldPushNow(config: SubscriptionConfig): boolean {
   switch (config.frequency) {
     case 'daily':
       if (!lastPush) return true
-      return now.getDate() !== lastPush.getDate()
+      return now.toISOString().split('T')[0] !== lastPush.toISOString().split('T')[0]
     case 'weekly':
       if (!lastPush) return true
       return (now.getTime() - lastPush.getTime()) > 7 * 24 * 60 * 60 * 1000

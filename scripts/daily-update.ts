@@ -22,7 +22,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const PRO_ROOT = path.join(__dirname, '..')
-const MINI_ROOT = path.join(PRO_ROOT, '..', 'save-radar-mini')
+const MINI_ROOT = path.join(PRO_ROOT, 'mini')
 
 const PRO_DATA_DIR = path.join(PRO_ROOT, 'public', 'data')
 const PRO_DATA_DIR2 = path.join(PRO_ROOT, 'data')
