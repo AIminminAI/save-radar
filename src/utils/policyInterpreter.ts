@@ -21,14 +21,14 @@ const IMPACT_DB: Record<string, Record<string, {
 }>> = {
   'tax': {
     '扣除': {
-      impact: '个税可能少交',
+      impact: '个税可能调整',
       change: '个税专项扣除标准调整，你每月可以多扣一些钱再算税',
       action: '打开个税APP → 专项附加扣除 → 填报/更新信息',
       money: '到手收入可能变化，具体看扣除标准',
       urgency: 'high',
     },
     '减免': {
-      impact: '可能少交税',
+      impact: '税费可能调整',
       change: '符合条件可享受税费减免，税负直接降低',
       action: '向单位财务或税务部门咨询减免条件并申请',
       money: '具体金额看减免幅度',
@@ -36,7 +36,7 @@ const IMPACT_DB: Record<string, Record<string, {
     },
     '优惠': {
       impact: '有税收优惠能享受',
-      change: '新出了税收优惠政策，符合条件可以少交',
+      change: '新出了税收优惠政策，符合条件可以享受优惠',
       action: '对照条件看自己是否符合，符合就申请',
       money: '看具体优惠力度',
       urgency: 'medium',
@@ -44,7 +44,7 @@ const IMPACT_DB: Record<string, Record<string, {
     '调整': {
       impact: '交税金额可能变',
       change: '税率或起征点有变化，你的税负可能增减',
-      action: '算一下新标准下自己多交还是少交',
+      action: '算一下新标准下自己的税负变化',
       money: '需根据调整方向计算',
       urgency: 'medium',
     },
@@ -175,14 +175,14 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '养老金可能涨了',
       change: '养老金发放标准提高了',
       action: '查社保APP确认新的养老金金额',
-      money: '每月可能多拿钱',
+      money: '相关待遇可能调整',
       urgency: 'high',
     },
     '补贴': {
       impact: '养老补贴有变化',
       change: '养老相关补贴标准有调整',
       action: '了解补贴申请条件和标准',
-      money: '可能多拿补贴',
+      money: '补贴金额可能调整',
       urgency: 'medium',
     },
     'default': {
@@ -212,7 +212,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '养育补贴有变化',
       change: '子女养育相关补贴标准有调整',
       action: '了解补贴申请条件和发放标准',
-      money: '可能多拿补贴',
+      money: '补贴金额可能调整',
       urgency: 'medium',
     },
     '婴幼儿': {
@@ -256,7 +256,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '高龄津贴有变化',
       change: '高龄津贴发放标准或年龄条件有调整',
       action: '了解当地高龄津贴新标准',
-      money: '可能多拿津贴',
+      money: '津贴金额可能调整',
       urgency: 'medium',
     },
     '护理': {
@@ -270,7 +270,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '老人补贴有变化',
       change: '养老相关补贴标准有调整',
       action: '了解补贴申请条件和发放标准',
-      money: '可能多拿补贴',
+      money: '补贴金额可能调整',
       urgency: 'medium',
     },
     'default': {
@@ -307,7 +307,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '买药能报销的可能有变化',
       change: '医保药品目录有更新，有些药新纳入医保',
       action: '查看常用药是否纳入医保',
-      money: '常用药可能更便宜',
+      money: '部分药品费用可能调整',
       urgency: 'high',
     },
     '异地': {
@@ -344,21 +344,21 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '租房补贴可能变了',
       change: '租房补贴或保障有调整',
       action: '查看是否符合租房补贴条件',
-      money: '可能每月多拿补贴',
+      money: '补贴标准可能调整',
       urgency: 'medium',
     },
     '保障': {
       impact: '保障房政策可能有变化',
       change: '保障性住房申请条件或配租有更新',
       action: '关注保障房申请时间和条件',
-      money: '可能住上更便宜的房子',
+      money: '住房支出可能调整',
       urgency: 'medium',
     },
     '补贴': {
       impact: '住房补贴可能有变化',
       change: '住房补贴标准有变化',
       action: '确认自己是否符合补贴条件',
-      money: '可能多拿补贴',
+      money: '补贴金额可能调整',
       urgency: 'high',
     },
     '贷款': {
@@ -386,9 +386,9 @@ const IMPACT_DB: Record<string, Record<string, {
     },
     '提高': {
       impact: '待遇标准提高了',
-      change: '相关待遇或标准提高了，你可能多拿钱',
+      change: '相关待遇或标准提高了，你可能受益',
       action: '确认自己是否能享受新标准',
-      money: '可能多拿钱',
+      money: '待遇金额可能调整',
       urgency: 'high',
     },
     '降低': {
@@ -518,7 +518,7 @@ const IMPACT_DB: Record<string, Record<string, {
       impact: '就业补贴有变化',
       change: '就业相关补贴标准有调整',
       action: '确认自己是否符合补贴条件',
-      money: '可能多拿补贴',
+      money: '补贴金额可能调整',
       urgency: 'high',
     },
     '人才': {

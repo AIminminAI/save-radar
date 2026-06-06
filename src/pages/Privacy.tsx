@@ -128,7 +128,7 @@ export default function Privacy() {
             <h3 className="text-sm font-bold text-gray-800">七、广告说明</h3>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed">
-            本应用使用穿山甲H5激励视频广告组件提供广告服务。广告内容由广告平台提供和管理，我们不会在广告展示过程中收集您的任何个人信息。广告收益用于支持本应用的持续运营和维护。本应用可能包含淘宝联盟、京东联盟等推广链接，这些链接已标注"广告"字样。通过这些链接购买商品，我们可能获得少量佣金，不会增加您的购买成本。
+            本应用使用 Google AdSense 提供广告服务。广告内容由 Google 广告平台提供和管理，我们不会在广告展示过程中收集您的任何个人信息。广告收益用于支持本应用的持续运营和维护。
           </p>
         </div>
 
@@ -185,8 +185,8 @@ export default function Privacy() {
           <p className="text-xs text-gray-500 leading-relaxed">
             如您对本隐私政策有任何疑问、意见或建议，请通过以下方式联系我们：
           </p>
-          <p className="text-xs text-[#1A1A2E] font-bold mt-2">privacy@save-radar-opal.vercel.app</p>
-          <p className="text-xs text-gray-400 mt-1">我们将在收到您的反馈后15个工作日内回复。</p>
+          <p className="text-xs text-[#1A1A2E] font-bold mt-2">GitHub: AIminminAI</p>
+          <p className="text-xs text-gray-400 mt-1">您也可以通过本应用"关于我们"页面获取更多信息。</p>
         </div>
       </div>
     </div>

@@ -283,6 +283,12 @@ export default function Profile() {
           </div>
           <div className="space-y-2">
             <button
+              onClick={() => navigate('/about')}
+              className="w-full text-left px-3 py-2.5 bg-gray-50 rounded-xl text-xs text-gray-600 font-medium active:scale-95 transition-transform"
+            >
+              关于我们
+            </button>
+            <button
               onClick={() => navigate('/privacy')}
               className="w-full text-left px-3 py-2.5 bg-gray-50 rounded-xl text-xs text-gray-600 font-medium active:scale-95 transition-transform"
             >

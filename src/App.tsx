@@ -6,10 +6,12 @@ import Profile from '@/pages/Profile'
 import Policies from '@/pages/Policies'
 import NotFound from '@/pages/NotFound'
 import Privacy from '@/pages/Privacy'
+import About from '@/pages/About'
 import SubsidyCalculator from '@/pages/SubsidyCalculator'
 import BottomNav from '@/components/BottomNav'
 import CouponDetail from '@/components/CouponDetail'
 import WeChatGuard from '@/components/WeChatGuard'
+import CookieConsent from '@/components/CookieConsent'
 
 export default function App() {
   return (
@@ -24,10 +26,12 @@ export default function App() {
           <Route path="/policies" element={<Policies />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <BottomNav />
         <CouponDetail />
+        <CookieConsent />
       </div>
     </Router>
     </WeChatGuard>

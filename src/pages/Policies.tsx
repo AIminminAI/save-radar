@@ -413,7 +413,7 @@ function PolicyCard({
       })
     : ''
 
-  const isPositive = interp.impactOnYou.includes('多拿') || interp.impactOnYou.includes('少交') || interp.impactOnYou.includes('降低') || interp.impactOnYou.includes('提高') || interp.impactOnYou.includes('更便宜') || interp.impactOnYou.includes('更方便')
+  const isPositive = interp.impactOnYou.includes('调整') || interp.impactOnYou.includes('降低') || interp.impactOnYou.includes('提高') || interp.impactOnYou.includes('优惠') || interp.impactOnYou.includes('更方便') || interp.impactOnYou.includes('变化')
   const isNegative = interp.impactOnYou.includes('多扣') || interp.impactOnYou.includes('多交') || interp.impactOnYou.includes('增加')
 
   return (
