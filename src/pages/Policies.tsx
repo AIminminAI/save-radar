@@ -5,6 +5,7 @@ import { ScrapedCoupon } from '@/data/types'
 import { useAppStore } from '@/store/useAppStore'
 import { getPersona, personas, Persona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
+import { BannerAd } from '@/components/BannerAd'
 
 const CATEGORY_META: Record<string, { name: string; icon: string; color: string }> = {
   'gov-policy': { name: '国家政策', icon: '📋', color: '#1A1A2E' },
@@ -382,6 +383,8 @@ export default function Policies() {
           ))
         )}
       </div>
+
+      <BannerAd />
     </div>
   )
 }

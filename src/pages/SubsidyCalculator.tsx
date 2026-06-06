@@ -5,6 +5,8 @@ import { getPersona } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { ScrapedCoupon } from '@/data/types'
 import { requestPayment, PRODUCTS, isSubsidyUnlocked } from '@/services/paymentService'
+import { showInterstitialAd } from '@/services/adService'
+import { BannerAd } from '@/components/BannerAd'
 import {
   getSubscriptionConfig,
   saveSubscriptionConfig,
@@ -118,6 +120,8 @@ export default function SubsidyCalculator() {
   const handleCalculate = () => {
     if (!canCalculate) return
     setCalculated(true)
+    // 计算完成后展示插屏广告
+    setTimeout(() => showInterstitialAd(), 500)
   }
 
   const handleUnlock = async () => {
@@ -419,6 +423,8 @@ export default function SubsidyCalculator() {
           </div>
         )}
       </div>
+
+      <BannerAd />
     </div>
   )
 }

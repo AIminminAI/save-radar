@@ -9,6 +9,7 @@ import { useAccessControl } from '@/hooks/useAccessControl'
 import { getPersona, personas } from '@/data/personas'
 import { filterPoliciesForPersona, sortPoliciesByRelevance, interpretPolicy } from '@/utils/policyInterpreter'
 import { policyCategories } from '@/data/policies'
+import { BannerAd } from '@/components/BannerAd'
 
 const CATEGORY_NAMES: Record<string, string> = {
   'gov-policy': '国家政策',
@@ -300,6 +301,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <BannerAd />
     </div>
   )
 }

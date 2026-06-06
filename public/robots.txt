@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-User-agent: BillRadarBot
-Allow: /
+Sitemap: https://save-radar-opal.vercel.app/sitemap.xml
