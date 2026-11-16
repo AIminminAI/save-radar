@@ -1,6 +1,6 @@
 [
   {
-    "id": "gov-gov-policy-1794814757339-0",
+    "id": "gov-gov-policy-1794851677368-0",
     "title": "中共中央印发《中国共产党地方委员会工作条例》",
     "carrier": "policy",
     "carrierName": "中国政府网-政策文件",
@@ -21,10 +21,10 @@
       "gov-policy"
     ],
     "source": "中国政府网-政策文件",
-    "scrapedAt": "2026-11-16T07:39:17.339Z"
+    "scrapedAt": "2026-11-16T17:54:37.368Z"
   },
   {
-    "id": "gov-gov-policy-1794814757340-2",
+    "id": "gov-gov-policy-1794851677369-2",
     "title": "中医药传统知识保护条例",
     "carrier": "policy",
     "carrierName": "中国政府网-政策文件",
@@ -45,10 +45,10 @@
       "gov-policy"
     ],
     "source": "中国政府网-政策文件",
-    "scrapedAt": "2026-11-16T07:39:17.340Z"
+    "scrapedAt": "2026-11-16T17:54:37.369Z"
   },
   {
-    "id": "gov-gov-policy-1794814757340-3",
+    "id": "gov-gov-policy-1794851677369-3",
     "title": "中共中央发出通知 部署党的二十一大代表选举工作",
     "carrier": "policy",
     "carrierName": "中国政府网-政策文件",
@@ -69,10 +69,10 @@
       "gov-policy"
     ],
     "source": "中国政府网-政策文件",
-    "scrapedAt": "2026-11-16T07:39:17.340Z"
+    "scrapedAt": "2026-11-16T17:54:37.369Z"
   },
   {
-    "id": "gov-medical-1794814826188-0",
+    "id": "gov-medical-1794851684467-0",
     "title": "全球脑机接口×医保创新场景大赛决赛及颁奖大会成功举办",
     "carrier": "policy",
     "carrierName": "国家医保局-政策法规",
@@ -93,10 +93,10 @@
       "medical"
     ],
     "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
+    "scrapedAt": "2026-11-16T17:54:44.467Z"
   },
   {
-    "id": "gov-medical-1794814826188-1",
+    "id": "gov-medical-1794851684467-1",
     "title": "​9月22日，宁波中东欧医药交易（集采）平台上线仪式在浙江省宁波市举行。国家医疗保障局党组书记、局长章轲，国家医保局党组成员、副局长施子海，浙江省委副书记、...",
     "carrier": "policy",
     "carrierName": "国家医保局-政策法规",
@@ -117,10 +117,10 @@
       "medical"
     ],
     "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
+    "scrapedAt": "2026-11-16T17:54:44.467Z"
   },
   {
-    "id": "gov-medical-1794814826188-2",
+    "id": "gov-medical-1794851684468-2",
     "title": "国新办推进医保高质量发展、更好服务中国式现代化建设有关情况新...",
     "carrier": "policy",
     "carrierName": "国家医保局-政策法规",
@@ -141,10 +141,58 @@
       "medical"
     ],
     "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
   },
   {
-    "id": "gov-medical-1794814826188-4",
+    "id": "gov-medical-1794851684468-5",
+    "title": "云南构建“事前提醒+事中控制”机制 筑牢医保基金安全防线",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/12/art_287_23407.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-6",
+    "title": "福建规划引领优布局 系统施治提质效 统筹医保定点资源供给",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-10",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/10/art_287_23406.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-7",
     "title": "浙江杭州坚持规划引领 实现医保定点管理提质赋能",
     "carrier": "policy",
     "carrierName": "国家医保局-政策法规",
@@ -157,7 +205,7 @@
       "了解医保政策变化对自己看病的影响",
       "查医保APP确认最新报销标准"
     ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/3/art_287_23312.html",
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/3/art_287_23404.html",
     "isHot": false,
     "isNew": true,
     "tags": [
@@ -165,7 +213,2143 @@
       "medical"
     ],
     "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-9",
+    "title": "【江苏】有医保更安心，港澳台学子在苏参保指南请查收！",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/12/art_14_23355.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-10",
+    "title": "【江西】慢病买药报销如何少跑腿？医保外配处方给出便民新答案",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解报销比例和起付线变化",
+      "下次就医时注意报销调整"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/11/art_14_23352.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-11",
+    "title": "【福建】福建规划引领优布局 系统施治提质效 统筹医保定点资源供给",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/10/art_14_23341.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-12",
+    "title": "【浙江】浙江杭州坚持规划引领 实现医保定点管理提质赋能",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/3/art_14_23288.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-elderly-1794851684468-13",
+    "title": "【江苏】长护险让失能老人有了新保障",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "elderly",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解养老补贴和护理政策变化",
+      "关注当地民政部门通知"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/30/art_14_23258.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "elderly"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-14",
+    "title": "【新疆】新疆推行DRG/DIP半年清算机制 释放医保基金使用综合效能",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-02",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/25/art_14_23226.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851684468-17",
+    "title": "【北京新闻】成本4元卖480元。有人注射后心脏骤停差点没命，有人倒卖套取医保基金！“司美格鲁肽”到底是什么？",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2026-08-27",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://mp.weixin.qq.com/s/8k1WZ7EJTDXwdw-QVwcwIQ?scene=1&click_id=1029650642",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:44.468Z"
+  },
+  {
+    "id": "gov-medical-1794851689899-4",
+    "title": "各地医保持续调整优化医疗服务价格",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/16/art_287_23409.html",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策解读",
+    "scrapedAt": "2026-11-16T17:54:49.899Z"
+  },
+  {
+    "id": "gov-medical-1794851689899-18",
+    "title": "国家医保局 人力资源社会保障部关于印发《国家基本医疗保险、生育保险和工伤保险药品目录》以及《商业健康保险创新药品目录》（2026年）的通知",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-14",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "查看常用药是否纳入医保目录",
+      "咨询医生是否有医保替代药品"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/14/art_104_23384.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策解读",
+    "scrapedAt": "2026-11-16T17:54:49.899Z"
+  },
+  {
+    "id": "gov-medical-1794851689899-19",
+    "title": "国家医疗保障局关于试行高水平新技术新产品医疗服务价格项目预立项制度的通知",
+    "carrier": "policy",
+    "carrierName": "国家医保局-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-15",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/9/15/art_104_22141.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-政策解读",
+    "scrapedAt": "2026-11-16T17:54:49.899Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-1",
+    "title": "关于企业所得税若干政策征管口径问题的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n362/c5165844/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-4",
+    "title": "关于修改《重大税务案件审理办法》的决定",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165310/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-6",
+    "title": "关于发布《免征车辆购置税的设有固定装置的非运输专用作业车辆目录》（第二批）的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n371/c5165153/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-7",
+    "title": "关于优化整合出口退税信息系统 更好服务纳税人有关事项的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n377/c5165307/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-8",
+    "title": "关于通过公益性群众团体的公益性捐赠税前扣除有关事项的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164938/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-9",
+    "title": "关于继续实施企业改制重组有关土地增值税政策的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n359/c5165491/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691319-12",
+    "title": "关于将国有土地使用权出让收入、矿产资源专项收入、海域使用金、无居民海岛使用金四项政府非税收入划转税务部门征收有关问题的通知",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164962/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.319Z"
+  },
+  {
+    "id": "gov-tax-1794851691320-13",
+    "title": "研发费用税前加计扣除新政指引",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164426/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.320Z"
+  },
+  {
+    "id": "gov-tax-1794851691320-14",
+    "title": "关于土地闲置费 城镇垃圾处理费划转有关征管事项的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164412/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.320Z"
+  },
+  {
+    "id": "gov-tax-1794851691320-15",
+    "title": "关于对部分成品油征收进口环节消费税的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n360/c5164411/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.320Z"
+  },
+  {
+    "id": "gov-tax-1794851691320-16",
+    "title": "关于延长部分扶贫税收优惠政策执行期限的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "确认自己是否符合减免/优惠条件",
+      "向单位财务或税务部门咨询申请"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164490/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.320Z"
+  },
+  {
+    "id": "gov-tax-1794851691320-19",
+    "title": "关于落实从事污染防治的第三方企业所得税政策有关问题的公告",
+    "carrier": "policy",
+    "carrierName": "国家税务总局-政策法规",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164225/content.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "国家税务总局-政策法规",
+    "scrapedAt": "2026-11-16T17:54:51.320Z"
+  },
+  {
+    "id": "gov-gov-policy-1794851771465-4",
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-05",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-11-16T17:56:11.465Z"
+  },
+  {
+    "id": "gov-gov-policy-1794851771465-5",
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-05",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-11-16T17:56:11.465Z"
+  },
+  {
+    "id": "gov-gov-policy-1794851771465-6",
+    "title": "国务院关于修改和废止部分行政法规的决定",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-05",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-11-16T17:56:11.465Z"
+  },
+  {
+    "id": "gov-gov-policy-1794851771466-7",
+    "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "carrier": "policy",
+    "carrierName": "中国政府网-最新政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-01",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/./202611/content_7084690.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-最新政策",
+    "scrapedAt": "2026-11-16T17:56:11.466Z"
+  },
+  {
+    "id": "gov-medical-1794851946518-8",
+    "title": "纪念孙中山先生诞辰160周年大会在京举行 习近平出席大会并发表重要讲话",
+    "carrier": "policy",
+    "carrierName": "国家医保局-通知公告",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7085879.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-通知公告",
+    "scrapedAt": "2026-11-16T17:59:06.518Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-0",
+    "title": "2026年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2026/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-1",
+    "title": "2025年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2025/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-2",
+    "title": "2024年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2024/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-3",
+    "title": "2023年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2023/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-4",
+    "title": "2022年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2022/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-6",
+    "title": "2020年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202001wg/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-7",
+    "title": "2019年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg201901/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-8",
+    "title": "2018年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2018/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-9",
+    "title": "2017年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2017wg/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-10",
+    "title": "2016年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2016/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-11",
+    "title": "2015年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2015/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-12",
+    "title": "2014年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2014/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-13",
+    "title": "2013年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./wg2013/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-14",
+    "title": "2012年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2012wg/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-15",
+    "title": "2011年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2011caizhengwengao/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-16",
+    "title": "2010年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2010nianwengao/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-17",
+    "title": "2009年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./2009niancaizhengbuwengao/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-18",
+    "title": "2008年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2008/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852137402-19",
+    "title": "2007年财政部文告",
+    "carrier": "policy",
+    "carrierName": "财政部-政策文件",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2007/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策文件",
+    "scrapedAt": "2026-11-16T18:02:17.402Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-0",
+    "title": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gd.mof.gov.cn/caizhengjiancha/202611/t20261104_4004053.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-1",
+    "title": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转移支付绩效自评抽查复核工作",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://hlj.mof.gov.cn/caizhengjiancha/202610/t20261023_4003342.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-3",
+    "title": "《财政部门行使行政处罚裁量权指导规范》修订印发",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-13",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://tfs.mof.gov.cn/zhengcefabu/202611/t20261111_4004415.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-4",
+    "title": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治重点抽查",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-13",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "http://dl.mof.gov.cn/caizhengjiancha/202610/t20261020_4003094.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-5",
+    "title": "财政部湖北监管局：“三个坚持”扎实开展中小企业发展专项资金重点绩效评价",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-13",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "http://hb.mof.gov.cn/gzdt2019/caizhengjiancha/202611/t20261109_4004272.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-6",
+    "title": "浙江：积极推动建立与乡镇履职事项清单相匹配的财政保障机制",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/../xinwenlianbo/zhejiangcaizhengxinxilianbo/202611/t20261103_4003954.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-7",
+    "title": "财政部海南监管局：全链贯通 推动财政金融协同促内需一揽子政策落地见效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://hq.mof.gov.cn/caizhengjiancha/202610/t20261029_4003687.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370763-8",
+    "title": "财政部宁夏监管局：锚定三年行动主线多维协同推进财会监督专项行动见行见效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "http://nx.mof.gov.cn/caizhengjiancha/202611/t20261103_4003968.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.763Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-9",
+    "title": "财政部将在香港发行美元主权债券",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202611/t20261111_4004480.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-10",
+    "title": "财政部印发《会计改革与发展“十五五”规划》",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://kjs.mof.gov.cn/zhengcefabu/202611/t20261105_4004148.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-11",
+    "title": "财政部会计司就国际可持续准则理事会发布的《国际财务报告准则可持续披露实务公告第1号——自然相关披露（征求意见稿）》公开征求意见",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://kjs.mof.gov.cn/gongzuotongzhi/202611/t20261109_4004283.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-12",
+    "title": "落实过紧日子要求经验做法专题 | 财政部上海监管局：打好“谋研督改”组合拳 推动习惯过紧日子要求落地生效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://sh.mof.gov.cn/gzdt/caizhengjiancha/202609/t20260911_3997262.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-13",
+    "title": "落实过紧日子要求经验做法专题 | 财政部青岛监管局：挖掘属地“节约策”推广落实过紧日子实践经验",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://qd.mof.gov.cn/gzdt/caizhengjiancha/202609/t20260908_3996929.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-14",
+    "title": "落实过紧日子要求经验做法专题 | 财政部湖北监管局：湖北多措并举优化编外人员队伍 以“精兵减支”落实过紧日子要求",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://hb.mof.gov.cn/gzdt2019/caizhengjiancha/202609/t20260907_3996859.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-15",
+    "title": "落实过紧日子要求经验做法专题 | 财政部深圳监管局：创新探索“四个一”工作机制督促党政机关过紧日子落地见效",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-11",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://sz.mof.gov.cn/caizhengjiancha/202609/t20260904_3996719.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-16",
+    "title": "财政部在加拿大成功发行人民币绿色主权债券",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-10",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202611/t20261110_4004375.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-17",
+    "title": "廖岷副部长与加拿大财政部国际贸易与金融助理副部长帕特里克·海利共同签署财政合作谅解备忘录",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-10",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./202611/t20261110_4004339.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-18",
+    "title": "财政部发行2026年记账式贴现（七十三期）国债",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-10",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://zwgls.mof.gov.cn/ywgg/202611/t20261110_4004346.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-tax-1794852370764-19",
+    "title": "财政部广西监管局：“三步走”扎实推进2027年属地中央预算单位部门预算编制审核工作",
+    "carrier": "policy",
+    "carrierName": "财政部-政策解读",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-10",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gx.mof.gov.cn/gzdt/caizhengjiancha/202610/t20261023_4003394.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-政策解读",
+    "scrapedAt": "2026-11-16T18:06:10.764Z"
+  },
+  {
+    "id": "gov-gov-policy-1794852632642-4",
+    "title": "李强结束出访回到北京",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7086195.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-11-16T18:10:32.642Z"
+  },
+  {
+    "id": "gov-gov-policy-1794852632642-5",
+    "title": "何立峰：推动干部树立和践行正确政绩观",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7086093.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-11-16T18:10:32.642Z"
+  },
+  {
+    "id": "gov-gov-policy-1794852632642-6",
+    "title": "王小洪在四川调研时强调 坚定信心 抢抓机遇 全力完成全年经济社会发展主要目标任务",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7086211.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-11-16T18:10:32.642Z"
+  },
+  {
+    "id": "gov-gov-policy-1794852632642-7",
+    "title": "吴政隆在黑龙江辽宁调研时指出 加力推动政策落地见效 努力实现“十五五”良好开局",
+    "carrier": "policy",
+    "carrierName": "中国政府网-国务院令",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "gov-policy",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "对照自身情况判断是否适用",
+      "关注具体实施时间和条件"
+    ],
+    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7086200.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "gov-policy"
+    ],
+    "source": "中国政府网-国务院令",
+    "scrapedAt": "2026-11-16T18:10:32.642Z"
+  },
+  {
+    "id": "gov-tax-1794852667991-1",
+    "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "https://www.mof.gov.cn/./tupianxinwen1/202610/t20261029_4003720.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.991Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-4",
+    "title": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-16",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://hlj.mof.gov.cn/caizhengjiancha/202610/t20261023_4003342.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-7",
+    "title": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-13",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "打开个税APP → 专项附加扣除 → 填报/更新信息",
+      "对照条件确认自己是否符合扣除标准"
+    ],
+    "claimUrl": "http://dl.mof.gov.cn/caizhengjiancha/202610/t20261020_4003094.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-8",
+    "title": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-13",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://tfs.mof.gov.cn/zhengcefabu/202611/t20261111_4004415.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-9",
+    "title": "国务院关税税则委员会关于调整对原产于美国的进口商品加征关税措施的公告",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-09",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-11",
+    "title": "财政部国库司有关负责人就实施新的《政府部门财务报告编制操作指南》和...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gks.mof.gov.cn/guizhangzhidu/202611/t20261104_4004088.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-12",
+    "title": "国务院关税税则委员会发布公告调整对原产于美国的进口商品加征关税措施",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-09",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://gss.mof.gov.cn/gzdt/zhengcejiedu/202611/t20261109_4004261.htm",
+    "isHot": true,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-housing-1794852667992-13",
+    "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-29",
+    "category": "housing",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "咨询银行最新房贷政策",
+      "计算月供变化"
+    ],
+    "claimUrl": "http://jrs.mof.gov.cn/zhengcejiedu/202609/t20260929_3998314.htm",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "housing"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-14",
+    "title": "国新办举行优化完善部分阶段性税费...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/49553/49741/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-15",
+    "title": "国务院政策例行吹风会：介绍稳经济...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/2022n_16602/49054/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-16",
+    "title": "中共中央宣传部举行财税改革与发展...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/xwfb/gwyxwbgsxwfbh/wqfbh_2284/2022n_2285/2022n05y17r/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-17",
+    "title": "国新办举行增值税留抵退税国务院政...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/2022n_16602/2022n03y23r/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-tax-1794852667992-18",
+    "title": "国新办举行财政改革与发展工作新闻...",
+    "carrier": "policy",
+    "carrierName": "财政部-综合政策",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "tax",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "计算新政策下自己的税负变化",
+      "如有疑问拨打12366纳税服务热线"
+    ],
+    "claimUrl": "http://www.scio.gov.cn/xwfb/gwyxwbgsxwfbh/wqfbh_2284/2022n_2285/2022n02y22r/",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "tax"
+    ],
+    "source": "财政部-综合政策",
+    "scrapedAt": "2026-11-16T18:11:07.992Z"
+  },
+  {
+    "id": "gov-medical-1794852968777-9",
+    "title": "湖北宜昌“三破一立” 推进季度清算改革落地",
+    "carrier": "policy",
+    "carrierName": "国家医保局-医保改革",
+    "discountAmount": 0,
+    "expirationDate": "2026-10-26",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/26/art_287_23403.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-医保改革",
+    "scrapedAt": "2026-11-16T18:16:08.777Z"
+  },
+  {
+    "id": "gov-medical-1794852968777-16",
+    "title": "【湖北】湖北宜昌“三破一立” 推进季度清算改革落地",
+    "carrier": "policy",
+    "carrierName": "国家医保局-医保改革",
+    "discountAmount": 0,
+    "expirationDate": "2026-11-12",
+    "category": "medical",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解医保政策变化对自己看病的影响",
+      "查医保APP确认最新报销标准"
+    ],
+    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/26/art_14_23228.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "medical"
+    ],
+    "source": "国家医保局-医保改革",
+    "scrapedAt": "2026-11-16T18:16:08.777Z"
+  },
+  {
+    "id": "gov-education-1794853028347-5",
+    "title": "国务院学位办负责人就《关于做好专业学位研究...",
+    "carrier": "policy",
+    "carrierName": "教育部-高校学生司",
+    "discountAmount": 0,
+    "expirationDate": "2026-10-19",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "关注研招网和目标院校最新通知",
+      "确认报考条件和招生计划变化"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/./jyb_xwfb/s271/202610/t20261019_1455091.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education"
+    ],
+    "source": "教育部-高校学生司",
+    "scrapedAt": "2026-11-16T18:17:08.347Z"
+  },
+  {
+    "id": "gov-education-1794853028347-6",
+    "title": "学位授予单位(不含军队单位)自主设置二级学...",
+    "carrier": "policy",
+    "carrierName": "教育部-高校学生司",
+    "discountAmount": 0,
+    "expirationDate": "2026-10-09",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "关注研招网和目标院校最新通知",
+      "确认报考条件和招生计划变化"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202610/t20261008_1453325.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education"
+    ],
+    "source": "教育部-高校学生司",
+    "scrapedAt": "2026-11-16T18:17:08.347Z"
+  },
+  {
+    "id": "gov-education-1794853030404-2",
+    "title": "首个国际职业教育标准《北京协议》以六种语言全文发布",
+    "carrier": "policy",
+    "carrierName": "教育部-职业教育",
+    "discountAmount": 0,
+    "expirationDate": "2027-02-14",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解职业培训补贴和资格证政策",
+      "确认培训报名和补贴申请方式"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202611/t20261116_1458395.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education"
+    ],
+    "source": "教育部-职业教育",
+    "scrapedAt": "2026-11-16T18:17:10.404Z"
+  },
+  {
+    "id": "gov-education-1794853030404-7",
+    "title": "关于举办第四届全国大学生职业规划大赛的通知",
+    "carrier": "policy",
+    "carrierName": "教育部-职业教育",
+    "discountAmount": 0,
+    "expirationDate": "2026-10-10",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解职业培训补贴和资格证政策",
+      "确认培训报名和补贴申请方式"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/srcsite/A15/s7063/202610/t20261010_1453481.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education"
+    ],
+    "source": "教育部-职业教育",
+    "scrapedAt": "2026-11-16T18:17:10.404Z"
+  },
+  {
+    "id": "gov-education-1794853030404-8",
+    "title": "关于做好2026年“三区”人才支持计划教师专项...",
+    "carrier": "policy",
+    "carrierName": "教育部-职业教育",
+    "discountAmount": 0,
+    "expirationDate": "2026-09-30",
+    "category": "education",
+    "type": "policy",
+    "guide": [
+      "阅读政策原文，了解具体内容",
+      "了解教育政策变化对自己学业的影响",
+      "关注学校和教育部门通知"
+    ],
+    "claimUrl": "http://www.moe.gov.cn/srcsite/A10/s7151/202609/t20260930_1452742.html",
+    "isHot": false,
+    "isNew": true,
+    "tags": [
+      "政策",
+      "education"
+    ],
+    "source": "教育部-职业教育",
+    "scrapedAt": "2026-11-16T18:17:10.404Z"
   },
   {
     "id": "gov-medical-1794814826188-5",
@@ -288,174 +2472,6 @@
     "scrapedAt": "2026-11-16T07:40:26.188Z"
   },
   {
-    "id": "gov-medical-1794814826188-11",
-    "title": "【江苏】有医保更安心，港澳台学子在苏参保指南请查收！",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-16",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/12/art_14_23355.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
-    "id": "gov-medical-1794814826188-12",
-    "title": "【江西】慢病买药报销如何少跑腿？医保外配处方给出便民新答案",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-16",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解报销比例和起付线变化",
-      "下次就医时注意报销调整"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/11/art_14_23352.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
-    "id": "gov-medical-1794814826188-13",
-    "title": "【福建】福建规划引领优布局 系统施治提质效 统筹医保定点资源供给",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-16",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/10/art_14_23341.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
-    "id": "gov-medical-1794814826188-14",
-    "title": "【浙江】浙江杭州坚持规划引领 实现医保定点管理提质赋能",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/3/art_14_23288.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
-    "id": "gov-elderly-1794814826188-15",
-    "title": "【江苏】长护险让失能老人有了新保障",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "elderly",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解养老补贴和护理政策变化",
-      "关注当地民政部门通知"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/30/art_14_23258.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "elderly"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
-    "id": "gov-medical-1794814826188-16",
-    "title": "【新疆】新疆推行DRG/DIP半年清算机制 释放医保基金使用综合效能",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-02",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/25/art_14_23226.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
-    "id": "gov-medical-1794814826188-19",
-    "title": "【北京新闻】成本4元卖480元。有人注射后心脏骤停差点没命，有人倒卖套取医保基金！“司美格鲁肽”到底是什么？",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2026-08-27",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "https://mp.weixin.qq.com/s/8k1WZ7EJTDXwdw-QVwcwIQ?scene=1&click_id=1029650642",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:26.188Z"
-  },
-  {
     "id": "gov-medical-1794814830988-7",
     "title": "2000年-2025年国家基本医保药品目录相关数据",
     "carrier": "policy",
@@ -478,318 +2494,6 @@
     ],
     "source": "国家医保局-政策解读",
     "scrapedAt": "2026-11-16T07:40:30.988Z"
-  },
-  {
-    "id": "gov-medical-1794814830988-19",
-    "title": "国家医保局 人力资源社会保障部关于印发《国家基本医疗保险、生育保险和工伤保险药品目录》以及《商业健康保险创新药品目录》（2026年）的通知",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-14",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "查看常用药是否纳入医保目录",
-      "咨询医生是否有医保替代药品"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/11/14/art_104_23384.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策解读",
-    "scrapedAt": "2026-11-16T07:40:30.988Z"
-  },
-  {
-    "id": "gov-tax-1794814832069-1",
-    "title": "关于企业所得税若干政策征管口径问题的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n362/c5165844/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-4",
-    "title": "关于修改《重大税务案件审理办法》的决定",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5165310/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-6",
-    "title": "关于发布《免征车辆购置税的设有固定装置的非运输专用作业车辆目录》（第二批）的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n371/c5165153/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-7",
-    "title": "关于优化整合出口退税信息系统 更好服务纳税人有关事项的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n377/c5165307/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-8",
-    "title": "关于通过公益性群众团体的公益性捐赠税前扣除有关事项的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164938/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-9",
-    "title": "关于继续实施企业改制重组有关土地增值税政策的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n359/c5165491/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-12",
-    "title": "关于将国有土地使用权出让收入、矿产资源专项收入、海域使用金、无居民海岛使用金四项政府非税收入划转税务部门征收有关问题的通知",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164962/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-13",
-    "title": "研发费用税前加计扣除新政指引",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164426/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-14",
-    "title": "关于土地闲置费 城镇垃圾处理费划转有关征管事项的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164412/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-15",
-    "title": "关于对部分成品油征收进口环节消费税的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n360/c5164411/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-16",
-    "title": "关于延长部分扶贫税收优惠政策执行期限的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "确认自己是否符合减免/优惠条件",
-      "向单位财务或税务部门咨询申请"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164490/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
-  },
-  {
-    "id": "gov-tax-1794814832070-19",
-    "title": "关于落实从事污染防治的第三方企业所得税政策有关问题的公告",
-    "carrier": "policy",
-    "carrierName": "国家税务总局-政策法规",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.chinatax.gov.cn/chinatax/n810341/n810825/c101434/c5164225/content.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "国家税务总局-政策法规",
-    "scrapedAt": "2026-11-16T07:40:32.070Z"
   },
   {
     "id": "gov-housing-1794814858566-1",
@@ -1200,102 +2904,6 @@
     "scrapedAt": "2026-11-16T07:40:58.566Z"
   },
   {
-    "id": "gov-gov-policy-1794814888876-4",
-    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
-    "carrier": "policy",
-    "carrierName": "中国政府网-最新政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-05",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-最新政策",
-    "scrapedAt": "2026-11-16T07:41:28.876Z"
-  },
-  {
-    "id": "gov-gov-policy-1794814888876-5",
-    "title": "国务院办公厅关于2027年部分节假日安排的通知",
-    "carrier": "policy",
-    "carrierName": "中国政府网-最新政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-05",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-最新政策",
-    "scrapedAt": "2026-11-16T07:41:28.876Z"
-  },
-  {
-    "id": "gov-gov-policy-1794814888876-6",
-    "title": "国务院关于修改和废止部分行政法规的决定",
-    "carrier": "policy",
-    "carrierName": "中国政府网-最新政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-05",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-最新政策",
-    "scrapedAt": "2026-11-16T07:41:28.876Z"
-  },
-  {
-    "id": "gov-gov-policy-1794814888876-7",
-    "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
-    "carrier": "policy",
-    "carrierName": "中国政府网-最新政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-01",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/./202611/content_7084690.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-最新政策",
-    "scrapedAt": "2026-11-16T07:41:28.876Z"
-  },
-  {
     "id": "gov-housing-1794814920710-0",
     "title": "2026年世界城市日全球主场活动暨第四届全球可持续发展城市奖（上海奖）颁奖活动将于10月31日至11月2日在中国福州举办",
     "carrier": "policy",
@@ -1344,894 +2952,6 @@
     "scrapedAt": "2026-11-16T07:42:00.710Z"
   },
   {
-    "id": "gov-medical-1794814993845-8",
-    "title": "纪念孙中山先生诞辰160周年大会在京举行 习近平出席大会并发表重要讲话",
-    "carrier": "policy",
-    "carrierName": "国家医保局-通知公告",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7085879.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-通知公告",
-    "scrapedAt": "2026-11-16T07:43:13.845Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-0",
-    "title": "2026年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2026/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-1",
-    "title": "2025年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2025/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-2",
-    "title": "2024年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2024/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-3",
-    "title": "2023年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2023/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-4",
-    "title": "2022年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2022/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-6",
-    "title": "2020年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./202001wg/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-7",
-    "title": "2019年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg201901/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-8",
-    "title": "2018年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2018/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-9",
-    "title": "2017年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./2017wg/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-10",
-    "title": "2016年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2016/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-11",
-    "title": "2015年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2015/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-12",
-    "title": "2014年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2014/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-13",
-    "title": "2013年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./wg2013/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-14",
-    "title": "2012年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./2012wg/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-15",
-    "title": "2011年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./2011caizhengwengao/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-16",
-    "title": "2010年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./2010nianwengao/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-17",
-    "title": "2009年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./2009niancaizhengbuwengao/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-18",
-    "title": "2008年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2008/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815098606-19",
-    "title": "2007年财政部文告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./caizhengbuwengao2007/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策文件",
-    "scrapedAt": "2026-11-16T07:44:58.606Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-1",
-    "title": "《财政部门行使行政处罚裁量权指导规范》修订印发",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-13",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://tfs.mof.gov.cn/zhengcefabu/202611/t20261111_4004415.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-2",
-    "title": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治重点抽查",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-13",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "http://dl.mof.gov.cn/caizhengjiancha/202610/t20261020_4003094.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-3",
-    "title": "财政部湖北监管局：“三个坚持”扎实开展中小企业发展专项资金重点绩效评价",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-13",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "http://hb.mof.gov.cn/gzdt2019/caizhengjiancha/202611/t20261109_4004272.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-4",
-    "title": "浙江：积极推动建立与乡镇履职事项清单相匹配的财政保障机制",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/../xinwenlianbo/zhejiangcaizhengxinxilianbo/202611/t20261103_4003954.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-5",
-    "title": "财政部海南监管局：全链贯通 推动财政金融协同促内需一揽子政策落地见效",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://hq.mof.gov.cn/caizhengjiancha/202610/t20261029_4003687.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-6",
-    "title": "财政部宁夏监管局：锚定三年行动主线多维协同推进财会监督专项行动见行见效",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "http://nx.mof.gov.cn/caizhengjiancha/202611/t20261103_4003968.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-7",
-    "title": "财政部将在香港发行美元主权债券",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./202611/t20261111_4004480.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-8",
-    "title": "财政部印发《会计改革与发展“十五五”规划》",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://kjs.mof.gov.cn/zhengcefabu/202611/t20261105_4004148.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-9",
-    "title": "财政部会计司就国际可持续准则理事会发布的《国际财务报告准则可持续披露实务公告第1号——自然相关披露（征求意见稿）》公开征求意见",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://kjs.mof.gov.cn/gongzuotongzhi/202611/t20261109_4004283.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-10",
-    "title": "落实过紧日子要求经验做法专题 | 财政部上海监管局：打好“谋研督改”组合拳 推动习惯过紧日子要求落地生效",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://sh.mof.gov.cn/gzdt/caizhengjiancha/202609/t20260911_3997262.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-11",
-    "title": "落实过紧日子要求经验做法专题 | 财政部青岛监管局：挖掘属地“节约策”推广落实过紧日子实践经验",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://qd.mof.gov.cn/gzdt/caizhengjiancha/202609/t20260908_3996929.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-12",
-    "title": "落实过紧日子要求经验做法专题 | 财政部湖北监管局：湖北多措并举优化编外人员队伍 以“精兵减支”落实过紧日子要求",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://hb.mof.gov.cn/gzdt2019/caizhengjiancha/202609/t20260907_3996859.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-13",
-    "title": "落实过紧日子要求经验做法专题 | 财政部深圳监管局：创新探索“四个一”工作机制督促党政机关过紧日子落地见效",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-11",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://sz.mof.gov.cn/caizhengjiancha/202609/t20260904_3996719.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-14",
-    "title": "财政部在加拿大成功发行人民币绿色主权债券",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-10",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./202611/t20261110_4004375.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-15",
-    "title": "廖岷副部长与加拿大财政部国际贸易与金融助理副部长帕特里克·海利共同签署财政合作谅解备忘录",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-10",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./202611/t20261110_4004339.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-16",
-    "title": "财政部发行2026年记账式贴现（七十三期）国债",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-10",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://zwgls.mof.gov.cn/ywgg/202611/t20261110_4004346.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-17",
-    "title": "财政部广西监管局：“三步走”扎实推进2027年属地中央预算单位部门预算编制审核工作",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-10",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://gx.mof.gov.cn/gzdt/caizhengjiancha/202610/t20261023_4003394.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
     "id": "gov-tax-1794815181360-18",
     "title": "财政部河北监管局：坚持查改一体推进以整改闭环机制赋能财政监管提质增效",
     "carrier": "policy",
@@ -2247,30 +2967,6 @@
     ],
     "claimUrl": "http://he.mof.gov.cn/caizhengjiancha/202611/t20261102_4003894.htm",
     "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-11-16T07:46:21.360Z"
-  },
-  {
-    "id": "gov-tax-1794815181360-19",
-    "title": "国务院关税税则委员会关于调整对原产于美国的进口商品加征关税措施的公告",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-09",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm",
-    "isHot": true,
     "isNew": true,
     "tags": [
       "政策",
@@ -2352,30 +3048,6 @@
     "scrapedAt": "2026-11-16T07:49:59.519Z"
   },
   {
-    "id": "gov-gov-policy-1794815399519-6",
-    "title": "何立峰：推动干部树立和践行正确政绩观",
-    "carrier": "policy",
-    "carrierName": "中国政府网-国务院令",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202611/content_7086093.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-国务院令",
-    "scrapedAt": "2026-11-16T07:49:59.519Z"
-  },
-  {
     "id": "gov-gov-policy-1794815399519-7",
     "title": "国家统计局：10月份国民经济运行总体平稳、向新向优",
     "carrier": "policy",
@@ -2400,270 +3072,6 @@
     "scrapedAt": "2026-11-16T07:49:59.519Z"
   },
   {
-    "id": "gov-tax-1794815440954-1",
-    "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "https://www.mof.gov.cn/./tupianxinwen1/202610/t20261029_4003720.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-5",
-    "title": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-13",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "打开个税APP → 专项附加扣除 → 填报/更新信息",
-      "对照条件确认自己是否符合扣除标准"
-    ],
-    "claimUrl": "http://dl.mof.gov.cn/caizhengjiancha/202610/t20261020_4003094.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-6",
-    "title": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-13",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://tfs.mof.gov.cn/zhengcefabu/202611/t20261111_4004415.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-11",
-    "title": "财政部国库司有关负责人就实施新的《政府部门财务报告编制操作指南》和...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://gks.mof.gov.cn/guizhangzhidu/202611/t20261104_4004088.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-12",
-    "title": "国务院关税税则委员会发布公告调整对原产于美国的进口商品加征关税措施",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-09",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://gss.mof.gov.cn/gzdt/zhengcejiedu/202611/t20261109_4004261.htm",
-    "isHot": true,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-housing-1794815440954-13",
-    "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-29",
-    "category": "housing",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "咨询银行最新房贷政策",
-      "计算月供变化"
-    ],
-    "claimUrl": "http://jrs.mof.gov.cn/zhengcejiedu/202609/t20260929_3998314.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "housing"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-14",
-    "title": "国新办举行优化完善部分阶段性税费...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/49553/49741/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-15",
-    "title": "国务院政策例行吹风会：介绍稳经济...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/2022n_16602/49054/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-16",
-    "title": "中共中央宣传部举行财税改革与发展...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://www.scio.gov.cn/xwfb/gwyxwbgsxwfbh/wqfbh_2284/2022n_2285/2022n05y17r/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-17",
-    "title": "国新办举行增值税留抵退税国务院政...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://www.scio.gov.cn/gwyzclxcfh/cfh/2022n_16602/2022n03y23r/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
-    "id": "gov-tax-1794815440954-18",
-    "title": "国新办举行财政改革与发展工作新闻...",
-    "carrier": "policy",
-    "carrierName": "财政部-综合政策",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://www.scio.gov.cn/xwfb/gwyxwbgsxwfbh/wqfbh_2284/2022n_2285/2022n02y22r/",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-综合政策",
-    "scrapedAt": "2026-11-16T07:50:40.954Z"
-  },
-  {
     "id": "gov-housing-1794815609738-19",
     "title": "住房城乡建设部关于进一步加强建筑市场监管持续优化建筑市场环境的通知",
     "carrier": "policy",
@@ -2686,174 +3094,6 @@
     ],
     "source": "住建部-住房保障",
     "scrapedAt": "2026-11-16T07:53:29.738Z"
-  },
-  {
-    "id": "gov-medical-1794815622114-5",
-    "title": "湖北宜昌“三破一立” 推进季度清算改革落地",
-    "carrier": "policy",
-    "carrierName": "国家医保局-医保改革",
-    "discountAmount": 0,
-    "expirationDate": "2026-10-26",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/26/art_287_23313.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-医保改革",
-    "scrapedAt": "2026-11-16T07:53:42.114Z"
-  },
-  {
-    "id": "gov-medical-1794815622114-16",
-    "title": "【湖北】湖北宜昌“三破一立” 推进季度清算改革落地",
-    "carrier": "policy",
-    "carrierName": "国家医保局-医保改革",
-    "discountAmount": 0,
-    "expirationDate": "2026-11-12",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/10/26/art_14_23228.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-医保改革",
-    "scrapedAt": "2026-11-16T07:53:42.114Z"
-  },
-  {
-    "id": "gov-education-1794815689391-5",
-    "title": "国务院学位办负责人就《关于做好专业学位研究...",
-    "carrier": "policy",
-    "carrierName": "教育部-高校学生司",
-    "discountAmount": 0,
-    "expirationDate": "2026-10-19",
-    "category": "education",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "关注研招网和目标院校最新通知",
-      "确认报考条件和招生计划变化"
-    ],
-    "claimUrl": "http://www.moe.gov.cn/./jyb_xwfb/s271/202610/t20261019_1455091.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "education"
-    ],
-    "source": "教育部-高校学生司",
-    "scrapedAt": "2026-11-16T07:54:49.391Z"
-  },
-  {
-    "id": "gov-education-1794815689391-6",
-    "title": "学位授予单位(不含军队单位)自主设置二级学...",
-    "carrier": "policy",
-    "carrierName": "教育部-高校学生司",
-    "discountAmount": 0,
-    "expirationDate": "2026-10-09",
-    "category": "education",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "关注研招网和目标院校最新通知",
-      "确认报考条件和招生计划变化"
-    ],
-    "claimUrl": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202610/t20261008_1453325.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "education"
-    ],
-    "source": "教育部-高校学生司",
-    "scrapedAt": "2026-11-16T07:54:49.391Z"
-  },
-  {
-    "id": "gov-education-1794815691065-2",
-    "title": "首个国际职业教育标准《北京协议》以六种语言全文发布",
-    "carrier": "policy",
-    "carrierName": "教育部-职业教育",
-    "discountAmount": 0,
-    "expirationDate": "2027-02-14",
-    "category": "education",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解职业培训补贴和资格证政策",
-      "确认培训报名和补贴申请方式"
-    ],
-    "claimUrl": "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202611/t20261116_1458395.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "education"
-    ],
-    "source": "教育部-职业教育",
-    "scrapedAt": "2026-11-16T07:54:51.065Z"
-  },
-  {
-    "id": "gov-education-1794815691066-7",
-    "title": "关于举办第四届全国大学生职业规划大赛的通知",
-    "carrier": "policy",
-    "carrierName": "教育部-职业教育",
-    "discountAmount": 0,
-    "expirationDate": "2026-10-10",
-    "category": "education",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解职业培训补贴和资格证政策",
-      "确认培训报名和补贴申请方式"
-    ],
-    "claimUrl": "http://www.moe.gov.cn/srcsite/A15/s7063/202610/t20261010_1453481.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "education"
-    ],
-    "source": "教育部-职业教育",
-    "scrapedAt": "2026-11-16T07:54:51.066Z"
-  },
-  {
-    "id": "gov-education-1794815691066-8",
-    "title": "关于做好2026年“三区”人才支持计划教师专项...",
-    "carrier": "policy",
-    "carrierName": "教育部-职业教育",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-30",
-    "category": "education",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解教育政策变化对自己学业的影响",
-      "关注学校和教育部门通知"
-    ],
-    "claimUrl": "http://www.moe.gov.cn/srcsite/A10/s7151/202609/t20260930_1452742.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "education"
-    ],
-    "source": "教育部-职业教育",
-    "scrapedAt": "2026-11-16T07:54:51.066Z"
   },
   {
     "id": "gov-medical-1794789882057-14",
@@ -3094,30 +3334,6 @@
     ],
     "source": "中国政府网-政策文件",
     "scrapedAt": "2026-11-15T08:10:29.486Z"
-  },
-  {
-    "id": "gov-medical-1794626978715-19",
-    "title": "国家医疗保障局关于试行高水平新技术新产品医疗服务价格项目预立项制度的通知",
-    "carrier": "policy",
-    "carrierName": "国家医保局-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-15",
-    "category": "medical",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "了解医保政策变化对自己看病的影响",
-      "查医保APP确认最新报销标准"
-    ],
-    "claimUrl": "http://www.nhsa.gov.cn/art/2026/9/15/art_104_22141.html",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "medical"
-    ],
-    "source": "国家医保局-政策解读",
-    "scrapedAt": "2026-11-14T03:29:38.715Z"
   },
   {
     "id": "gov-tax-1794626995869-2",
@@ -8448,30 +8664,6 @@
     "scrapedAt": "2026-10-23T08:58:47.510Z"
   },
   {
-    "id": "gov-gov-policy-1792746206095-3",
-    "title": "李强结束出访回到北京",
-    "carrier": "policy",
-    "carrierName": "中国政府网-国务院令",
-    "discountAmount": 0,
-    "expirationDate": "2027-01-21",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202610/content_7083971.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-国务院令",
-    "scrapedAt": "2026-10-23T09:03:26.095Z"
-  },
-  {
     "id": "gov-tax-1792746227994-9",
     "title": "税费政策我来讲：哪些单位和个人适用代扣代缴增值税政策新规？",
     "carrier": "policy",
@@ -11806,197 +11998,5 @@
     ],
     "source": "中国政府网-国务院令",
     "scrapedAt": "2026-10-04T00:40:55.823Z"
-  },
-  {
-    "id": "gov-gov-policy-1791074455823-5",
-    "title": "国庆假期第二天全国道路交通总体平稳有序",
-    "carrier": "policy",
-    "carrierName": "中国政府网-国务院令",
-    "discountAmount": 0,
-    "expirationDate": "2027-01-02",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/lianbo/202610/content_7082619.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-国务院令",
-    "scrapedAt": "2026-10-04T00:40:55.823Z"
-  },
-  {
-    "id": "gov-gov-policy-1790986525798-5",
-    "title": "晨光映红旗 盛世启新程——同庆新中国成立77周年",
-    "carrier": "policy",
-    "carrierName": "中国政府网-国务院令",
-    "discountAmount": 0,
-    "expirationDate": "2027-01-01",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202610/content_7082589.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-国务院令",
-    "scrapedAt": "2026-10-03T00:15:25.798Z"
-  },
-  {
-    "id": "gov-gov-policy-1790863297694-5",
-    "title": "中国政府友谊奖颁奖仪式在北京举行 谌贻琴出席并讲话",
-    "carrier": "policy",
-    "carrierName": "中国政府网-国务院令",
-    "discountAmount": 0,
-    "expirationDate": "2026-12-30",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/yaowen/liebiao/202609/content_7082511.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-国务院令",
-    "scrapedAt": "2026-10-01T14:01:37.694Z"
-  },
-  {
-    "id": "gov-tax-1790814137843-17",
-    "title": "财政部重庆监管局：构建“四维工作法”筑牢地方财政运行安全底线",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-21",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://cq.mof.gov.cn/gzdt2019/caizhengjiancha/202609/t20260902_3996514.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-10-01T00:22:17.843Z"
-  },
-  {
-    "id": "gov-gov-policy-1790758314106-7",
-    "title": "中共中央办公厅 国务院办公厅 中央军委办公厅印发《退役军人服务和保障“十五五”规划》",
-    "carrier": "policy",
-    "carrierName": "中国政府网-政策文件",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-14",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/./202609/content_7081017.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-政策文件",
-    "scrapedAt": "2026-09-30T08:51:54.106Z"
-  },
-  {
-    "id": "gov-gov-policy-1790758412140-5",
-    "title": "关于促进房车消费的若干措施",
-    "carrier": "policy",
-    "carrierName": "中国政府网-最新政策",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-18",
-    "category": "gov-policy",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "对照自身情况判断是否适用",
-      "关注具体实施时间和条件"
-    ],
-    "claimUrl": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "gov-policy"
-    ],
-    "source": "中国政府网-最新政策",
-    "scrapedAt": "2026-09-30T08:53:32.140Z"
-  },
-  {
-    "id": "gov-tax-1790759036695-16",
-    "title": "财政部安徽监管局：以正确政绩观为引领 持续锻造财政监管“红色引擎”",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-20",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://ah.mof.gov.cn/djgz/202609/t20260907_3996896.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-09-30T09:03:56.695Z"
-  },
-  {
-    "id": "gov-tax-1790759036695-17",
-    "title": "2026年1-8月财政收支情况",
-    "carrier": "policy",
-    "carrierName": "财政部-政策解读",
-    "discountAmount": 0,
-    "expirationDate": "2026-09-18",
-    "category": "tax",
-    "type": "policy",
-    "guide": [
-      "阅读政策原文，了解具体内容",
-      "计算新政策下自己的税负变化",
-      "如有疑问拨打12366纳税服务热线"
-    ],
-    "claimUrl": "http://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm",
-    "isHot": false,
-    "isNew": true,
-    "tags": [
-      "政策",
-      "tax"
-    ],
-    "source": "财政部-政策解读",
-    "scrapedAt": "2026-09-30T09:03:56.695Z"
   }
 ]
